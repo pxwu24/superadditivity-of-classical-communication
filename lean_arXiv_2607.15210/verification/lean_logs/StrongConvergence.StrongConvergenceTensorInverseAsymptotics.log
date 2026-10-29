@@ -1,0 +1,18 @@
+lean/StrongConvergence/StrongConvergenceTensorInverseAsymptotics.lean:23:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.TensorHaar.inverse_neumann_remainder':
+  [Nonempty I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty I] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+lean/StrongConvergence/StrongConvergenceTensorInverseAsymptotics.lean:141:27: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'ProjectionChannels.TensorHaar.inverse_neumann_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.inverse_neumann_row_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.scaled_inverse_permutationGram_neumann_row_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.scaled_inverse_permutationGram_neumann_dimension_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.inverseGramNeumannRemainder_scaled_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

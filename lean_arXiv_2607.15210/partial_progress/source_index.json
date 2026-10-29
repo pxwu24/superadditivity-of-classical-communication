@@ -602,6 +602,2032 @@
     ]
   },
   {
+    "module": "StrongConvergence.StrongConvergenceFluctuationAE",
+    "path": "lean/StrongConvergence/StrongConvergenceFluctuationAE.lean",
+    "local_import_closure": [
+      {
+        "module": "Entropy.Defs",
+        "path": "lean/Entropy/Defs.lean"
+      },
+      {
+        "module": "Entropy.OutputSpace",
+        "path": "lean/Entropy/OutputSpace.lean"
+      },
+      {
+        "module": "Entropy.OutputSpaceBody",
+        "path": "lean/Entropy/OutputSpaceBody.lean"
+      },
+      {
+        "module": "HaarProjections.HaarMeasure",
+        "path": "lean/HaarProjections/HaarMeasure.lean"
+      },
+      {
+        "module": "HaarProjections.HaarProjection",
+        "path": "lean/HaarProjections/HaarProjection.lean"
+      },
+      {
+        "module": "HaarProjections.ProjectionOrbit",
+        "path": "lean/HaarProjections/ProjectionOrbit.lean"
+      },
+      {
+        "module": "HaarProjections.RevisionCanonicalEnsemble",
+        "path": "lean/HaarProjections/RevisionCanonicalEnsemble.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceCompressionBridge",
+        "path": "lean/OutputStates/OutputSpaceCompressionBridge.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceMatrix",
+        "path": "lean/OutputStates/OutputSpaceMatrix.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputChannel",
+        "path": "lean/OutputStates/RevisionOutputChannel.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputConvergence",
+        "path": "lean/OutputStates/RevisionOutputConvergence.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputDuality",
+        "path": "lean/OutputStates/RevisionOutputDuality.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputUnitary",
+        "path": "lean/OutputStates/RevisionOutputUnitary.lean"
+      },
+      {
+        "module": "Preliminaries.CompletePositivity",
+        "path": "lean/Preliminaries/CompletePositivity.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesAnalysis",
+        "path": "lean/Preliminaries/PreliminariesAnalysis.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesChoi",
+        "path": "lean/Preliminaries/PreliminariesChoi.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesLegendre",
+        "path": "lean/Preliminaries/PreliminariesLegendre.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesMatrix",
+        "path": "lean/Preliminaries/PreliminariesMatrix.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCalculus",
+        "path": "lean/RandomCompression/BernoulliCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCriticalPoint",
+        "path": "lean/RandomCompression/BernoulliCriticalPoint.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliDuality",
+        "path": "lean/RandomCompression/BernoulliDuality.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliEdgeCalculus",
+        "path": "lean/RandomCompression/BernoulliEdgeCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BlockModification",
+        "path": "lean/RandomCompression/BlockModification.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyBernoulli",
+        "path": "lean/RandomCompression/CauchyBernoulli.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphic",
+        "path": "lean/RandomCompression/CauchyHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphy",
+        "path": "lean/RandomCompression/CauchyHolomorphy.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyLocalInverse",
+        "path": "lean/RandomCompression/CauchyLocalInverse.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionEndpointGlue",
+        "path": "lean/RandomCompression/CompressionEndpointGlue.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionExtension",
+        "path": "lean/RandomCompression/CompressionExtension.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionSpectral",
+        "path": "lean/RandomCompression/CompressionSpectral.lean"
+      },
+      {
+        "module": "RandomCompression.ProjectionStrongConvergence",
+        "path": "lean/RandomCompression/ProjectionStrongConvergence.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCauchy",
+        "path": "lean/RandomCompression/RevisionBernoulliCauchy.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCompression",
+        "path": "lean/RandomCompression/RevisionBernoulliCompression.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliEdge",
+        "path": "lean/RandomCompression/RevisionBernoulliEdge.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliHolomorphic",
+        "path": "lean/RandomCompression/RevisionBernoulliHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliLaw",
+        "path": "lean/RandomCompression/RevisionBernoulliLaw.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliTensor",
+        "path": "lean/RandomCompression/RevisionBernoulliTensor.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionFullBlockInput",
+        "path": "lean/RandomCompression/RevisionFullBlockInput.lean"
+      },
+      {
+        "module": "RandomCompression.SpectralEdge",
+        "path": "lean/RandomCompression/SpectralEdge.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationAE",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationAE.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationAEBase",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationAEBase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationClasses",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationClasses.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationFinite",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationFinite.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationWeights",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationWeights.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthCoefficients",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthCoefficients.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthFinite",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthFinite.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthNormalization",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthNormalization.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarMoment",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarMoment.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarPairMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarPairMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarSecondCompression",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarSecondCompression.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVariance",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVariance.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVarianceResult",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVarianceResult.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceProbability",
+        "path": "lean/StrongConvergence/StrongConvergenceProbability.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics",
+        "path": "lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorBlockMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorBlockMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCanonical",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCanonical.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorComplexification",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorComplexification.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCompressionCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCompressionCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGram",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarIntegral.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarTrace",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarTrace.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPermutation",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPhase",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPower",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorProjection",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorProjection.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorSpanning",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceVarianceAlgebra",
+        "path": "lean/StrongConvergence/StrongConvergenceVarianceAlgebra.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceVarianceBorelCantelli",
+        "path": "lean/StrongConvergence/StrongConvergenceVarianceBorelCantelli.lean"
+      }
+    ]
+  },
+  {
+    "module": "StrongConvergence.StrongConvergenceFluctuationAEBase",
+    "path": "lean/StrongConvergence/StrongConvergenceFluctuationAEBase.lean",
+    "local_import_closure": [
+      {
+        "module": "Entropy.Defs",
+        "path": "lean/Entropy/Defs.lean"
+      },
+      {
+        "module": "Entropy.OutputSpace",
+        "path": "lean/Entropy/OutputSpace.lean"
+      },
+      {
+        "module": "Entropy.OutputSpaceBody",
+        "path": "lean/Entropy/OutputSpaceBody.lean"
+      },
+      {
+        "module": "HaarProjections.HaarMeasure",
+        "path": "lean/HaarProjections/HaarMeasure.lean"
+      },
+      {
+        "module": "HaarProjections.HaarProjection",
+        "path": "lean/HaarProjections/HaarProjection.lean"
+      },
+      {
+        "module": "HaarProjections.ProjectionOrbit",
+        "path": "lean/HaarProjections/ProjectionOrbit.lean"
+      },
+      {
+        "module": "HaarProjections.RevisionCanonicalEnsemble",
+        "path": "lean/HaarProjections/RevisionCanonicalEnsemble.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceCompressionBridge",
+        "path": "lean/OutputStates/OutputSpaceCompressionBridge.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceMatrix",
+        "path": "lean/OutputStates/OutputSpaceMatrix.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputChannel",
+        "path": "lean/OutputStates/RevisionOutputChannel.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputConvergence",
+        "path": "lean/OutputStates/RevisionOutputConvergence.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputDuality",
+        "path": "lean/OutputStates/RevisionOutputDuality.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputUnitary",
+        "path": "lean/OutputStates/RevisionOutputUnitary.lean"
+      },
+      {
+        "module": "Preliminaries.CompletePositivity",
+        "path": "lean/Preliminaries/CompletePositivity.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesAnalysis",
+        "path": "lean/Preliminaries/PreliminariesAnalysis.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesChoi",
+        "path": "lean/Preliminaries/PreliminariesChoi.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesLegendre",
+        "path": "lean/Preliminaries/PreliminariesLegendre.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesMatrix",
+        "path": "lean/Preliminaries/PreliminariesMatrix.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCalculus",
+        "path": "lean/RandomCompression/BernoulliCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCriticalPoint",
+        "path": "lean/RandomCompression/BernoulliCriticalPoint.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliDuality",
+        "path": "lean/RandomCompression/BernoulliDuality.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliEdgeCalculus",
+        "path": "lean/RandomCompression/BernoulliEdgeCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BlockModification",
+        "path": "lean/RandomCompression/BlockModification.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyBernoulli",
+        "path": "lean/RandomCompression/CauchyBernoulli.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphic",
+        "path": "lean/RandomCompression/CauchyHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphy",
+        "path": "lean/RandomCompression/CauchyHolomorphy.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyLocalInverse",
+        "path": "lean/RandomCompression/CauchyLocalInverse.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionEndpointGlue",
+        "path": "lean/RandomCompression/CompressionEndpointGlue.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionExtension",
+        "path": "lean/RandomCompression/CompressionExtension.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionSpectral",
+        "path": "lean/RandomCompression/CompressionSpectral.lean"
+      },
+      {
+        "module": "RandomCompression.ProjectionStrongConvergence",
+        "path": "lean/RandomCompression/ProjectionStrongConvergence.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCauchy",
+        "path": "lean/RandomCompression/RevisionBernoulliCauchy.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCompression",
+        "path": "lean/RandomCompression/RevisionBernoulliCompression.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliEdge",
+        "path": "lean/RandomCompression/RevisionBernoulliEdge.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliHolomorphic",
+        "path": "lean/RandomCompression/RevisionBernoulliHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliLaw",
+        "path": "lean/RandomCompression/RevisionBernoulliLaw.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliTensor",
+        "path": "lean/RandomCompression/RevisionBernoulliTensor.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionFullBlockInput",
+        "path": "lean/RandomCompression/RevisionFullBlockInput.lean"
+      },
+      {
+        "module": "RandomCompression.SpectralEdge",
+        "path": "lean/RandomCompression/SpectralEdge.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationAEBase",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationAEBase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarMoment",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarMoment.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarPairMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarPairMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarSecondCompression",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarSecondCompression.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVariance",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVariance.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVarianceResult",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVarianceResult.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceProbability",
+        "path": "lean/StrongConvergence/StrongConvergenceProbability.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics",
+        "path": "lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorBlockMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorBlockMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCanonical",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCanonical.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorComplexification",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorComplexification.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCompressionCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCompressionCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGram",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarIntegral.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarTrace",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarTrace.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPermutation",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPhase",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPower",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorProjection",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorProjection.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorSpanning",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceVarianceAlgebra",
+        "path": "lean/StrongConvergence/StrongConvergenceVarianceAlgebra.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceVarianceBorelCantelli",
+        "path": "lean/StrongConvergence/StrongConvergenceVarianceBorelCantelli.lean"
+      }
+    ]
+  },
+  {
+    "module": "StrongConvergence.StrongConvergenceFluctuationClasses",
+    "path": "lean/StrongConvergence/StrongConvergenceFluctuationClasses.lean",
+    "local_import_closure": [
+      {
+        "module": "Entropy.Defs",
+        "path": "lean/Entropy/Defs.lean"
+      },
+      {
+        "module": "Entropy.OutputSpace",
+        "path": "lean/Entropy/OutputSpace.lean"
+      },
+      {
+        "module": "Entropy.OutputSpaceBody",
+        "path": "lean/Entropy/OutputSpaceBody.lean"
+      },
+      {
+        "module": "HaarProjections.HaarMeasure",
+        "path": "lean/HaarProjections/HaarMeasure.lean"
+      },
+      {
+        "module": "HaarProjections.HaarProjection",
+        "path": "lean/HaarProjections/HaarProjection.lean"
+      },
+      {
+        "module": "HaarProjections.ProjectionOrbit",
+        "path": "lean/HaarProjections/ProjectionOrbit.lean"
+      },
+      {
+        "module": "HaarProjections.RevisionCanonicalEnsemble",
+        "path": "lean/HaarProjections/RevisionCanonicalEnsemble.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceCompressionBridge",
+        "path": "lean/OutputStates/OutputSpaceCompressionBridge.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceMatrix",
+        "path": "lean/OutputStates/OutputSpaceMatrix.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputChannel",
+        "path": "lean/OutputStates/RevisionOutputChannel.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputConvergence",
+        "path": "lean/OutputStates/RevisionOutputConvergence.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputDuality",
+        "path": "lean/OutputStates/RevisionOutputDuality.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputUnitary",
+        "path": "lean/OutputStates/RevisionOutputUnitary.lean"
+      },
+      {
+        "module": "Preliminaries.CompletePositivity",
+        "path": "lean/Preliminaries/CompletePositivity.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesAnalysis",
+        "path": "lean/Preliminaries/PreliminariesAnalysis.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesChoi",
+        "path": "lean/Preliminaries/PreliminariesChoi.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesLegendre",
+        "path": "lean/Preliminaries/PreliminariesLegendre.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesMatrix",
+        "path": "lean/Preliminaries/PreliminariesMatrix.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCalculus",
+        "path": "lean/RandomCompression/BernoulliCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCriticalPoint",
+        "path": "lean/RandomCompression/BernoulliCriticalPoint.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliDuality",
+        "path": "lean/RandomCompression/BernoulliDuality.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliEdgeCalculus",
+        "path": "lean/RandomCompression/BernoulliEdgeCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BlockModification",
+        "path": "lean/RandomCompression/BlockModification.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyBernoulli",
+        "path": "lean/RandomCompression/CauchyBernoulli.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphic",
+        "path": "lean/RandomCompression/CauchyHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphy",
+        "path": "lean/RandomCompression/CauchyHolomorphy.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyLocalInverse",
+        "path": "lean/RandomCompression/CauchyLocalInverse.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionEndpointGlue",
+        "path": "lean/RandomCompression/CompressionEndpointGlue.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionExtension",
+        "path": "lean/RandomCompression/CompressionExtension.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionSpectral",
+        "path": "lean/RandomCompression/CompressionSpectral.lean"
+      },
+      {
+        "module": "RandomCompression.ProjectionStrongConvergence",
+        "path": "lean/RandomCompression/ProjectionStrongConvergence.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCauchy",
+        "path": "lean/RandomCompression/RevisionBernoulliCauchy.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCompression",
+        "path": "lean/RandomCompression/RevisionBernoulliCompression.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliEdge",
+        "path": "lean/RandomCompression/RevisionBernoulliEdge.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliHolomorphic",
+        "path": "lean/RandomCompression/RevisionBernoulliHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliLaw",
+        "path": "lean/RandomCompression/RevisionBernoulliLaw.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliTensor",
+        "path": "lean/RandomCompression/RevisionBernoulliTensor.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionFullBlockInput",
+        "path": "lean/RandomCompression/RevisionFullBlockInput.lean"
+      },
+      {
+        "module": "RandomCompression.SpectralEdge",
+        "path": "lean/RandomCompression/SpectralEdge.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationClasses",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationClasses.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationFinite",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationFinite.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationWeights",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationWeights.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthCoefficients",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthCoefficients.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthFinite",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthFinite.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarMoment",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarMoment.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarPairMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarPairMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarSecondCompression",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarSecondCompression.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVariance",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVariance.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVarianceResult",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVarianceResult.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorBlockMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorBlockMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCanonical",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCanonical.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorComplexification",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorComplexification.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCompressionCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCompressionCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGram",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarIntegral.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarTrace",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarTrace.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPermutation",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPhase",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPower",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorProjection",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorProjection.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorSpanning",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceVarianceAlgebra",
+        "path": "lean/StrongConvergence/StrongConvergenceVarianceAlgebra.lean"
+      }
+    ]
+  },
+  {
+    "module": "StrongConvergence.StrongConvergenceFluctuationFinite",
+    "path": "lean/StrongConvergence/StrongConvergenceFluctuationFinite.lean",
+    "local_import_closure": [
+      {
+        "module": "Entropy.Defs",
+        "path": "lean/Entropy/Defs.lean"
+      },
+      {
+        "module": "Entropy.OutputSpace",
+        "path": "lean/Entropy/OutputSpace.lean"
+      },
+      {
+        "module": "Entropy.OutputSpaceBody",
+        "path": "lean/Entropy/OutputSpaceBody.lean"
+      },
+      {
+        "module": "HaarProjections.HaarMeasure",
+        "path": "lean/HaarProjections/HaarMeasure.lean"
+      },
+      {
+        "module": "HaarProjections.HaarProjection",
+        "path": "lean/HaarProjections/HaarProjection.lean"
+      },
+      {
+        "module": "HaarProjections.ProjectionOrbit",
+        "path": "lean/HaarProjections/ProjectionOrbit.lean"
+      },
+      {
+        "module": "HaarProjections.RevisionCanonicalEnsemble",
+        "path": "lean/HaarProjections/RevisionCanonicalEnsemble.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceCompressionBridge",
+        "path": "lean/OutputStates/OutputSpaceCompressionBridge.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceMatrix",
+        "path": "lean/OutputStates/OutputSpaceMatrix.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputChannel",
+        "path": "lean/OutputStates/RevisionOutputChannel.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputConvergence",
+        "path": "lean/OutputStates/RevisionOutputConvergence.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputDuality",
+        "path": "lean/OutputStates/RevisionOutputDuality.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputUnitary",
+        "path": "lean/OutputStates/RevisionOutputUnitary.lean"
+      },
+      {
+        "module": "Preliminaries.CompletePositivity",
+        "path": "lean/Preliminaries/CompletePositivity.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesAnalysis",
+        "path": "lean/Preliminaries/PreliminariesAnalysis.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesChoi",
+        "path": "lean/Preliminaries/PreliminariesChoi.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesLegendre",
+        "path": "lean/Preliminaries/PreliminariesLegendre.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesMatrix",
+        "path": "lean/Preliminaries/PreliminariesMatrix.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCalculus",
+        "path": "lean/RandomCompression/BernoulliCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCriticalPoint",
+        "path": "lean/RandomCompression/BernoulliCriticalPoint.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliDuality",
+        "path": "lean/RandomCompression/BernoulliDuality.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliEdgeCalculus",
+        "path": "lean/RandomCompression/BernoulliEdgeCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BlockModification",
+        "path": "lean/RandomCompression/BlockModification.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyBernoulli",
+        "path": "lean/RandomCompression/CauchyBernoulli.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphic",
+        "path": "lean/RandomCompression/CauchyHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphy",
+        "path": "lean/RandomCompression/CauchyHolomorphy.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyLocalInverse",
+        "path": "lean/RandomCompression/CauchyLocalInverse.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionEndpointGlue",
+        "path": "lean/RandomCompression/CompressionEndpointGlue.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionExtension",
+        "path": "lean/RandomCompression/CompressionExtension.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionSpectral",
+        "path": "lean/RandomCompression/CompressionSpectral.lean"
+      },
+      {
+        "module": "RandomCompression.ProjectionStrongConvergence",
+        "path": "lean/RandomCompression/ProjectionStrongConvergence.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCauchy",
+        "path": "lean/RandomCompression/RevisionBernoulliCauchy.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCompression",
+        "path": "lean/RandomCompression/RevisionBernoulliCompression.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliEdge",
+        "path": "lean/RandomCompression/RevisionBernoulliEdge.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliHolomorphic",
+        "path": "lean/RandomCompression/RevisionBernoulliHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliLaw",
+        "path": "lean/RandomCompression/RevisionBernoulliLaw.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliTensor",
+        "path": "lean/RandomCompression/RevisionBernoulliTensor.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionFullBlockInput",
+        "path": "lean/RandomCompression/RevisionFullBlockInput.lean"
+      },
+      {
+        "module": "RandomCompression.SpectralEdge",
+        "path": "lean/RandomCompression/SpectralEdge.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationFinite",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationFinite.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationWeights",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationWeights.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthFinite",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthFinite.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarMoment",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarMoment.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarPairMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarPairMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarSecondCompression",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarSecondCompression.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVariance",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVariance.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVarianceResult",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVarianceResult.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorBlockMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorBlockMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCanonical",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCanonical.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorComplexification",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorComplexification.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCompressionCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCompressionCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGram",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarIntegral.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarTrace",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarTrace.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPermutation",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPhase",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPower",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorProjection",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorProjection.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorSpanning",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceVarianceAlgebra",
+        "path": "lean/StrongConvergence/StrongConvergenceVarianceAlgebra.lean"
+      }
+    ]
+  },
+  {
+    "module": "StrongConvergence.StrongConvergenceFluctuationMoments",
+    "path": "lean/StrongConvergence/StrongConvergenceFluctuationMoments.lean",
+    "local_import_closure": [
+      {
+        "module": "Entropy.Defs",
+        "path": "lean/Entropy/Defs.lean"
+      },
+      {
+        "module": "Entropy.OutputSpace",
+        "path": "lean/Entropy/OutputSpace.lean"
+      },
+      {
+        "module": "Entropy.OutputSpaceBody",
+        "path": "lean/Entropy/OutputSpaceBody.lean"
+      },
+      {
+        "module": "HaarProjections.HaarMeasure",
+        "path": "lean/HaarProjections/HaarMeasure.lean"
+      },
+      {
+        "module": "HaarProjections.HaarProjection",
+        "path": "lean/HaarProjections/HaarProjection.lean"
+      },
+      {
+        "module": "HaarProjections.ProjectionOrbit",
+        "path": "lean/HaarProjections/ProjectionOrbit.lean"
+      },
+      {
+        "module": "HaarProjections.RevisionCanonicalEnsemble",
+        "path": "lean/HaarProjections/RevisionCanonicalEnsemble.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceCompressionBridge",
+        "path": "lean/OutputStates/OutputSpaceCompressionBridge.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceMatrix",
+        "path": "lean/OutputStates/OutputSpaceMatrix.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputChannel",
+        "path": "lean/OutputStates/RevisionOutputChannel.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputConvergence",
+        "path": "lean/OutputStates/RevisionOutputConvergence.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputDuality",
+        "path": "lean/OutputStates/RevisionOutputDuality.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputUnitary",
+        "path": "lean/OutputStates/RevisionOutputUnitary.lean"
+      },
+      {
+        "module": "Preliminaries.CompletePositivity",
+        "path": "lean/Preliminaries/CompletePositivity.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesAnalysis",
+        "path": "lean/Preliminaries/PreliminariesAnalysis.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesChoi",
+        "path": "lean/Preliminaries/PreliminariesChoi.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesLegendre",
+        "path": "lean/Preliminaries/PreliminariesLegendre.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesMatrix",
+        "path": "lean/Preliminaries/PreliminariesMatrix.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCalculus",
+        "path": "lean/RandomCompression/BernoulliCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCriticalPoint",
+        "path": "lean/RandomCompression/BernoulliCriticalPoint.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliDuality",
+        "path": "lean/RandomCompression/BernoulliDuality.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliEdgeCalculus",
+        "path": "lean/RandomCompression/BernoulliEdgeCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BlockModification",
+        "path": "lean/RandomCompression/BlockModification.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyBernoulli",
+        "path": "lean/RandomCompression/CauchyBernoulli.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphic",
+        "path": "lean/RandomCompression/CauchyHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphy",
+        "path": "lean/RandomCompression/CauchyHolomorphy.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyLocalInverse",
+        "path": "lean/RandomCompression/CauchyLocalInverse.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionEndpointGlue",
+        "path": "lean/RandomCompression/CompressionEndpointGlue.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionExtension",
+        "path": "lean/RandomCompression/CompressionExtension.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionSpectral",
+        "path": "lean/RandomCompression/CompressionSpectral.lean"
+      },
+      {
+        "module": "RandomCompression.ProjectionStrongConvergence",
+        "path": "lean/RandomCompression/ProjectionStrongConvergence.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCauchy",
+        "path": "lean/RandomCompression/RevisionBernoulliCauchy.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCompression",
+        "path": "lean/RandomCompression/RevisionBernoulliCompression.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliEdge",
+        "path": "lean/RandomCompression/RevisionBernoulliEdge.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliHolomorphic",
+        "path": "lean/RandomCompression/RevisionBernoulliHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliLaw",
+        "path": "lean/RandomCompression/RevisionBernoulliLaw.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliTensor",
+        "path": "lean/RandomCompression/RevisionBernoulliTensor.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionFullBlockInput",
+        "path": "lean/RandomCompression/RevisionFullBlockInput.lean"
+      },
+      {
+        "module": "RandomCompression.SpectralEdge",
+        "path": "lean/RandomCompression/SpectralEdge.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarMoment",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarMoment.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarPairMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarPairMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarSecondCompression",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarSecondCompression.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVariance",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVariance.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVarianceResult",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVarianceResult.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorBlockMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorBlockMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCanonical",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCanonical.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorComplexification",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorComplexification.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCompressionCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCompressionCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGram",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarIntegral.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarTrace",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarTrace.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPermutation",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPhase",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPower",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorProjection",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorProjection.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorSpanning",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceVarianceAlgebra",
+        "path": "lean/StrongConvergence/StrongConvergenceVarianceAlgebra.lean"
+      }
+    ]
+  },
+  {
+    "module": "StrongConvergence.StrongConvergenceFluctuationWeights",
+    "path": "lean/StrongConvergence/StrongConvergenceFluctuationWeights.lean",
+    "local_import_closure": [
+      {
+        "module": "Entropy.Defs",
+        "path": "lean/Entropy/Defs.lean"
+      },
+      {
+        "module": "Entropy.OutputSpace",
+        "path": "lean/Entropy/OutputSpace.lean"
+      },
+      {
+        "module": "Entropy.OutputSpaceBody",
+        "path": "lean/Entropy/OutputSpaceBody.lean"
+      },
+      {
+        "module": "HaarProjections.HaarMeasure",
+        "path": "lean/HaarProjections/HaarMeasure.lean"
+      },
+      {
+        "module": "HaarProjections.HaarProjection",
+        "path": "lean/HaarProjections/HaarProjection.lean"
+      },
+      {
+        "module": "HaarProjections.ProjectionOrbit",
+        "path": "lean/HaarProjections/ProjectionOrbit.lean"
+      },
+      {
+        "module": "HaarProjections.RevisionCanonicalEnsemble",
+        "path": "lean/HaarProjections/RevisionCanonicalEnsemble.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceCompressionBridge",
+        "path": "lean/OutputStates/OutputSpaceCompressionBridge.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceMatrix",
+        "path": "lean/OutputStates/OutputSpaceMatrix.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputChannel",
+        "path": "lean/OutputStates/RevisionOutputChannel.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputConvergence",
+        "path": "lean/OutputStates/RevisionOutputConvergence.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputDuality",
+        "path": "lean/OutputStates/RevisionOutputDuality.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputUnitary",
+        "path": "lean/OutputStates/RevisionOutputUnitary.lean"
+      },
+      {
+        "module": "Preliminaries.CompletePositivity",
+        "path": "lean/Preliminaries/CompletePositivity.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesAnalysis",
+        "path": "lean/Preliminaries/PreliminariesAnalysis.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesChoi",
+        "path": "lean/Preliminaries/PreliminariesChoi.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesLegendre",
+        "path": "lean/Preliminaries/PreliminariesLegendre.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesMatrix",
+        "path": "lean/Preliminaries/PreliminariesMatrix.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCalculus",
+        "path": "lean/RandomCompression/BernoulliCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCriticalPoint",
+        "path": "lean/RandomCompression/BernoulliCriticalPoint.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliDuality",
+        "path": "lean/RandomCompression/BernoulliDuality.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliEdgeCalculus",
+        "path": "lean/RandomCompression/BernoulliEdgeCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BlockModification",
+        "path": "lean/RandomCompression/BlockModification.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyBernoulli",
+        "path": "lean/RandomCompression/CauchyBernoulli.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphic",
+        "path": "lean/RandomCompression/CauchyHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphy",
+        "path": "lean/RandomCompression/CauchyHolomorphy.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyLocalInverse",
+        "path": "lean/RandomCompression/CauchyLocalInverse.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionEndpointGlue",
+        "path": "lean/RandomCompression/CompressionEndpointGlue.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionExtension",
+        "path": "lean/RandomCompression/CompressionExtension.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionSpectral",
+        "path": "lean/RandomCompression/CompressionSpectral.lean"
+      },
+      {
+        "module": "RandomCompression.ProjectionStrongConvergence",
+        "path": "lean/RandomCompression/ProjectionStrongConvergence.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCauchy",
+        "path": "lean/RandomCompression/RevisionBernoulliCauchy.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCompression",
+        "path": "lean/RandomCompression/RevisionBernoulliCompression.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliEdge",
+        "path": "lean/RandomCompression/RevisionBernoulliEdge.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliHolomorphic",
+        "path": "lean/RandomCompression/RevisionBernoulliHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliLaw",
+        "path": "lean/RandomCompression/RevisionBernoulliLaw.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliTensor",
+        "path": "lean/RandomCompression/RevisionBernoulliTensor.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionFullBlockInput",
+        "path": "lean/RandomCompression/RevisionFullBlockInput.lean"
+      },
+      {
+        "module": "RandomCompression.SpectralEdge",
+        "path": "lean/RandomCompression/SpectralEdge.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFluctuationWeights",
+        "path": "lean/StrongConvergence/StrongConvergenceFluctuationWeights.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarMoment",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarMoment.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarPairMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarPairMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarSecondCompression",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarSecondCompression.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVariance",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVariance.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVarianceResult",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVarianceResult.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorBlockMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorBlockMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCanonical",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCanonical.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorComplexification",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorComplexification.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCompressionCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCompressionCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGram",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarIntegral.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarTrace",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarTrace.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPermutation",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPhase",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPower",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorProjection",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorProjection.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorSpanning",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceVarianceAlgebra",
+        "path": "lean/StrongConvergence/StrongConvergenceVarianceAlgebra.lean"
+      }
+    ]
+  },
+  {
+    "module": "StrongConvergence.StrongConvergenceFourthCoefficients",
+    "path": "lean/StrongConvergence/StrongConvergenceFourthCoefficients.lean",
+    "local_import_closure": [
+      {
+        "module": "Entropy.Defs",
+        "path": "lean/Entropy/Defs.lean"
+      },
+      {
+        "module": "Entropy.OutputSpace",
+        "path": "lean/Entropy/OutputSpace.lean"
+      },
+      {
+        "module": "Entropy.OutputSpaceBody",
+        "path": "lean/Entropy/OutputSpaceBody.lean"
+      },
+      {
+        "module": "HaarProjections.HaarMeasure",
+        "path": "lean/HaarProjections/HaarMeasure.lean"
+      },
+      {
+        "module": "HaarProjections.HaarProjection",
+        "path": "lean/HaarProjections/HaarProjection.lean"
+      },
+      {
+        "module": "HaarProjections.ProjectionOrbit",
+        "path": "lean/HaarProjections/ProjectionOrbit.lean"
+      },
+      {
+        "module": "HaarProjections.RevisionCanonicalEnsemble",
+        "path": "lean/HaarProjections/RevisionCanonicalEnsemble.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceCompressionBridge",
+        "path": "lean/OutputStates/OutputSpaceCompressionBridge.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceMatrix",
+        "path": "lean/OutputStates/OutputSpaceMatrix.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputChannel",
+        "path": "lean/OutputStates/RevisionOutputChannel.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputConvergence",
+        "path": "lean/OutputStates/RevisionOutputConvergence.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputDuality",
+        "path": "lean/OutputStates/RevisionOutputDuality.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputUnitary",
+        "path": "lean/OutputStates/RevisionOutputUnitary.lean"
+      },
+      {
+        "module": "Preliminaries.CompletePositivity",
+        "path": "lean/Preliminaries/CompletePositivity.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesAnalysis",
+        "path": "lean/Preliminaries/PreliminariesAnalysis.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesChoi",
+        "path": "lean/Preliminaries/PreliminariesChoi.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesLegendre",
+        "path": "lean/Preliminaries/PreliminariesLegendre.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesMatrix",
+        "path": "lean/Preliminaries/PreliminariesMatrix.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCalculus",
+        "path": "lean/RandomCompression/BernoulliCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCriticalPoint",
+        "path": "lean/RandomCompression/BernoulliCriticalPoint.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliDuality",
+        "path": "lean/RandomCompression/BernoulliDuality.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliEdgeCalculus",
+        "path": "lean/RandomCompression/BernoulliEdgeCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BlockModification",
+        "path": "lean/RandomCompression/BlockModification.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyBernoulli",
+        "path": "lean/RandomCompression/CauchyBernoulli.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphic",
+        "path": "lean/RandomCompression/CauchyHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphy",
+        "path": "lean/RandomCompression/CauchyHolomorphy.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyLocalInverse",
+        "path": "lean/RandomCompression/CauchyLocalInverse.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionEndpointGlue",
+        "path": "lean/RandomCompression/CompressionEndpointGlue.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionExtension",
+        "path": "lean/RandomCompression/CompressionExtension.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionSpectral",
+        "path": "lean/RandomCompression/CompressionSpectral.lean"
+      },
+      {
+        "module": "RandomCompression.ProjectionStrongConvergence",
+        "path": "lean/RandomCompression/ProjectionStrongConvergence.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCauchy",
+        "path": "lean/RandomCompression/RevisionBernoulliCauchy.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCompression",
+        "path": "lean/RandomCompression/RevisionBernoulliCompression.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliEdge",
+        "path": "lean/RandomCompression/RevisionBernoulliEdge.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliHolomorphic",
+        "path": "lean/RandomCompression/RevisionBernoulliHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliLaw",
+        "path": "lean/RandomCompression/RevisionBernoulliLaw.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliTensor",
+        "path": "lean/RandomCompression/RevisionBernoulliTensor.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionFullBlockInput",
+        "path": "lean/RandomCompression/RevisionFullBlockInput.lean"
+      },
+      {
+        "module": "RandomCompression.SpectralEdge",
+        "path": "lean/RandomCompression/SpectralEdge.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthCoefficients",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthCoefficients.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthFinite",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthFinite.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarMoment",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarMoment.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorComplexification",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorComplexification.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGram",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarIntegral.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarTrace",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarTrace.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPermutation",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPhase",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPower",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorProjection",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorProjection.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorSpanning",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean"
+      }
+    ]
+  },
+  {
+    "module": "StrongConvergence.StrongConvergenceFourthFinite",
+    "path": "lean/StrongConvergence/StrongConvergenceFourthFinite.lean",
+    "local_import_closure": [
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthFinite",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthFinite.lean"
+      }
+    ]
+  },
+  {
+    "module": "StrongConvergence.StrongConvergenceFourthNormalization",
+    "path": "lean/StrongConvergence/StrongConvergenceFourthNormalization.lean",
+    "local_import_closure": [
+      {
+        "module": "Entropy.Defs",
+        "path": "lean/Entropy/Defs.lean"
+      },
+      {
+        "module": "Entropy.OutputSpace",
+        "path": "lean/Entropy/OutputSpace.lean"
+      },
+      {
+        "module": "Entropy.OutputSpaceBody",
+        "path": "lean/Entropy/OutputSpaceBody.lean"
+      },
+      {
+        "module": "HaarProjections.HaarMeasure",
+        "path": "lean/HaarProjections/HaarMeasure.lean"
+      },
+      {
+        "module": "HaarProjections.HaarProjection",
+        "path": "lean/HaarProjections/HaarProjection.lean"
+      },
+      {
+        "module": "HaarProjections.ProjectionOrbit",
+        "path": "lean/HaarProjections/ProjectionOrbit.lean"
+      },
+      {
+        "module": "HaarProjections.RevisionCanonicalEnsemble",
+        "path": "lean/HaarProjections/RevisionCanonicalEnsemble.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceCompressionBridge",
+        "path": "lean/OutputStates/OutputSpaceCompressionBridge.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceMatrix",
+        "path": "lean/OutputStates/OutputSpaceMatrix.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputChannel",
+        "path": "lean/OutputStates/RevisionOutputChannel.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputConvergence",
+        "path": "lean/OutputStates/RevisionOutputConvergence.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputDuality",
+        "path": "lean/OutputStates/RevisionOutputDuality.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputUnitary",
+        "path": "lean/OutputStates/RevisionOutputUnitary.lean"
+      },
+      {
+        "module": "Preliminaries.CompletePositivity",
+        "path": "lean/Preliminaries/CompletePositivity.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesAnalysis",
+        "path": "lean/Preliminaries/PreliminariesAnalysis.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesChoi",
+        "path": "lean/Preliminaries/PreliminariesChoi.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesLegendre",
+        "path": "lean/Preliminaries/PreliminariesLegendre.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesMatrix",
+        "path": "lean/Preliminaries/PreliminariesMatrix.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCalculus",
+        "path": "lean/RandomCompression/BernoulliCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCriticalPoint",
+        "path": "lean/RandomCompression/BernoulliCriticalPoint.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliDuality",
+        "path": "lean/RandomCompression/BernoulliDuality.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliEdgeCalculus",
+        "path": "lean/RandomCompression/BernoulliEdgeCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BlockModification",
+        "path": "lean/RandomCompression/BlockModification.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyBernoulli",
+        "path": "lean/RandomCompression/CauchyBernoulli.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphic",
+        "path": "lean/RandomCompression/CauchyHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphy",
+        "path": "lean/RandomCompression/CauchyHolomorphy.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyLocalInverse",
+        "path": "lean/RandomCompression/CauchyLocalInverse.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionEndpointGlue",
+        "path": "lean/RandomCompression/CompressionEndpointGlue.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionExtension",
+        "path": "lean/RandomCompression/CompressionExtension.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionSpectral",
+        "path": "lean/RandomCompression/CompressionSpectral.lean"
+      },
+      {
+        "module": "RandomCompression.ProjectionStrongConvergence",
+        "path": "lean/RandomCompression/ProjectionStrongConvergence.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCauchy",
+        "path": "lean/RandomCompression/RevisionBernoulliCauchy.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCompression",
+        "path": "lean/RandomCompression/RevisionBernoulliCompression.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliEdge",
+        "path": "lean/RandomCompression/RevisionBernoulliEdge.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliHolomorphic",
+        "path": "lean/RandomCompression/RevisionBernoulliHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliLaw",
+        "path": "lean/RandomCompression/RevisionBernoulliLaw.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliTensor",
+        "path": "lean/RandomCompression/RevisionBernoulliTensor.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionFullBlockInput",
+        "path": "lean/RandomCompression/RevisionFullBlockInput.lean"
+      },
+      {
+        "module": "RandomCompression.SpectralEdge",
+        "path": "lean/RandomCompression/SpectralEdge.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthCoefficients",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthCoefficients.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthFinite",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthFinite.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceFourthNormalization",
+        "path": "lean/StrongConvergence/StrongConvergenceFourthNormalization.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarMoment",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarMoment.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics",
+        "path": "lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorComplexification",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorComplexification.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGram",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarIntegral.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarTrace",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarTrace.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPermutation",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPhase",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPower",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorProjection",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorProjection.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorSpanning",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean"
+      }
+    ]
+  },
+  {
     "module": "StrongConvergence.StrongConvergenceHaarFirstMomentAE",
     "path": "lean/StrongConvergence/StrongConvergenceHaarFirstMomentAE.lean",
     "local_import_closure": [
@@ -4058,6 +6084,182 @@
     ]
   },
   {
+    "module": "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics",
+    "path": "lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean",
+    "local_import_closure": [
+      {
+        "module": "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics",
+        "path": "lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean"
+      }
+    ]
+  },
+  {
+    "module": "StrongConvergence.StrongConvergenceSpectralEstimate",
+    "path": "lean/StrongConvergence/StrongConvergenceSpectralEstimate.lean",
+    "local_import_closure": [
+      {
+        "module": "Entropy.Defs",
+        "path": "lean/Entropy/Defs.lean"
+      },
+      {
+        "module": "Entropy.OutputSpace",
+        "path": "lean/Entropy/OutputSpace.lean"
+      },
+      {
+        "module": "Entropy.OutputSpaceBody",
+        "path": "lean/Entropy/OutputSpaceBody.lean"
+      },
+      {
+        "module": "HaarProjections.HaarMeasure",
+        "path": "lean/HaarProjections/HaarMeasure.lean"
+      },
+      {
+        "module": "HaarProjections.HaarProjection",
+        "path": "lean/HaarProjections/HaarProjection.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceCompressionBridge",
+        "path": "lean/OutputStates/OutputSpaceCompressionBridge.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceMatrix",
+        "path": "lean/OutputStates/OutputSpaceMatrix.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputChannel",
+        "path": "lean/OutputStates/RevisionOutputChannel.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputConvergence",
+        "path": "lean/OutputStates/RevisionOutputConvergence.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputDuality",
+        "path": "lean/OutputStates/RevisionOutputDuality.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputUnitary",
+        "path": "lean/OutputStates/RevisionOutputUnitary.lean"
+      },
+      {
+        "module": "Preliminaries.CompletePositivity",
+        "path": "lean/Preliminaries/CompletePositivity.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesAnalysis",
+        "path": "lean/Preliminaries/PreliminariesAnalysis.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesChoi",
+        "path": "lean/Preliminaries/PreliminariesChoi.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesLegendre",
+        "path": "lean/Preliminaries/PreliminariesLegendre.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesMatrix",
+        "path": "lean/Preliminaries/PreliminariesMatrix.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCalculus",
+        "path": "lean/RandomCompression/BernoulliCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCriticalPoint",
+        "path": "lean/RandomCompression/BernoulliCriticalPoint.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliDuality",
+        "path": "lean/RandomCompression/BernoulliDuality.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliEdgeCalculus",
+        "path": "lean/RandomCompression/BernoulliEdgeCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BlockModification",
+        "path": "lean/RandomCompression/BlockModification.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyBernoulli",
+        "path": "lean/RandomCompression/CauchyBernoulli.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphic",
+        "path": "lean/RandomCompression/CauchyHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphy",
+        "path": "lean/RandomCompression/CauchyHolomorphy.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyLocalInverse",
+        "path": "lean/RandomCompression/CauchyLocalInverse.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionEndpointGlue",
+        "path": "lean/RandomCompression/CompressionEndpointGlue.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionExtension",
+        "path": "lean/RandomCompression/CompressionExtension.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionSpectral",
+        "path": "lean/RandomCompression/CompressionSpectral.lean"
+      },
+      {
+        "module": "RandomCompression.ProjectionStrongConvergence",
+        "path": "lean/RandomCompression/ProjectionStrongConvergence.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCauchy",
+        "path": "lean/RandomCompression/RevisionBernoulliCauchy.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCompression",
+        "path": "lean/RandomCompression/RevisionBernoulliCompression.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliEdge",
+        "path": "lean/RandomCompression/RevisionBernoulliEdge.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliHolomorphic",
+        "path": "lean/RandomCompression/RevisionBernoulliHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliLaw",
+        "path": "lean/RandomCompression/RevisionBernoulliLaw.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliTensor",
+        "path": "lean/RandomCompression/RevisionBernoulliTensor.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionFullBlockInput",
+        "path": "lean/RandomCompression/RevisionFullBlockInput.lean"
+      },
+      {
+        "module": "RandomCompression.SpectralEdge",
+        "path": "lean/RandomCompression/SpectralEdge.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceCompressionBounds",
+        "path": "lean/StrongConvergence/StrongConvergenceCompressionBounds.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceNorm",
+        "path": "lean/StrongConvergence/StrongConvergenceNorm.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceSpectralEstimate",
+        "path": "lean/StrongConvergence/StrongConvergenceSpectralEstimate.lean"
+      }
+    ]
+  },
+  {
     "module": "StrongConvergence.StrongConvergenceTensorBlockMoments",
     "path": "lean/StrongConvergence/StrongConvergenceTensorBlockMoments.lean",
     "local_import_closure": [
@@ -5254,6 +7456,48 @@
     ]
   },
   {
+    "module": "StrongConvergence.StrongConvergenceTensorInverseAsymptotics",
+    "path": "lean/StrongConvergence/StrongConvergenceTensorInverseAsymptotics.lean",
+    "local_import_closure": [
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGram",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGramBounds",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGramBounds.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGramRow",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGramRow.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorInverseAsymptotics",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorInverseAsymptotics.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorInverseBound",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorInverseBound.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPermutation",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPhase",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPower",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorSpanning",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean"
+      }
+    ]
+  },
+  {
     "module": "StrongConvergence.StrongConvergenceTensorInverseBound",
     "path": "lean/StrongConvergence/StrongConvergenceTensorInverseBound.lean",
     "local_import_closure": [
@@ -5288,6 +7532,268 @@
       {
         "module": "StrongConvergence.StrongConvergenceTensorSpanning",
         "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean"
+      }
+    ]
+  },
+  {
+    "module": "StrongConvergence.StrongConvergenceTensorMomentAsymptotics",
+    "path": "lean/StrongConvergence/StrongConvergenceTensorMomentAsymptotics.lean",
+    "local_import_closure": [
+      {
+        "module": "Entropy.Defs",
+        "path": "lean/Entropy/Defs.lean"
+      },
+      {
+        "module": "Entropy.OutputSpace",
+        "path": "lean/Entropy/OutputSpace.lean"
+      },
+      {
+        "module": "Entropy.OutputSpaceBody",
+        "path": "lean/Entropy/OutputSpaceBody.lean"
+      },
+      {
+        "module": "HaarProjections.HaarMeasure",
+        "path": "lean/HaarProjections/HaarMeasure.lean"
+      },
+      {
+        "module": "HaarProjections.HaarProjection",
+        "path": "lean/HaarProjections/HaarProjection.lean"
+      },
+      {
+        "module": "HaarProjections.ProjectionOrbit",
+        "path": "lean/HaarProjections/ProjectionOrbit.lean"
+      },
+      {
+        "module": "HaarProjections.RevisionCanonicalEnsemble",
+        "path": "lean/HaarProjections/RevisionCanonicalEnsemble.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceCompressionBridge",
+        "path": "lean/OutputStates/OutputSpaceCompressionBridge.lean"
+      },
+      {
+        "module": "OutputStates.OutputSpaceMatrix",
+        "path": "lean/OutputStates/OutputSpaceMatrix.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputChannel",
+        "path": "lean/OutputStates/RevisionOutputChannel.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputConvergence",
+        "path": "lean/OutputStates/RevisionOutputConvergence.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputDuality",
+        "path": "lean/OutputStates/RevisionOutputDuality.lean"
+      },
+      {
+        "module": "OutputStates.RevisionOutputUnitary",
+        "path": "lean/OutputStates/RevisionOutputUnitary.lean"
+      },
+      {
+        "module": "Preliminaries.CompletePositivity",
+        "path": "lean/Preliminaries/CompletePositivity.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesAnalysis",
+        "path": "lean/Preliminaries/PreliminariesAnalysis.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesChoi",
+        "path": "lean/Preliminaries/PreliminariesChoi.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesLegendre",
+        "path": "lean/Preliminaries/PreliminariesLegendre.lean"
+      },
+      {
+        "module": "Preliminaries.PreliminariesMatrix",
+        "path": "lean/Preliminaries/PreliminariesMatrix.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCalculus",
+        "path": "lean/RandomCompression/BernoulliCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliCriticalPoint",
+        "path": "lean/RandomCompression/BernoulliCriticalPoint.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliDuality",
+        "path": "lean/RandomCompression/BernoulliDuality.lean"
+      },
+      {
+        "module": "RandomCompression.BernoulliEdgeCalculus",
+        "path": "lean/RandomCompression/BernoulliEdgeCalculus.lean"
+      },
+      {
+        "module": "RandomCompression.BlockModification",
+        "path": "lean/RandomCompression/BlockModification.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyBernoulli",
+        "path": "lean/RandomCompression/CauchyBernoulli.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphic",
+        "path": "lean/RandomCompression/CauchyHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyHolomorphy",
+        "path": "lean/RandomCompression/CauchyHolomorphy.lean"
+      },
+      {
+        "module": "RandomCompression.CauchyLocalInverse",
+        "path": "lean/RandomCompression/CauchyLocalInverse.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionEndpointGlue",
+        "path": "lean/RandomCompression/CompressionEndpointGlue.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionExtension",
+        "path": "lean/RandomCompression/CompressionExtension.lean"
+      },
+      {
+        "module": "RandomCompression.CompressionSpectral",
+        "path": "lean/RandomCompression/CompressionSpectral.lean"
+      },
+      {
+        "module": "RandomCompression.ProjectionStrongConvergence",
+        "path": "lean/RandomCompression/ProjectionStrongConvergence.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCauchy",
+        "path": "lean/RandomCompression/RevisionBernoulliCauchy.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliCompression",
+        "path": "lean/RandomCompression/RevisionBernoulliCompression.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliEdge",
+        "path": "lean/RandomCompression/RevisionBernoulliEdge.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliHolomorphic",
+        "path": "lean/RandomCompression/RevisionBernoulliHolomorphic.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliLaw",
+        "path": "lean/RandomCompression/RevisionBernoulliLaw.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionBernoulliTensor",
+        "path": "lean/RandomCompression/RevisionBernoulliTensor.lean"
+      },
+      {
+        "module": "RandomCompression.RevisionFullBlockInput",
+        "path": "lean/RandomCompression/RevisionFullBlockInput.lean"
+      },
+      {
+        "module": "RandomCompression.SpectralEdge",
+        "path": "lean/RandomCompression/SpectralEdge.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarMoment",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarMoment.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarPairMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarPairMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarSecondCompression",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarSecondCompression.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVariance",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVariance.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceHaarVarianceResult",
+        "path": "lean/StrongConvergence/StrongConvergenceHaarVarianceResult.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorBlockMoments",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorBlockMoments.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCanonical",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCanonical.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorComplexification",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorComplexification.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCompressionCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCompressionCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorCycles",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorCycles.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGram",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGramBounds",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGramBounds.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorGramRow",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorGramRow.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarIntegral.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorHaarTrace",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorHaarTrace.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorInverseAsymptotics",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorInverseAsymptotics.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorInverseBound",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorInverseBound.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorMomentAsymptotics",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorMomentAsymptotics.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPermutation",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPhase",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorPower",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorProjection",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorProjection.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorSpanning",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "path": "lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean"
+      },
+      {
+        "module": "StrongConvergence.StrongConvergenceVarianceAlgebra",
+        "path": "lean/StrongConvergence/StrongConvergenceVarianceAlgebra.lean"
       }
     ]
   },

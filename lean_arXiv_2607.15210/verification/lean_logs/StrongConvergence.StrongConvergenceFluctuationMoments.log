@@ -1,0 +1,9 @@
+'ProjectionChannels.TensorHaar.integral_projection_compression_permutationTrace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.integral_projection_compression_secondTrace_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.integral_compression_secondTrace_square' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

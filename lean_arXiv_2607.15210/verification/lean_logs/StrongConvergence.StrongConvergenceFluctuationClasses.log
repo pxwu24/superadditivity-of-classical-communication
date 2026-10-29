@@ -1,0 +1,4 @@
+'ProjectionChannels.TensorHaar.weightedCycleMoment_fourth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.integral_projection_compression_secondTrace_square_explicit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,18 @@
+lean/StrongConvergence/StrongConvergenceSpectralEstimate.lean:41:0: warning: automatically included section variable(s) unused in theorem 'StrongConvergence.blockCompression_positive_part_bound':
+  [DecidableEq K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq K] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+lean/StrongConvergence/StrongConvergenceSpectralEstimate.lean:52:0: warning: automatically included section variable(s) unused in theorem 'StrongConvergence.blockCompression_negative_part_bound':
+  [DecidableEq K]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq K] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+lean/StrongConvergence/StrongConvergenceSpectralEstimate.lean:62:0: warning: automatically included section variable(s) unused in theorem 'StrongConvergence.eigenvalue_ge_of_sub_scalar_posSemidef':
+  [Nonempty N]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty N] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+'StrongConvergence.projection_compression_affine_norm_envelope' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

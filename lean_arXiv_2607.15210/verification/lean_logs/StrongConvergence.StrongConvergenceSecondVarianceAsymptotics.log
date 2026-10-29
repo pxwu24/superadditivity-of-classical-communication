@@ -1,0 +1,17 @@
+lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean:89:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean:98:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean:106:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean:113:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean:120:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean:156:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'ProjectionChannels.SecondVariance.squareMean_sub_mean_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.SecondVariance.scaled_variance_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.SecondVariance.exists_eventually_variance_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

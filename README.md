@@ -13,9 +13,14 @@ using entangled inputs*.
 
 For arXiv:2608.25961, the linked file currently provides a Python numerical reproducibility code.
 
-For arXiv:2607.15210, all the results are verified in Lean fully or conditionally. For the conditionally verified results,
-they only assume the block-modified strong-convergence theorem: Theorem 5.2 in https://arxiv.org/pdf/1802.00067. We leave 
-the Lean formalization of strong convergence theorem in the future, due to limited computational resources.
+For arXiv:2607.15210, the finite-dimensional results are verified in Lean;
+the random-channel conclusions retain the block-modified strong-convergence
+hypothesis from [Nechita, Theorem 5.2](https://arxiv.org/pdf/1802.00067).
+[Verified progress](lean_arXiv_2607.15210/partial_progress/README.md) includes
+almost-sure first and second compression moments for the canonical ensemble,
+exact finite Haar moments at every order, and arbitrary-order inverse-Gram
+approximations. The general limiting-law identification and sharp
+spectral-outlier estimates remain unproved in Lean.
 
 ## Citation
 

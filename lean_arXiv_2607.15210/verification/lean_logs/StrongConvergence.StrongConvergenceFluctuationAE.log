@@ -1,0 +1,6 @@
+'ProjectionChannels.Canonical.secondTrace_centered_integral_eq_variance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.ae_normalizedCompressionSecondTrace_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

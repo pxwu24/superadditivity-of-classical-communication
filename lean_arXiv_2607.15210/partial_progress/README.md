@@ -1,6 +1,6 @@
 # Partial progress: block-modified strong convergence
 
-[All Lean sources](../lean/StrongConvergence/) · [Full unverified theorem](../README.md#remaining-unverified-theorem)
+[All Lean sources](../lean/StrongConvergence/) · [Full unverified theorem](../README.md#remaining-unverified-block-modified-strong-convergence-theorem)
 
 **The general theorem is not yet proved.** `CanonicalStrongInput` remains an
 explicit hypothesis of the paper's random-channel theorems. None of the
@@ -27,9 +27,11 @@ and audits their transitive axioms. The recorded outputs are in
 | Complete block-convergence statement for k = 1 | [Scalar case](../lean/StrongConvergence/StrongConvergenceScalar.lean) |
 | Unmodified projection limits for every k > 0 | [Projection limit](../lean/StrongConvergence/StrongConvergenceScalarProjection.lean) |
 | Almost-sure first compression moment, simultaneously for all real coefficient vectors | [Haar moments](../lean/StrongConvergence/StrongConvergenceHaarMoment.lean), [variance](../lean/StrongConvergence/StrongConvergenceCanonicalVariance.lean), [almost-sure limit](../lean/StrongConvergence/StrongConvergenceHaarFirstMomentAE.lean) |
-| Second compression moment in expectation | [Second moment](../lean/StrongConvergence/StrongConvergenceHaarSecondCompression.lean) |
+| Almost-sure second compression moment for each fixed real coefficient vector | [Second moment](../lean/StrongConvergence/StrongConvergenceHaarSecondCompression.lean), [exact variance and almost-sure limit](../lean/StrongConvergence/StrongConvergenceFluctuationAE.lean) |
 | Exact finite Haar entry and compression moments at every order m ≤ N, including signed coefficients | [Haar integration](../lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean), [compression cycles](../lean/StrongConvergence/StrongConvergenceTensorCompressionCycles.lean), [canonical sequence](../lean/StrongConvergence/StrongConvergenceTensorCanonical.lean) |
 | Exact Gram row formula and quantitative inverse-Gram bound | [Gram row](../lean/StrongConvergence/StrongConvergenceTensorGramRow.lean), [inverse bound](../lean/StrongConvergence/StrongConvergenceTensorInverseBound.lean) |
+| Arbitrary-order inverse-Gram expansion and vanishing-error approximation to every fixed expected compression moment | [Inverse asymptotics](../lean/StrongConvergence/StrongConvergenceTensorInverseAsymptotics.lean), [actual Haar moment approximation](../lean/StrongConvergence/StrongConvergenceTensorMomentAsymptotics.lean) |
+| Deterministic signed spectral enclosure and affine norm envelope | [Spectral enclosure](../lean/StrongConvergence/StrongConvergenceSpectralEstimate.lean) |
 | Matrix-unit strong limit and deterministic compression norm bound | [Matrix units](../lean/StrongConvergence/StrongConvergenceBlockMatrixUnits.lean), [norm bound](../lean/StrongConvergence/StrongConvergenceCompressionBounds.lean) |
 | Counterexample: fixed moments and weak spectral convergence alone do not imply norm convergence | [Spectral outlier example](../lean/StrongConvergence/StrongConvergenceOutlier.lean) |
 
@@ -61,8 +63,30 @@ t^2\left(\sum_i a_i\right)^2+
 \frac{t(1-t)}{k}\sum_i a_i^2.
 ```
 
-This second-moment limit is in expectation. Almost-sure convergence of the
-second spectral moment would additionally require a concentration argument.
+The second moment also converges almost surely for each fixed signed real
+coefficient vector in the canonical ensemble, for k >= 2 and t in [0,1]:
+
+```math
+\frac1n\mathrm{Tr}(S_n(a)^2)
+\longrightarrow
+t^2\left(\sum_i a_i\right)^2+
+\frac{t(1-t)}k\sum_i a_i^2
+\qquad\text{almost surely}.
+```
+
+This conclusion is proved from the actual Haar measure. The proof evaluates
+all fourth-order permutation contractions, computes the variance of the
+normalized second trace exactly, and establishes an eventual bound C/n^2.
+Borel–Cantelli then gives the displayed almost-sure limit. No concentration
+or strong-convergence assertion is assumed. This result concerns the second
+moment; it does not establish convergence of every moment or exclude outliers.
+
+| Second-moment proof step | Lean sources |
+| --- | --- |
+| Kernel-checked finite permutation counts and exact inverse-Gram coefficients | [Finite certificates](../lean/StrongConvergence/StrongConvergenceFourthFinite.lean), [fourth coefficients](../lean/StrongConvergence/StrongConvergenceFourthCoefficients.lean) |
+| Haar two-trace integral and conjugacy-class weights | [Moment contractions](../lean/StrongConvergence/StrongConvergenceFluctuationMoments.lean), [weights](../lean/StrongConvergence/StrongConvergenceFluctuationWeights.lean), [finite classes](../lean/StrongConvergence/StrongConvergenceFluctuationFinite.lean), [class reduction](../lean/StrongConvergence/StrongConvergenceFluctuationClasses.lean) |
+| Exact rational variance and its summable asymptotic bound | [Normalization](../lean/StrongConvergence/StrongConvergenceFourthNormalization.lean), [variance asymptotics](../lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean) |
+| Actual canonical variance and almost-sure conclusion | [Integrability and centering](../lean/StrongConvergence/StrongConvergenceFluctuationAEBase.lean), [Haar second-moment limit](../lean/StrongConvergence/StrongConvergenceFluctuationAE.lean) |
 
 The k = 1 result includes signed coefficients, arbitrary scalar shifts,
 output-unitary rotations, and bounded continuous test functions. The paper
@@ -124,6 +148,27 @@ and inverse estimate
 These are bounds for a finite permutation Gram matrix. They are not sharp
 spectral bounds for the random compression.
 
+The inverse approximation now has arbitrary fixed-order precision. Put
+C_m = m! - 1. For fixed m >= 1 and r >= 0, and N > C_m, the checked row bound is
+
+```math
+N^r\sum_\tau\left|
+N^m(G_N^{-1})_{\sigma,\tau}
+-\left[\sum_{\ell=0}^{r}(I-N^{-m}G_N)^\ell\right]_{\sigma,\tau}
+\right|
+\leq\frac{C_m^{r+1}}{N-C_m}.
+```
+
+The right side tends to zero. The bound is transferred to the actual Haar
+projection coefficients, for any rank sequence within the ambient dimensions.
+For a trace moment of fixed order m, taking m+1 Neumann terms also gives a
+finite inverse-free approximation to the canonical expected trace with
+vanishing absolute error, even before normalized-trace division. The exported
+theorem is `Canonical.integral_compression_trace_neumann_approximation`.
+Identifying the limit of the resulting finite permutation expression still
+requires the geodesic/noncrossing cancellations and the free-law calculation.
+
+
 The standard-library Python implementation uses exact rational arithmetic:
 
 ```sh
@@ -170,12 +215,12 @@ while its operator norm is always 2.
 
 1. Extract the all-order limiting moments from the finite permutation formula
    and identify the compression's inverse-Cauchy germ with the Bernoulli
-   free-sum germ used by `IsBernoulliFreeSumLaw`. This requires the scaled
-   off-diagonal inverse-Gram coefficients and the geodesic/noncrossing
-   permutation cancellations. The unweighted inverse-row bound alone does
-   not determine those coefficients after the dimension factors are applied.
-   The moment-based route also needs summable fluctuation estimates to pass
-   from expected moments to almost-sure weak convergence.
+   free-sum germ used by `IsBernoulliFreeSumLaw`. Arbitrary-order inverse-Gram precision and its transfer to actual expected
+   compression moments are now proved. The remaining identification requires
+   evaluating the finite expressions through geodesic/noncrossing permutation
+   cancellations. The moment-based route also needs summable fluctuation
+   estimates beyond the first and second moments to pass to almost-sure
+   weak convergence.
 2. Prove sharp high-degree moment estimates or resolvent estimates that exclude
    eigenvalues outside the limiting support. The probability and norm lemmas
    above make the required quantitative implication explicit, but do not

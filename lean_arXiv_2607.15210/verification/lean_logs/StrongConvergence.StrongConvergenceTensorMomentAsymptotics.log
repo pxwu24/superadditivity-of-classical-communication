@@ -1,0 +1,8 @@
+lean/StrongConvergence/StrongConvergenceTensorMomentAsymptotics.lean:58:13: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'ProjectionChannels.TensorHaar.projectionMomentCoefficients_neumann_scaled_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.integral_compression_trace_neumann_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

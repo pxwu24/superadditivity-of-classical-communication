@@ -9,7 +9,7 @@ and channel-existence conclusions have Lean proofs **assuming one remaining
 theorem: block-modified strong convergence for bipartite Haar projections**.
 Its full statement appears below. 
 
-Due to limitations of computational resources, we leave the verification of strong convergence theorem in the future. 
+The remaining work is mathematical: identifying the limiting free law and proving sharp estimates that exclude spectral outliers. The verified progress toward that theorem is recorded below.
 
 Every result in the tables links to its declarations, assumptions, and **all
 related Lean files**. Proof sources are grouped by topic in [lean/](lean/);
@@ -53,7 +53,7 @@ it does not prove the remaining convergence theorem.
 | [Proposition V.2](results/V_2.md) | Eigenvalue shuffling |
 | [Proposition B.1](results/B_1.md) | Entropy of the one-channel output body after antisymmetric postprocessing |
 | [Proposition B.2](results/B_2.md) | Entropy of the limiting Bell output after antisymmetric postprocessing |
-| [Proposition VI.1](results/VI_1.md) | Dimension-182 certificate (exact entropy gap) |
+| [Proposition VI.1](results/VI_1.md) | Dimension-182 spectral/body certificate (exact entropy gap) |
 | [Lemma C.1](results/C_1.md) | Reduction of the entropy minimum |
 | [Lemma C.2](results/C_2.md) | Scalar certificate for the largest eigenvalue |
 <!-- RESULT_TABLE_END -->
@@ -134,7 +134,7 @@ Precisely, the record requires a compact probability measure whose Cauchy transf
 
 This is the affine-norm and weak-spectral part of the usual strong-convergence theorem; it is exactly the part required by the downstream proofs. The formal proposition is [`ProjectionChannels.FullBlockModifiedStrongInput`](lean/RandomCompression/RevisionFullBlockInput.lean). The concrete channel-existence development needs its specialization [`ProjectionChannels.Canonical.CanonicalStrongInput`](lean/HaarProjections/RevisionCanonicalEnsemble.lean), where $d_n=\lfloor tkn\rfloor$; the Lean files index the positive input dimension as $n+1$.
 
-**[Partial Lean progress](partial_progress/README.md):** the complete $k=1$ case, finite Haar compression moments at every order up to the ambient dimension, and quantitative Gram/inverse-Gram bounds are proved. For $k\ge2$, the limiting free-law identification, almost-sure moment fluctuations, and sharp spectral-outlier estimates remain unfinished. The random-channel conclusions depending on this input therefore remain conditional.
+**[Partial Lean progress](partial_progress/README.md):** the complete $k=1$ case, finite Haar compression moments at every order up to the ambient dimension, and arbitrary-order inverse-Gram approximations are proved. These approximations give a vanishing-error finite formula for every fixed expected compression moment. For $k\ge2$ in the canonical floor-rank ensemble, the first and second compression moments converge almost surely; the second-moment proof derives a summable variance bound from exact fourth-order Haar integration. The limiting free-law identification, fluctuations at higher orders, and sharp spectral-outlier estimates remain unfinished. The random-channel conclusions depending on this input therefore remain conditional.
 
 
 ## Navigate the project

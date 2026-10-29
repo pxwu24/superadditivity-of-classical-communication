@@ -259,5 +259,18 @@ lean_lib Preliminaries where
     `StrongConvergence.StrongConvergenceTensorWeightedCycles,
     `StrongConvergence.StrongConvergenceTensorWeingarten,
     `StrongConvergence.StrongConvergenceVarianceAlgebra,
-    `StrongConvergence.StrongConvergenceVarianceBorelCantelli
+    `StrongConvergence.StrongConvergenceVarianceBorelCantelli,
+    `StrongConvergence.StrongConvergenceFluctuationAE,
+    `StrongConvergence.StrongConvergenceFluctuationClasses,
+    `StrongConvergence.StrongConvergenceFluctuationMoments,
+    `StrongConvergence.StrongConvergenceFluctuationWeights,
+    `StrongConvergence.StrongConvergenceFourthCoefficients,
+    `StrongConvergence.StrongConvergenceFourthFinite,
+    `StrongConvergence.StrongConvergenceFourthNormalization,
+    `StrongConvergence.StrongConvergenceSecondVarianceAsymptotics,
+    `StrongConvergence.StrongConvergenceSpectralEstimate,
+    `StrongConvergence.StrongConvergenceTensorInverseAsymptotics,
+    `StrongConvergence.StrongConvergenceFluctuationAEBase,
+    `StrongConvergence.StrongConvergenceFluctuationFinite,
+    `StrongConvergence.StrongConvergenceTensorMomentAsymptotics
   ]
