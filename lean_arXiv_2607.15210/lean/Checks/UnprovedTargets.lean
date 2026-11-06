@@ -2,13 +2,12 @@ import RandomCompression.CompressionExtension
 import HaarProjections.HaarMeasure
 
 /-!
-# Explicit remaining target — statement only, NOT a proof
+# Original random-compression target
 
-`randomCompressionStatement` is a proposition encoding the full random
-compression lemma using actual Haar projection laws, actual eigenvalues, and
-the actual feasible-region support function. There is deliberately no theorem
-asserting this proposition, no axiom asserting it, and no `sorry` proof.
-Compilation of this definition is NOT verification of the mathematical result.
+The proposition below is retained unchanged for comparison with the original
+verification target. It is now proved by
+`ProjectionChannels.randomCompressionStatement_verified` in
+`StrongConvergence.StrongConvergenceHaarPaperCorollaries`.
 -/
 
 open Filter Matrix MeasureTheory
@@ -17,7 +16,7 @@ open scoped Topology
 namespace ProjectionChannels
 universe u
 
-/-- UNPROVED target: the random compression lemma for every fixed output dimension.
+/-- Original target: the random compression lemma for every fixed output dimension.
 The index m uses input dimension m+1, which is the usual positive-dimension sequence. -/
 def randomCompressionStatement : Prop :=
   ∀ (Ω : Type u) [MeasurableSpace Ω] (μ : Measure Ω) [IsProbabilityMeasure μ]

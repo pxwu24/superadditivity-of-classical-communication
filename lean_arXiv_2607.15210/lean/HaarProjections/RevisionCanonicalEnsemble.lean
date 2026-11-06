@@ -4,7 +4,7 @@ import Mathlib.Analysis.SpecificLimits.Basic
 /-! A concrete Haar-projection ensemble. Its sample space is the compact
 countable product of the finite unitary groups, equipped with normalized
 Haar probability. Every coordinate has exactly the required Haar law.
-The sole external strong-convergence proposition is then stated for this
+The canonical strong-convergence proposition is then stated for this
 specified ensemble, not for an unspecified existential model. -/
 
 open MeasureTheory Filter Set Matrix
@@ -164,8 +164,9 @@ theorem rank_density_tendsto {k : ℕ} {t : ℝ} (hk : 0<k) (ht : 0≤t) :
     tendsto_natCast_atTop_atTop.atTop_add tendsto_const_nhds
   exact hn.const_mul_atTop (by exact_mod_cast hk)
 
-/-- The one permitted black box, specialized to the concrete canonical
-ensemble at every admissible fixed output dimension and density. -/
+/-- The canonical strong-convergence proposition, proved by
+`ProjectionChannels.Canonical.canonicalStrongInput` in
+`StrongConvergence.StrongConvergenceCanonicalStrong`. -/
 def CanonicalStrongInput : Prop :=
   ∀ k : ℕ, 0<k → ∀ t : ℝ, 0<t → t<1 →
     FullBlockModifiedStrongInput (probability k) k t (projection k t) (projection_isHermitian k t)

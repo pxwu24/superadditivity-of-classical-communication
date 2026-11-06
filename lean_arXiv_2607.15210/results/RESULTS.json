@@ -2,7 +2,7 @@
   "source_pdf": "Nonadditivity_of_minimum_output_p_Renyi_entropy (2).pdf",
   "source_pdf_sha256": "5d4d78ef3992df645c7128c1e0b78d9c9cca222be5cbd39596d9b0cdd8588f30",
   "baseline_commit": "37c92c7f57d6681d5acd6bf0100b5b05536e7d02",
-  "scope": "Kernel-checked proofs of the 20 indexed statements. Random-channel limits and finite-channel existence remain conditional on the explicit block-modified strong-convergence theorem; unconditional analytic and spectral results are distinguished in the README.",
+  "scope": "Kernel-checked proofs of all 20 indexed statements, including block-modified strong convergence for arbitrary admissible Haar projection rank sequences and unconditional finite-channel existence.",
   "citation": {
     "title": "Counterexamples to additivity of minimum output p-Rényi entropy of quantum channels for all p ≥ 0",
     "authors": [
@@ -14,7 +14,7 @@
     "arxiv_from_repository_folder": "2607.15210",
     "arxiv_printed_in_pdf": false
   },
-  "only_permitted_external_assumption": "Block-modified strong-convergence theorem (including the limiting free-convolution law), if not formalized.",
+  "only_permitted_external_assumption": "None. The formerly external block-modified strong-convergence input is proved in this project.",
   "attachment_note": "The supplied BernoulliEdge.lean is retained in repaired, compiled form as SuppliedBernoulliEdge.lean. Its hedge parameter assumes the spectral edge; the final A.1 and II.3 proofs instead derive that edge in RevisionBernoulliHolomorphic and RevisionBernoulliCompression.",
   "corrections": [
     "Abstract claims a single pair simultaneously for all positive p; Theorem I.1 proves a pair for each p.",
@@ -52,25 +52,29 @@
       "title": "Random compression formula",
       "pdf_text_line": 363,
       "entry_modules": [
+        "StrongConvergence.StrongConvergenceHaarPaperCorollaries",
         "RandomCompression.RevisionBernoulliCompression",
         "RandomCompression.ProjectionStrongConvergence",
         "RandomCompression.BlockModification",
         "RandomCompression.RevisionFullBlockInput"
       ],
       "declarations": [
+        "ProjectionChannels.randomCompressionStatement_verified",
+        "ProjectionChannels.HaarSequence.paper_random_compression_limit",
+        "ProjectionChannels.HaarSequence.fullBlockModifiedStrongInput",
         "ProjectionChannels.random_compression_from_amplified_block_strong",
         "ProjectionChannels.fixed_random_compression_from_block_strong",
         "ProjectionStrongConvergence.projections_strongly_converge_to_bernoulli",
         "ProjectionChannels.amplified_diagonalTrace",
         "ProjectionChannels.FullBlockModifiedStrongInput.to_amplified"
       ],
-      "status": "complete_under_permitted_black_box",
-      "proved_scope": "For an actual projection sequence, affine operator-norm convergence from the permitted amplified block-modified strong-convergence input implies largest-eigenvalue convergence to the stated body support, simultaneously for all real coefficient vectors on one probability-one event. The spectral edge is proved through Lemma A.1.",
+      "status": "complete",
+      "proved_scope": "The exact original randomCompressionStatement is proved for arbitrary measurable Haar projection sequences with the prescribed rank-density limit, simultaneously for all real coefficient vectors on one probability-one event. Affine norm and weak spectral convergence use the same identified Bernoulli free-sum law; independence is not required. The edge formula follows from Lemma A.1.",
       "missing_for_paper_statement": [],
       "paper_assumptions": [
         "Fixed positive integer k, t in (0,1), rank densities d_n/(n*k)->t, Haar projection sequence.",
         "The source statement incorrectly starts with fixed n,d,P before using d_n,P_n; write a sequence explicitly.",
-        "AmplifiedBlockModifiedStrongInput is the permitted block-modified strong-convergence theorem specialized to affine polynomial norm tests on the actual amplified map (id tensor phi_a)(P_n). Tensor operator-norm equality, norm-to-edge conversion, and the edge identity are proved."
+        "The block-modified convergence theorem and the Bernoulli free-sum law are proved. No external convergence premise is required by the new paper endpoint."
       ],
       "paper_dependencies": [
         "A.1"
@@ -107,19 +111,21 @@
       "title": "Hausdorff limit of output state spaces",
       "pdf_text_line": 447,
       "entry_modules": [
+        "StrongConvergence.StrongConvergenceHaarPaperCorollaries",
         "OutputStates.RevisionOutputTheorem"
       ],
       "declarations": [
+        "ProjectionChannels.HaarSequence.paper_output_space_limit",
         "RevisionOutput.output_space_limit",
         "RevisionOutput.trace_distance_density_formula",
         "RevisionOutput.raw_normalizedOutput_posSemidef"
       ],
-      "status": "complete_under_permitted_black_box",
-      "proved_scope": "Almost-sure convergence of the actual locally normalized channel output image to the actual unitarily invariant density-matrix body in the genuine trace-norm Hausdorff distance. Compactness, convexity, support identification, general Hermitian tests, common probability-one events, and eventual marginal invertibility including the finite-prefix argument are proved.",
+      "status": "complete",
+      "proved_scope": "Almost-sure convergence of the actual locally normalized channel output image to the actual unitarily invariant density-matrix body in the genuine trace-norm Hausdorff distance. Compactness, convexity, support identification, general Hermitian tests, common probability-one events, and eventual marginal invertibility including the finite-prefix argument are proved. The new HaarSequence endpoint supplies the proved convergence theorem for arbitrary admissible rank sequences.",
       "missing_for_paper_statement": [],
       "paper_assumptions": [
         "Fixed k>=2, t in (1/k^2,1), independent Haar projections with d_n/(n*k)->t; channels defined eventually when marginals positive.",
-        "FullBlockModifiedStrongInput is the sole external theorem parameter; it contains the norm and weak-trace parts of the permitted block-modified strong-convergence theorem for the same law."
+        "The block-modified convergence theorem and the Bernoulli free-sum law are proved. No external convergence premise is required by the new paper endpoint."
       ],
       "paper_dependencies": [
         "II.2",
@@ -135,19 +141,22 @@
       "title": "One-copy entropy limit and asymptotics",
       "pdf_text_line": 448,
       "entry_modules": [
+        "StrongConvergence.StrongConvergenceHaarPaperCorollaries",
         "Entropy.RevisionMatrixEntropyBody",
         "Entropy.Minimum"
       ],
       "declarations": [
+        "ProjectionChannels.HaarSequence.paper_minimum_output_entropy_limit",
         "RevisionMatrixEntropy.actual_minimum_output_entropy_limit",
         "RevisionMatrixEntropy.spectralBody_entropy_image",
         "AppendixB.single_output_r1_minimum"
       ],
-      "status": "complete_under_permitted_black_box",
-      "proved_scope": "The actual channel minimum Rényi entropy tends almost surely to the attained minimum on the actual output body. Matrix-entropy continuity, the spectral-body image equality, and the large-k expansion (with stronger O(k^-5/2) error) are proved for every fixed p>0, including p=1.",
+      "status": "complete",
+      "proved_scope": "The actual channel minimum Rényi entropy tends almost surely to the attained minimum on the actual output body. Matrix-entropy continuity, the spectral-body image equality, and the large-k expansion (with stronger O(k^-5/2) error) are proved for every fixed p>0, including p=1. The new HaarSequence endpoint supplies the proved convergence theorem for arbitrary admissible rank sequences.",
       "missing_for_paper_statement": [],
       "paper_assumptions": [
-        "For fixed k, p>0 and assumptions of III.1; for large k, fixed t in (0,1), p>0."
+        "For fixed k, p>0 and assumptions of III.1; for large k, fixed t in (0,1), p>0.",
+        "The block-modified convergence theorem and the Bernoulli free-sum law are proved. No external convergence premise is required by the new paper endpoint."
       ],
       "paper_dependencies": [
         "III.1",
@@ -205,20 +214,24 @@
       "title": "Limit of the Bell output",
       "pdf_text_line": 545,
       "entry_modules": [
+        "StrongConvergence.StrongConvergenceHaarPaperCorollaries",
         "BellOutput.RevisionBellTheorem"
       ],
       "declarations": [
+        "ProjectionChannels.HaarSequence.paper_bell_output_limit",
+        "ProjectionChannels.HaarSequence.paper_bell_output_and_purity_limit",
         "RevisionBell.bell_output_limit",
         "RevisionBell.bell_output_and_purity_limit",
         "RevisionBell.tensor_conjugate_bell_entry",
         "BellLimitVerification.bell_spectrum_identities",
         "BellLimitVerification.bell_spectrum_positive"
       ],
-      "status": "complete_under_permitted_black_box",
-      "proved_scope": "The genuine tensor-product/conjugate-channel Bell output converges almost surely in the matrix operator norm to the explicit isotropic density matrix. Every actual Choi entry, logarithmic potential, second-moment transfer, and polarization step is proved, and the local normalizer is the actual inverse marginal square root with eventual invertibility derived.",
+      "status": "complete",
+      "proved_scope": "The genuine tensor-product/conjugate-channel Bell output converges almost surely in the matrix operator norm to the explicit isotropic density matrix. Every actual Choi entry, logarithmic potential, second-moment transfer, and polarization step is proved, and the local normalizer is the actual inverse marginal square root with eventual invertibility derived. The new HaarSequence endpoint supplies the proved convergence theorem for arbitrary admissible rank sequences.",
       "missing_for_paper_statement": [],
       "paper_assumptions": [
-        "Fixed k>=2, t in (1/k^2,1), Haar projections with rank density tending to t."
+        "Fixed k>=2, t in (1/k^2,1), Haar projections with rank density tending to t.",
+        "The block-modified convergence theorem and the Bernoulli free-sum law are proved. No external convergence premise is required by the new paper endpoint."
       ],
       "paper_dependencies": [
         "A.3"
@@ -232,18 +245,21 @@
       "title": "Product-channel bound and Bell entropy expansion",
       "pdf_text_line": 593,
       "entry_modules": [
+        "StrongConvergence.StrongConvergenceHaarPaperCorollaries",
         "BellOutput.RevisionCorollaryIV"
       ],
       "declarations": [
+        "ProjectionChannels.HaarSequence.paper_product_entropy_limsup",
         "RevisionMatrixEntropy.corollary_IV_2_fixed_k",
         "RevisionMatrixEntropy.isotropic_entropy_eq_bell_spectrum",
         "RevisionMatrixEntropy.corollary_IV_2_asymptotics"
       ],
-      "status": "complete_under_permitted_black_box",
-      "proved_scope": "The actual tensor-product/conjugate-channel minimum entropy has limsup at most the explicit Bell-spectrum entropy. The Bell input is proved to be a density matrix, the witness bound and matrix-entropy continuity are proved, and the actual isotropic entropy has the stated expansion with stronger O(k^-4) error, for every p>0 including p=1.",
+      "status": "complete",
+      "proved_scope": "The actual tensor-product/conjugate-channel minimum entropy has limsup at most the explicit Bell-spectrum entropy. The Bell input is proved to be a density matrix, the witness bound and matrix-entropy continuity are proved, and the actual isotropic entropy has the stated expansion with stronger O(k^-4) error, for every p>0 including p=1. The new HaarSequence endpoint supplies the proved convergence theorem for arbitrary admissible rank sequences.",
       "missing_for_paper_statement": [],
       "paper_assumptions": [
-        "For fixed k, assumptions of IV.1 and p>0; asymptotic expansion fixed t in (0,1),p>0."
+        "For fixed k, assumptions of IV.1 and p>0; asymptotic expansion fixed t in (0,1),p>0.",
+        "The block-modified convergence theorem and the Bernoulli free-sum law are proved. No external convergence premise is required by the new paper endpoint."
       ],
       "paper_dependencies": [
         "IV.1",
@@ -283,18 +299,21 @@
       "title": "Second moments after local normalization",
       "pdf_text_line": 1217,
       "entry_modules": [
+        "StrongConvergence.StrongConvergenceHaarPaperCorollaries",
         "BellOutput.RevisionBellTheorem"
       ],
       "declarations": [
+        "ProjectionChannels.HaarSequence.paper_normalized_choi_mixed_moment_limit",
         "RevisionBell.normalized_choi_mixed_moment_limit",
         "RevisionBell.ae_normalized_choi_mixed_moments",
         "RevisionBell.ae_normalized_square_moment_limit"
       ],
-      "status": "complete_under_permitted_black_box",
-      "proved_scope": "The actual normalized Choi-block mixed moments converge to the explicit c0,c1 formula. The scalar logdet limit is derived from weak spectral convergence with a proved spectral gap; uniform finite differences, matrix norm contraction, real/complex polarization, and all common probability-one events are proved. The inverse-square-root normalizer and its eventual identity are instantiated in the canonical Bell theorem.",
+      "status": "complete",
+      "proved_scope": "The actual normalized Choi-block mixed moments converge to the explicit c0,c1 formula. The scalar logdet limit is derived from weak spectral convergence with a proved spectral gap; uniform finite differences, matrix norm contraction, real/complex polarization, and all common probability-one events are proved. The inverse-square-root normalizer and its eventual identity are instantiated in the canonical Bell theorem. The new HaarSequence endpoint supplies the proved convergence theorem for arbitrary admissible rank sequences.",
       "missing_for_paper_statement": [],
       "paper_assumptions": [
-        "Assumptions of IV.1; all finite indices i,j,p,q."
+        "Assumptions of IV.1; all finite indices i,j,p,q.",
+        "The block-modified convergence theorem and the Bernoulli free-sum law are proved. No external convergence premise is required by the new paper endpoint."
       ],
       "paper_dependencies": [
         "II.3",
@@ -309,17 +328,20 @@
       "title": "Asymptotic second Choi moment",
       "pdf_text_line": 1253,
       "entry_modules": [
+        "StrongConvergence.StrongConvergenceHaarPaperCorollaries",
         "BellOutput.RevisionBellTheorem"
       ],
       "declarations": [
+        "ProjectionChannels.HaarSequence.paper_choi_purity_limit",
         "RevisionBell.asymptotic_choi_purity",
         "RevisionBell.bell_output_and_purity_limit"
       ],
-      "status": "complete_under_permitted_black_box",
-      "proved_scope": "The almost-sure limit of the actual normalized full Choi purity is the exact rational coefficient alpha(k,t), for the actual inverse-square-root local normalizer. It follows by summing the proved actual mixed moments.",
+      "status": "complete",
+      "proved_scope": "The almost-sure limit of the actual normalized full Choi purity is the exact rational coefficient alpha(k,t), for the actual inverse-square-root local normalizer. It follows by summing the proved actual mixed moments. The new HaarSequence endpoint supplies the proved convergence theorem for arbitrary admissible rank sequences.",
       "missing_for_paper_statement": [],
       "paper_assumptions": [
-        "Assumptions of IV.1."
+        "Assumptions of IV.1.",
+        "The block-modified convergence theorem and the Bernoulli free-sum law are proved. No external convergence premise is required by the new paper endpoint."
       ],
       "paper_dependencies": [
         "A.3"
@@ -333,20 +355,23 @@
       "title": "Single-output and Bell-output asymptotics after antisymmetric postprocessing",
       "pdf_text_line": 638,
       "entry_modules": [
+        "StrongConvergence.StrongConvergenceHaarPaperCorollaries",
         "Antisymmetric.RevisionEntropyTheoremV"
       ],
       "declarations": [
+        "ProjectionChannels.HaarSequence.paper_antisymmetric_entropy_limits",
         "RevisionMain.theorem_V_1_fixed_k",
         "RevisionMain.theorem_V_1_single_asymptotics",
         "RevisionMain.theorem_V_1_bell_asymptotics",
         "RevisionMain.antisymmetricBellLimit_entropy"
       ],
-      "status": "complete_under_permitted_black_box",
-      "proved_scope": "Both actual fixed-k entropy limits and both actual large-k entropy expansions are assembled for the genuine CP/TP antisymmetric postprocessed channels. Fixed-k existence holds for every k>=r with k^2*t>1. The actual body minimum and actual postprocessed Bell matrix have the stated coefficients, with stronger O(k^-5/2) and O(k^-3) errors respectively, for all fixed p>0 including p=1.",
+      "status": "complete",
+      "proved_scope": "Both actual fixed-k entropy limits and both actual large-k entropy expansions are assembled for the genuine CP/TP antisymmetric postprocessed channels. Fixed-k existence holds for every k>=r with k^2*t>1. The actual body minimum and actual postprocessed Bell matrix have the stated coefficients, with stronger O(k^-5/2) and O(k^-3) errors respectively, for all fixed p>0 including p=1. The new HaarSequence endpoint supplies the proved convergence theorem for arbitrary admissible rank sequences.",
       "missing_for_paper_statement": [],
       "paper_assumptions": [
         "Fixed integer r>=1,t in (0,1),p>0; for each k>=r with k^2*t>1 take n->infinity first, then k->infinity.",
-        "In the final Lean wrappers, parameter r represents the paper particle count r+1, covering every positive integer particle count. The weighted Bell spectrum is used only in the eventually valid range k>=2(r+1)."
+        "In the final Lean wrappers, parameter r represents the paper particle count r+1, covering every positive integer particle count. The weighted Bell spectrum is used only in the eventually valid range k>=2(r+1).",
+        "The block-modified convergence theorem and the Bernoulli free-sum law are proved. No external convergence premise is required by the new paper endpoint."
       ],
       "paper_dependencies": [
         "III.1",
@@ -450,9 +475,12 @@
       "title": "Nonadditivity for every positive Renyi order",
       "pdf_text_line": 112,
       "entry_modules": [
+        "StrongConvergence.StrongConvergenceCanonicalPaperCorollaries",
         "Nonadditivity.RevisionMainTheorem"
       ],
       "declarations": [
+        "RevisionMain.theorem_I_1_unconditional",
+        "ProjectionChannels.Canonical.canonicalStrongInput",
         "RevisionMain.theorem_I_1",
         "AppendixB.main_coefficient_strict",
         "ProjectionChannels.Canonical.finiteEvaluation_measurePreserving",
@@ -460,11 +488,12 @@
         "ProjectionChannels.Canonical.projection_rank",
         "ProjectionChannels.Canonical.rank_density_tendsto"
       ],
-      "status": "complete_under_permitted_black_box",
-      "proved_scope": "For every real p>0, actual finite-dimensional complex-linear CP/TP channels Phi and conjugate Phi are constructed with strict nonadditivity of their actual minimum output Renyi entropies. The concrete independent Haar ensemble, finite-index choice, channel normalization, antisymmetric postprocessing, spectra, continuity, entropy limits, Bell witness bound, and conjugate-minimum equality are all proved. The only external input is CanonicalStrongInput, the permitted strong-convergence theorem on that explicit ensemble.",
+      "status": "complete",
+      "proved_scope": "For every real p>0, actual finite-dimensional complex-linear CP/TP channels Phi and conjugate Phi are constructed with strict nonadditivity of their actual minimum output Renyi entropies. The concrete independent Haar ensemble, finite-index choice, channel normalization, antisymmetric postprocessing, spectra, continuity, entropy limits, Bell witness bound, and conjugate-minimum equality are all proved. CanonicalStrongInput is now proved for that explicit ensemble; theorem_I_1_unconditional has only p>0 as its hypothesis.",
       "missing_for_paper_statement": [],
       "paper_assumptions": [
-        "For each real p>0. Channels and dimensions may depend on p. Choice r=5,t=1/376 in checked spectral proof."
+        "For each real p>0. Channels and dimensions may depend on p. Choice r=5,t=1/376 in checked spectral proof.",
+        "The block-modified convergence theorem and the Bernoulli free-sum law are proved. No external convergence premise is required by the new paper endpoint."
       ],
       "paper_dependencies": [
         "V.1"
@@ -479,23 +508,27 @@
       "title": "Certified output dimension 182",
       "pdf_text_line": 845,
       "entry_modules": [
+        "StrongConvergence.StrongConvergenceCanonicalPaperCorollaries",
         "Dimension182.RevisionPropositionVI",
         "Entropy.RevisionMatrixEntropyBody",
         "Dimension182.RevisionK182Minimizer",
         "Dimension182.K182Numerics"
       ],
       "declarations": [
+        "RevisionMatrixEntropy.exists_quantum_channels_182_unconditional",
+        "ProjectionChannels.Canonical.paper_eventual_nonadditivity_182",
         "RevisionMatrixEntropy.proposition_VI_1",
         "RevisionMatrixEntropy.proposition_VI_1_body",
         "RevisionMatrixEntropy.eventual_nonadditivity_182",
         "ProjectionChannels.RevisionK182.certified_entropy_gap_182",
         "ProjectionChannels.K182.certified_entropy_gap"
       ],
-      "status": "complete_under_permitted_black_box",
-      "proved_scope": "The exact paper inequality 477/10^6 < 2 min_{rho in K_182,t} S1(rho) − S1(Bell spectrum) is proved for the actual matrix output body, with attained minimum. All shape and numerical premises are discharged. It certifies k_high(1)<=182 and does not assert minimality. The accompanying finite-channel theorem derives eventual nonadditivity for the actual product/conjugate channels from the same permitted convergence input.",
+      "status": "complete",
+      "proved_scope": "The exact paper inequality 477/10^6 < 2 min_{rho in K_182,t} S1(rho) − S1(Bell spectrum) is proved for the actual matrix output body, with attained minimum. All shape and numerical premises are discharged. It certifies k_high(1)<=182 and does not assert minimality. The accompanying unconditional theorem provides actual finite-dimensional CP/TP channels with output dimension 182 and strict entropy gap greater than 477/10^6.",
       "missing_for_paper_statement": [],
       "paper_assumptions": [
-        "k=182, t=27/100000; L=162513/1000000, z=2077/2000 exact rationals."
+        "k=182, t=27/100000; L=162513/1000000, z=2077/2000 exact rationals.",
+        "The block-modified convergence theorem and the Bernoulli free-sum law are proved. No external convergence premise is required by the new paper endpoint."
       ],
       "paper_dependencies": [
         "C.1",

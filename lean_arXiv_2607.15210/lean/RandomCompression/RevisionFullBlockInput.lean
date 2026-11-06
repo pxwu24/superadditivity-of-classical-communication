@@ -2,7 +2,7 @@ import RandomCompression.RevisionBernoulliCompression
 import OutputStates.RevisionOutputUnitary
 
 /-!
-# The single permitted external input
+# The block-modified strong-convergence interface
 
 The full block-modified strong-convergence theorem supplies one and the same
 compact probability law for operator norms and empirical spectral measures.
@@ -10,7 +10,10 @@ Here weak convergence of the latter is expressed by bounded continuous real
 test functions, its standard definition. Deterministic unitary changes of
 output basis are included, as required by both Sections III and IV.
 
-This is a proposition supplied as a theorem parameter, never a Lean axiom.
+This proposition is proved for arbitrary admissible Haar projection sequences
+by `ProjectionChannels.HaarSequence.fullBlockModifiedStrongInput` in
+`StrongConvergence.StrongConvergenceHaarSequenceStrong`. It remains available
+as an interface for the generic downstream deductions.
 It contains no spectral-edge formula, logarithmic test, normalized Choi
 moment, entropy formula, or nonadditivity conclusion.
 -/

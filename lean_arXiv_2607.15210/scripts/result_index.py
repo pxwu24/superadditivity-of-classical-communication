@@ -99,6 +99,9 @@ def generate(include_readme=True):
                     continue
                 table += (f"| [{KINDS[number]} {number}](results/{number.replace('.', '_')}.md) | "
                           f"{title} |\n")
+            if marker == 'CONDITIONAL_TABLE' and not any(
+                    row['status'] == status for row in data['results']):
+                table = ''
             pattern = f'<!-- {marker}_START -->.*?<!-- {marker}_END -->'
             readme, matches = re.subn(pattern,
                 f'<!-- {marker}_START -->\n' + table + f'<!-- {marker}_END -->',
