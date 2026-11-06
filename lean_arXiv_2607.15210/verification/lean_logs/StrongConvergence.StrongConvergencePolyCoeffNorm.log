@@ -1,0 +1,6 @@
+'ProjectionChannels.StrongConvergence.coefficientMass_chebyshev_T_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.StrongConvergence.weighted_coefficientMass_le_of_interval_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

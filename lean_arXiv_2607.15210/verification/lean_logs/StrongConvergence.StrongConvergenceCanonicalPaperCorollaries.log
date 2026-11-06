@@ -1,0 +1,14 @@
+'RevisionMain.theorem_I_1_unconditional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'RevisionMatrixEntropy.exists_quantum_channels_182_unconditional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.paper_output_space_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.paper_bell_output_and_purity_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.paper_normalized_choi_mixed_moment_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.paper_antisymmetric_entropy_limits' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

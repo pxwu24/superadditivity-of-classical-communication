@@ -1,0 +1,12 @@
+'HaarProjection.haarProjectionLaw_eq_of_rank_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.HaarSequence.marginal_eq_canonical' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.HaarSequenceTransfer.ae_countable_tendsto_of_centered_tails' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.HaarSequenceTransfer.ae_tendsto_transfer_of_summable_centered' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.HaarSequence.localConjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.HaarSequence.ae_tendsto_of_canonical_centered_tails' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

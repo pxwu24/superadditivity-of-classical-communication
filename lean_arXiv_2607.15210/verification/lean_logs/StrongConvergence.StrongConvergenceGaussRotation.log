@@ -1,0 +1,17 @@
+lean/StrongConvergence/StrongConvergenceGaussRotation.lean:39:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.GaussConcentration.gaussianRotation_det_abs':
+  [FiniteDimensional ℝ V]
+  [MeasurableSpace V]
+  [BorelSpace V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ V] [MeasurableSpace V] [BorelSpace V] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+lean/StrongConvergence/StrongConvergenceGaussRotation.lean:51:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.GaussConcentration.gaussianRotation_energy':
+  [FiniteDimensional ℝ V]
+  [MeasurableSpace V]
+  [BorelSpace V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ V] [MeasurableSpace V] [BorelSpace V] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+'ProjectionChannels.GaussConcentration.gaussianRotation_measurePreserving' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

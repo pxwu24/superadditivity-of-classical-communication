@@ -1,0 +1,9 @@
+'ProjectionChannels.Canonical.expected_spectralTest_polynomial_tendsto_genus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.testRankCoefficient_zero_abs_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.testRankCoefficient_zero_nonneg' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

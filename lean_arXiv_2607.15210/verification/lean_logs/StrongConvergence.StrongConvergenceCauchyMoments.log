@@ -1,0 +1,2 @@
+'ProjectionChannels.hasSum_moment_resolvent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.realCauchyTransform_eq_moment_tsum' depends on axioms: [propext, Classical.choice, Quot.sound]

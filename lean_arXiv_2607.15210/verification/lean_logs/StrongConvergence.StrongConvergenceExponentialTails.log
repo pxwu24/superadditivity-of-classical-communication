@@ -1,0 +1,6 @@
+'StrongConvergenceProbability.tsum_tail_ne_top_of_exponential_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StrongConvergenceProbability.ae_tendsto_sub_mean_of_exponential_tails' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

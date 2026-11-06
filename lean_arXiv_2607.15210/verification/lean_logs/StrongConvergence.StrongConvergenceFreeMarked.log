@@ -1,0 +1,3 @@
+'ProjectionChannels.FreeMoments.markedCycleWeight_insert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.FreeMoments.markedCycleWeight_lift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.FreeMoments.markedCycleWeight_sum_right' depends on axioms: [propext, Classical.choice, Quot.sound]

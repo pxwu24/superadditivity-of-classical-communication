@@ -1,0 +1,10 @@
+Try this: ring_nf
+'ProjectionChannels.GaussConcentration.radialGaussian_mgf_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.GaussConcentration.radialGaussian_complex_norm_sq_upper' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.GaussConcentration.radialGaussian_complex_norm_sq_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

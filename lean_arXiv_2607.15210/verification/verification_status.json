@@ -2,9 +2,9 @@
   "status": "pass",
   "lean_version": "4.19.0",
   "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
-  "compiled_modules": 262,
-  "audited_declarations": 3059,
-  "audited_theorem_declarations_including_generated": 2648,
+  "compiled_modules": 344,
+  "audited_declarations": 4378,
+  "audited_theorem_declarations_including_generated": 3839,
   "allowed_axioms": [
     "propext",
     "Classical.choice",
@@ -24,7 +24,7 @@
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 4.153
+      "seconds": 3.509
     },
     {
       "module": "Entropy.Combinatorics",
@@ -34,7 +34,7 @@
         "Entropy.Defs"
       ],
       "exit_code": 0,
-      "seconds": 6.555
+      "seconds": 5.833
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetric",
@@ -46,7 +46,7 @@
         "Mathlib.Data.Matrix.Mul"
       ],
       "exit_code": 0,
-      "seconds": 4.247
+      "seconds": 3.962
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricBasis",
@@ -57,7 +57,7 @@
         "Mathlib.LinearAlgebra.Basis.Defs"
       ],
       "exit_code": 0,
-      "seconds": 3.3
+      "seconds": 3.192
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricTransport",
@@ -68,7 +68,7 @@
         "Mathlib.LinearAlgebra.Matrix.Spectrum"
       ],
       "exit_code": 0,
-      "seconds": 3.792
+      "seconds": 2.872
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricShuffling",
@@ -78,7 +78,7 @@
         "Antisymmetric.RevisionAntisymmetricTransport"
       ],
       "exit_code": 0,
-      "seconds": 5.573
+      "seconds": 4.114
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricProjection",
@@ -88,7 +88,7 @@
         "Antisymmetric.RevisionAntisymmetricShuffling"
       ],
       "exit_code": 0,
-      "seconds": 4.468
+      "seconds": 3.583
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricOrthonormal",
@@ -98,7 +98,7 @@
         "Antisymmetric.RevisionAntisymmetricProjection"
       ],
       "exit_code": 0,
-      "seconds": 4.329
+      "seconds": 3.547
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricRecursion",
@@ -109,7 +109,7 @@
         "Mathlib.GroupTheory.Perm.Fin"
       ],
       "exit_code": 0,
-      "seconds": 3.046
+      "seconds": 3.068
     },
     {
       "module": "Preliminaries.PreliminariesMatrix",
@@ -122,7 +122,7 @@
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 5.204
+      "seconds": 4.678
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricBellOperators",
@@ -134,7 +134,7 @@
         "Preliminaries.PreliminariesMatrix"
       ],
       "exit_code": 0,
-      "seconds": 3.822
+      "seconds": 3.628
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricLegMatrix",
@@ -144,7 +144,7 @@
         "Antisymmetric.RevisionAntisymmetricBellOperators"
       ],
       "exit_code": 0,
-      "seconds": 2.897
+      "seconds": 3.929
     },
     {
       "module": "Preliminaries.PreliminariesChoi",
@@ -154,7 +154,7 @@
         "Preliminaries.PreliminariesMatrix"
       ],
       "exit_code": 0,
-      "seconds": 4.212
+      "seconds": 3.627
     },
     {
       "module": "Preliminaries.CompletePositivity",
@@ -164,7 +164,7 @@
         "Preliminaries.PreliminariesChoi"
       ],
       "exit_code": 0,
-      "seconds": 5.873
+      "seconds": 5.147
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricSwap",
@@ -174,7 +174,7 @@
         "Antisymmetric.RevisionAntisymmetricLegMatrix"
       ],
       "exit_code": 0,
-      "seconds": 3.118
+      "seconds": 3.365
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricMatrixRecursion",
@@ -184,7 +184,7 @@
         "Antisymmetric.RevisionAntisymmetricSwap"
       ],
       "exit_code": 0,
-      "seconds": 2.674
+      "seconds": 3.001
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricPartialTrace",
@@ -194,7 +194,7 @@
         "Antisymmetric.RevisionAntisymmetricMatrixRecursion"
       ],
       "exit_code": 0,
-      "seconds": 4.039
+      "seconds": 4.112
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricNesting",
@@ -204,7 +204,7 @@
         "Antisymmetric.RevisionAntisymmetricPartialTrace"
       ],
       "exit_code": 0,
-      "seconds": 2.942
+      "seconds": 3.268
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricLadder",
@@ -214,7 +214,7 @@
         "Antisymmetric.RevisionAntisymmetricNesting"
       ],
       "exit_code": 0,
-      "seconds": 3.872
+      "seconds": 3.934
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricCoordinates",
@@ -224,7 +224,7 @@
         "Antisymmetric.RevisionAntisymmetricLadder"
       ],
       "exit_code": 0,
-      "seconds": 2.955
+      "seconds": 3.064
     },
     {
       "module": "Antisymmetric.RevisionSlaterReduction",
@@ -234,7 +234,7 @@
         "Antisymmetric.RevisionAntisymmetricCoordinates"
       ],
       "exit_code": 0,
-      "seconds": 4.863
+      "seconds": 4.583
     },
     {
       "module": "Preliminaries.PreliminariesLegendre",
@@ -248,7 +248,7 @@
         "Mathlib.Tactic.FieldSimp"
       ],
       "exit_code": 0,
-      "seconds": 30.792
+      "seconds": 26.663
     },
     {
       "module": "Preliminaries.PreliminariesAnalysis",
@@ -260,7 +260,7 @@
         "Mathlib.MeasureTheory.Measure.MeasureSpaceDef"
       ],
       "exit_code": 0,
-      "seconds": 3.737
+      "seconds": 3.491
     },
     {
       "module": "RandomCompression.CompressionSpectral",
@@ -272,7 +272,7 @@
         "Mathlib.LinearAlgebra.Matrix.Spectrum"
       ],
       "exit_code": 0,
-      "seconds": 3.576
+      "seconds": 3.632
     },
     {
       "module": "OutputStates.OutputSpaceMatrix",
@@ -282,7 +282,7 @@
         "RandomCompression.CompressionSpectral"
       ],
       "exit_code": 0,
-      "seconds": 2.718
+      "seconds": 3.916
     },
     {
       "module": "OutputStates.RevisionOutputChannel",
@@ -293,7 +293,7 @@
         "Preliminaries.PreliminariesChoi"
       ],
       "exit_code": 0,
-      "seconds": 3.677
+      "seconds": 3.779
     },
     {
       "module": "Entropy.OutputSpace",
@@ -307,7 +307,7 @@
         "Mathlib.MeasureTheory.Measure.MeasureSpaceDef"
       ],
       "exit_code": 0,
-      "seconds": 3.854
+      "seconds": 4.372
     },
     {
       "module": "OutputStates.RevisionOutputDuality",
@@ -321,7 +321,7 @@
         "Mathlib.Analysis.Normed.Module.FiniteDimension"
       ],
       "exit_code": 0,
-      "seconds": 4.885
+      "seconds": 4.684
     },
     {
       "module": "Entropy.OutputSpaceBody",
@@ -331,7 +331,7 @@
         "Entropy.OutputSpace"
       ],
       "exit_code": 0,
-      "seconds": 3.234
+      "seconds": 3.409
     },
     {
       "module": "OutputStates.OutputSpaceCompressionBridge",
@@ -342,7 +342,7 @@
         "Entropy.OutputSpaceBody"
       ],
       "exit_code": 0,
-      "seconds": 2.65
+      "seconds": 2.781
     },
     {
       "module": "OutputStates.RevisionOutputConvergence",
@@ -354,7 +354,7 @@
         "OutputStates.OutputSpaceCompressionBridge"
       ],
       "exit_code": 0,
-      "seconds": 5.712
+      "seconds": 4.189
     },
     {
       "module": "HaarProjections.HaarProjection",
@@ -366,7 +366,7 @@
         "Mathlib.LinearAlgebra.UnitaryGroup"
       ],
       "exit_code": 0,
-      "seconds": 5.649
+      "seconds": 4.374
     },
     {
       "module": "HaarProjections.HaarMeasure",
@@ -381,7 +381,7 @@
         "Mathlib.MeasureTheory.Constructions.Pi"
       ],
       "exit_code": 0,
-      "seconds": 23.535
+      "seconds": 17.819
     },
     {
       "module": "OutputStates.RevisionOutputUnitary",
@@ -392,7 +392,7 @@
         "HaarProjections.HaarMeasure"
       ],
       "exit_code": 0,
-      "seconds": 8.38
+      "seconds": 8.05
     },
     {
       "module": "OutputStates.RevisionOutputGeometry",
@@ -402,7 +402,7 @@
         "OutputStates.RevisionOutputUnitary"
       ],
       "exit_code": 0,
-      "seconds": 15.453
+      "seconds": 10.7
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricChannel",
@@ -417,7 +417,7 @@
         "Mathlib.LinearAlgebra.Trace"
       ],
       "exit_code": 0,
-      "seconds": 6.531
+      "seconds": 5.023
     },
     {
       "module": "Antisymmetric.RevisionSlaterGramCoordinates",
@@ -427,7 +427,7 @@
         "Antisymmetric.RevisionSlaterReduction"
       ],
       "exit_code": 0,
-      "seconds": 5.617
+      "seconds": 4.802
     },
     {
       "module": "Preliminaries.RevisionKrausVectorization",
@@ -439,7 +439,7 @@
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 2.998
+      "seconds": 3.284
     },
     {
       "module": "Antisymmetric.RevisionSlaterLadderCoordinates",
@@ -450,7 +450,7 @@
         "Preliminaries.RevisionKrausVectorization"
       ],
       "exit_code": 0,
-      "seconds": 4.072
+      "seconds": 3.439
     },
     {
       "module": "Entropy.BellMatrixIdentities",
@@ -460,7 +460,7 @@
         "Entropy.Defs"
       ],
       "exit_code": 0,
-      "seconds": 4.021
+      "seconds": 3.634
     },
     {
       "module": "Entropy.BellLimitCoefficients",
@@ -470,7 +470,7 @@
         "Entropy.Defs"
       ],
       "exit_code": 0,
-      "seconds": 6.33
+      "seconds": 5.359
     },
     {
       "module": "BellOutput.RevisionBellChannel",
@@ -483,7 +483,7 @@
         "Mathlib.Analysis.CStarAlgebra.Matrix"
       ],
       "exit_code": 0,
-      "seconds": 3.768
+      "seconds": 3.088
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricBellBridge",
@@ -496,7 +496,7 @@
         "BellOutput.RevisionBellChannel"
       ],
       "exit_code": 0,
-      "seconds": 4.609
+      "seconds": 5.007
     },
     {
       "module": "Antisymmetric.RevisionGramSpectrum",
@@ -510,7 +510,7 @@
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 5.732
+      "seconds": 6.298
     },
     {
       "module": "Antisymmetric.RevisionGramLadder",
@@ -522,7 +522,7 @@
         "Preliminaries.CompletePositivity"
       ],
       "exit_code": 0,
-      "seconds": 6.154
+      "seconds": 4.941
     },
     {
       "module": "Antisymmetric.RevisionSlaterWeightedLadder",
@@ -532,7 +532,7 @@
         "Antisymmetric.RevisionSlaterLadderCoordinates"
       ],
       "exit_code": 0,
-      "seconds": 4.317
+      "seconds": 3.954
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricWeightedBell",
@@ -544,7 +544,7 @@
         "Antisymmetric.RevisionSlaterWeightedLadder"
       ],
       "exit_code": 0,
-      "seconds": 3.477
+      "seconds": 3.687
     },
     {
       "module": "Antisymmetric.RevisionHermitianMultiplicity",
@@ -555,7 +555,7 @@
         "HaarProjections.HaarProjection"
       ],
       "exit_code": 0,
-      "seconds": 3.403
+      "seconds": 4.178
     },
     {
       "module": "Entropy.RevisionMatrixEntropy",
@@ -572,7 +572,7 @@
         "Entropy.Defs"
       ],
       "exit_code": 0,
-      "seconds": 7.017
+      "seconds": 5.487
     },
     {
       "module": "Entropy.RevisionMatrixEntropyConjugate",
@@ -583,7 +583,7 @@
         "Preliminaries.PreliminariesChoi"
       ],
       "exit_code": 0,
-      "seconds": 3.169
+      "seconds": 3.146
     },
     {
       "module": "Antisymmetric.RevisionSlaterSpectrum",
@@ -595,7 +595,7 @@
         "Entropy.Defs"
       ],
       "exit_code": 0,
-      "seconds": 2.746
+      "seconds": 2.862
     },
     {
       "module": "Entropy.Analysis",
@@ -605,7 +605,7 @@
         "Entropy.Defs"
       ],
       "exit_code": 0,
-      "seconds": 46.789
+      "seconds": 33.486
     },
     {
       "module": "Entropy.BellBounds",
@@ -615,7 +615,7 @@
         "Entropy.Combinatorics"
       ],
       "exit_code": 0,
-      "seconds": 17.496
+      "seconds": 9.236
     },
     {
       "module": "Entropy.BellGeneral",
@@ -626,7 +626,7 @@
         "Entropy.BellBounds"
       ],
       "exit_code": 0,
-      "seconds": 89.792
+      "seconds": 63.507
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricBellEntropy",
@@ -640,7 +640,7 @@
         "Entropy.BellGeneral"
       ],
       "exit_code": 0,
-      "seconds": 7.66
+      "seconds": 3.561
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricUnitary",
@@ -651,7 +651,7 @@
         "Entropy.RevisionMatrixEntropy"
       ],
       "exit_code": 0,
-      "seconds": 4.6
+      "seconds": 4.604
     },
     {
       "module": "OutputStates.RevisionOutputFunctionals",
@@ -661,7 +661,7 @@
         "OutputStates.RevisionOutputGeometry"
       ],
       "exit_code": 0,
-      "seconds": 3.499
+      "seconds": 3.574
     },
     {
       "module": "OutputStates.RevisionOutputStates",
@@ -673,7 +673,7 @@
         "Mathlib.Analysis.Matrix"
       ],
       "exit_code": 0,
-      "seconds": 2.386
+      "seconds": 2.805
     },
     {
       "module": "Entropy.Localization",
@@ -683,7 +683,7 @@
         "Entropy.Defs"
       ],
       "exit_code": 0,
-      "seconds": 18.236
+      "seconds": 12.589
     },
     {
       "module": "Entropy.SpikeArithmetic",
@@ -693,7 +693,7 @@
         "Entropy.Localization"
       ],
       "exit_code": 0,
-      "seconds": 18.841
+      "seconds": 17.241
     },
     {
       "module": "Entropy.Spike",
@@ -703,7 +703,7 @@
         "Entropy.SpikeArithmetic"
       ],
       "exit_code": 0,
-      "seconds": 20.231
+      "seconds": 15.25
     },
     {
       "module": "Entropy.Single",
@@ -716,7 +716,7 @@
         "Entropy.Spike"
       ],
       "exit_code": 0,
-      "seconds": 40.702
+      "seconds": 31.735
     },
     {
       "module": "Entropy.Infimum",
@@ -726,7 +726,7 @@
         "Entropy.Single"
       ],
       "exit_code": 0,
-      "seconds": 4.213
+      "seconds": 2.799
     },
     {
       "module": "Entropy.Minimum",
@@ -737,7 +737,7 @@
         "Mathlib.Analysis.SpecialFunctions.Pow.Continuity"
       ],
       "exit_code": 0,
-      "seconds": 8.25
+      "seconds": 5.288
     },
     {
       "module": "RandomCompression.BernoulliCalculus",
@@ -753,7 +753,7 @@
         "Mathlib.Analysis.SpecialFunctions.Pow.Real"
       ],
       "exit_code": 0,
-      "seconds": 9.766
+      "seconds": 4.45
     },
     {
       "module": "OutputStates.RevisionOutputBody",
@@ -769,7 +769,7 @@
         "Mathlib.Data.Matrix.DoublyStochastic"
       ],
       "exit_code": 0,
-      "seconds": 9.734
+      "seconds": 5.816
     },
     {
       "module": "OutputStates.RevisionOutputLimit",
@@ -780,7 +780,7 @@
         "OutputStates.RevisionOutputBody"
       ],
       "exit_code": 0,
-      "seconds": 3.681
+      "seconds": 3.872
     },
     {
       "module": "OutputStates.RevisionOutputTraceDistance",
@@ -790,7 +790,7 @@
         "OutputStates.RevisionOutputLimit"
       ],
       "exit_code": 0,
-      "seconds": 4.476
+      "seconds": 4.366
     },
     {
       "module": "RandomCompression.CauchyBernoulli",
@@ -802,7 +802,7 @@
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 4.527
+      "seconds": 3.852
     },
     {
       "module": "RandomCompression.CauchyHolomorphic",
@@ -815,7 +815,7 @@
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 4.565
+      "seconds": 3.09
     },
     {
       "module": "RandomCompression.SpectralEdge",
@@ -829,7 +829,7 @@
         "Mathlib.MeasureTheory.Measure.Lebesgue.Basic"
       ],
       "exit_code": 0,
-      "seconds": 4.964
+      "seconds": 4.455
     },
     {
       "module": "RandomCompression.CauchyLocalInverse",
@@ -842,7 +842,7 @@
         "Mathlib.Analysis.SpecificLimits.Basic"
       ],
       "exit_code": 0,
-      "seconds": 3.042
+      "seconds": 3.63
     },
     {
       "module": "RandomCompression.CauchyHolomorphy",
@@ -854,7 +854,7 @@
         "Mathlib.Analysis.Calculus.Deriv.Inv"
       ],
       "exit_code": 0,
-      "seconds": 4.153
+      "seconds": 3.744
     },
     {
       "module": "RandomCompression.CompressionEndpointGlue",
@@ -866,7 +866,7 @@
         "Mathlib.Analysis.Convex.Topology"
       ],
       "exit_code": 0,
-      "seconds": 4.505
+      "seconds": 4.514
     },
     {
       "module": "RandomCompression.RevisionBernoulliCauchy",
@@ -877,7 +877,7 @@
         "Mathlib.Analysis.Complex.RealDeriv"
       ],
       "exit_code": 0,
-      "seconds": 3.757
+      "seconds": 3.929
     },
     {
       "module": "RandomCompression.BernoulliDuality",
@@ -891,7 +891,7 @@
         "Mathlib.Tactic.FunProp"
       ],
       "exit_code": 0,
-      "seconds": 2.589
+      "seconds": 3.007
     },
     {
       "module": "RandomCompression.BernoulliEdgeCalculus",
@@ -901,7 +901,7 @@
         "RandomCompression.BernoulliDuality"
       ],
       "exit_code": 0,
-      "seconds": 2.469
+      "seconds": 2.892
     },
     {
       "module": "RandomCompression.BernoulliCriticalPoint",
@@ -912,7 +912,7 @@
         "Mathlib.Analysis.Calculus.LocalExtr.Basic"
       ],
       "exit_code": 0,
-      "seconds": 3.056
+      "seconds": 3.123
     },
     {
       "module": "RandomCompression.RevisionBernoulliEdge",
@@ -923,7 +923,7 @@
         "RandomCompression.BernoulliCriticalPoint"
       ],
       "exit_code": 0,
-      "seconds": 3.948
+      "seconds": 3.415
     },
     {
       "module": "RandomCompression.RevisionBernoulliLaw",
@@ -936,7 +936,7 @@
         "Mathlib.MeasureTheory.Function.EssSup"
       ],
       "exit_code": 0,
-      "seconds": 5.843
+      "seconds": 5.333
     },
     {
       "module": "RandomCompression.RevisionBernoulliHolomorphic",
@@ -949,7 +949,7 @@
         "Mathlib.Analysis.SpecialFunctions.Pow.Real"
       ],
       "exit_code": 0,
-      "seconds": 3.401
+      "seconds": 3.396
     },
     {
       "module": "RandomCompression.BlockModification",
@@ -960,7 +960,7 @@
         "Preliminaries.CompletePositivity"
       ],
       "exit_code": 0,
-      "seconds": 4.298
+      "seconds": 3.783
     },
     {
       "module": "RandomCompression.ProjectionStrongConvergence",
@@ -973,7 +973,7 @@
         "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Basic"
       ],
       "exit_code": 0,
-      "seconds": 4.627
+      "seconds": 4.507
     },
     {
       "module": "RandomCompression.RevisionBernoulliTensor",
@@ -985,7 +985,7 @@
         "Mathlib.Analysis.CStarAlgebra.Hom"
       ],
       "exit_code": 0,
-      "seconds": 3.193
+      "seconds": 3.45
     },
     {
       "module": "RandomCompression.CompressionExtension",
@@ -997,7 +997,7 @@
         "Mathlib.Analysis.Normed.Lp.PiLp"
       ],
       "exit_code": 0,
-      "seconds": 3.104
+      "seconds": 3.145
     },
     {
       "module": "RandomCompression.RevisionBernoulliCompression",
@@ -1012,7 +1012,7 @@
         "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Isometric"
       ],
       "exit_code": 0,
-      "seconds": 4.357
+      "seconds": 3.783
     },
     {
       "module": "OutputStates.RevisionOutputProbability",
@@ -1023,7 +1023,7 @@
         "RandomCompression.RevisionBernoulliCompression"
       ],
       "exit_code": 0,
-      "seconds": 4.547
+      "seconds": 4.895
     },
     {
       "module": "OutputStates.RevisionOutputEventual",
@@ -1033,18 +1033,18 @@
         "OutputStates.RevisionOutputProbability"
       ],
       "exit_code": 0,
-      "seconds": 3.245
+      "seconds": 3.0
     },
     {
       "module": "RandomCompression.RevisionFullBlockInput",
       "path": "lean/RandomCompression/RevisionFullBlockInput.lean",
-      "sha256": "24588eab6554597f3520874aa97f68db0423052b3ad631f4182dc7cde2931c47",
+      "sha256": "0212b09ee712cb4e7041a264c82f6c309448139ea4ad783c3d02feda2bb36d63",
       "imports": [
         "RandomCompression.RevisionBernoulliCompression",
         "OutputStates.RevisionOutputUnitary"
       ],
       "exit_code": 0,
-      "seconds": 2.446
+      "seconds": 2.828
     },
     {
       "module": "OutputStates.RevisionOutputTheorem",
@@ -1055,7 +1055,7 @@
         "RandomCompression.RevisionFullBlockInput"
       ],
       "exit_code": 0,
-      "seconds": 2.828
+      "seconds": 2.756
     },
     {
       "module": "OutputStates.RevisionOutputTraceGeometry",
@@ -1065,7 +1065,7 @@
         "OutputStates.RevisionOutputTraceDistance"
       ],
       "exit_code": 0,
-      "seconds": 3.37
+      "seconds": 3.404
     },
     {
       "module": "OutputStates.RevisionOutputMetricComparison",
@@ -1076,7 +1076,7 @@
         "OutputStates.RevisionOutputTraceGeometry"
       ],
       "exit_code": 0,
-      "seconds": 2.926
+      "seconds": 2.895
     },
     {
       "module": "OutputStates.RevisionEntropyHausdorff",
@@ -1086,7 +1086,7 @@
         "Entropy.OutputSpace"
       ],
       "exit_code": 0,
-      "seconds": 2.141
+      "seconds": 2.498
     },
     {
       "module": "OutputStates.RevisionOutputContinuousMinimum",
@@ -1097,7 +1097,7 @@
         "OutputStates.RevisionEntropyHausdorff"
       ],
       "exit_code": 0,
-      "seconds": 6.91
+      "seconds": 5.722
     },
     {
       "module": "Antisymmetric.RevisionAntisymmetricEntropy",
@@ -1110,7 +1110,7 @@
         "Entropy.Infimum"
       ],
       "exit_code": 0,
-      "seconds": 2.608
+      "seconds": 2.857
     },
     {
       "module": "BellOutput.RevisionBellSpectralGap",
@@ -1121,7 +1121,7 @@
         "OutputStates.RevisionOutputProbability"
       ],
       "exit_code": 0,
-      "seconds": 3.693
+      "seconds": 3.456
     },
     {
       "module": "BellOutput.RevisionBellPositiveLaw",
@@ -1131,7 +1131,7 @@
         "RandomCompression.RevisionBernoulliHolomorphic"
       ],
       "exit_code": 0,
-      "seconds": 3.863
+      "seconds": 3.074
     },
     {
       "module": "BellOutput.RevisionBellLogPotential",
@@ -1142,7 +1142,7 @@
         "Mathlib.Analysis.SpecialFunctions.Log.Deriv"
       ],
       "exit_code": 0,
-      "seconds": 3.799
+      "seconds": 3.474
     },
     {
       "module": "BellOutput.RevisionBellTraceConvergence",
@@ -1153,7 +1153,7 @@
         "Mathlib.Analysis.SpecialFunctions.Log.Basic"
       ],
       "exit_code": 0,
-      "seconds": 2.418
+      "seconds": 2.67
     },
     {
       "module": "Entropy.BellFiniteDifference",
@@ -1163,7 +1163,7 @@
         "Entropy.Analysis"
       ],
       "exit_code": 0,
-      "seconds": 7.797
+      "seconds": 6.244
     },
     {
       "module": "BellOutput.RevisionBellMatrixLog",
@@ -1176,7 +1176,7 @@
         "Mathlib.Analysis.Normed.Algebra.Spectrum"
       ],
       "exit_code": 0,
-      "seconds": 4.003
+      "seconds": 4.511
     },
     {
       "module": "BellOutput.RevisionBellContraction",
@@ -1191,7 +1191,7 @@
         "Mathlib.Analysis.CStarAlgebra.ContinuousFunctionalCalculus.Isometric"
       ],
       "exit_code": 0,
-      "seconds": 3.136
+      "seconds": 3.135
     },
     {
       "module": "BellOutput.RevisionBellPolarization",
@@ -1201,7 +1201,7 @@
         "BellOutput.RevisionBellChannel"
       ],
       "exit_code": 0,
-      "seconds": 6.143
+      "seconds": 5.764
     },
     {
       "module": "Entropy.BellLimitTransfer",
@@ -1211,7 +1211,7 @@
         "Entropy.Defs"
       ],
       "exit_code": 0,
-      "seconds": 3.788
+      "seconds": 4.038
     },
     {
       "module": "BellOutput.RevisionBellFiniteMoments",
@@ -1224,7 +1224,7 @@
         "Entropy.BellLimitTransfer"
       ],
       "exit_code": 0,
-      "seconds": 3.418
+      "seconds": 3.303
     },
     {
       "module": "BellOutput.RevisionBellLogConvergence",
@@ -1238,7 +1238,7 @@
         "BellOutput.RevisionBellFiniteMoments"
       ],
       "exit_code": 0,
-      "seconds": 3.542
+      "seconds": 2.85
     },
     {
       "module": "BellOutput.RevisionBellNegativeBranch",
@@ -1249,7 +1249,7 @@
         "BellOutput.RevisionBellLogPotential"
       ],
       "exit_code": 0,
-      "seconds": 3.402
+      "seconds": 3.209
     },
     {
       "module": "BellOutput.RevisionBellPrimitive",
@@ -1260,7 +1260,7 @@
         "Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus"
       ],
       "exit_code": 0,
-      "seconds": 3.96
+      "seconds": 3.23
     },
     {
       "module": "BellOutput.RevisionBellLogIdentity",
@@ -1270,7 +1270,7 @@
         "BellOutput.RevisionBellPrimitive"
       ],
       "exit_code": 0,
-      "seconds": 3.319
+      "seconds": 3.159
     },
     {
       "module": "BellOutput.RevisionBellHessian",
@@ -1281,7 +1281,7 @@
         "Entropy.BellLimitCoefficients"
       ],
       "exit_code": 0,
-      "seconds": 7.042
+      "seconds": 6.273
     },
     {
       "module": "BellOutput.RevisionBellImplicit",
@@ -1292,7 +1292,7 @@
         "Mathlib.Analysis.Calculus.InverseFunctionTheorem.ContDiff"
       ],
       "exit_code": 0,
-      "seconds": 5.148
+      "seconds": 5.274
     },
     {
       "module": "BellOutput.RevisionBellHessianResult",
@@ -1303,7 +1303,7 @@
         "BellOutput.RevisionBellPositiveLaw"
       ],
       "exit_code": 0,
-      "seconds": 4.287
+      "seconds": 3.846
     },
     {
       "module": "BellOutput.RevisionBellCentralDerivative",
@@ -1314,7 +1314,7 @@
         "Mathlib.Analysis.Calculus.LHopital"
       ],
       "exit_code": 0,
-      "seconds": 3.708
+      "seconds": 3.406
     },
     {
       "module": "BellOutput.RevisionBellNormalizedChoi",
@@ -1324,7 +1324,7 @@
         "BellOutput.RevisionBellFiniteMoments"
       ],
       "exit_code": 0,
-      "seconds": 3.65
+      "seconds": 2.75
     },
     {
       "module": "BellOutput.RevisionBellLimitFromMoments",
@@ -1334,7 +1334,7 @@
         "BellOutput.RevisionBellNormalizedChoi"
       ],
       "exit_code": 0,
-      "seconds": 3.589
+      "seconds": 3.078
     },
     {
       "module": "BellOutput.RevisionBellQuadraticLimit",
@@ -1348,7 +1348,7 @@
         "Mathlib.Analysis.SpecificLimits.Basic"
       ],
       "exit_code": 0,
-      "seconds": 3.535
+      "seconds": 3.4
     },
     {
       "module": "BellOutput.RevisionBellAEPPolarization",
@@ -1359,7 +1359,7 @@
         "Mathlib.MeasureTheory.Measure.MeasureSpace"
       ],
       "exit_code": 0,
-      "seconds": 4.102
+      "seconds": 3.432
     },
     {
       "module": "BellOutput.RevisionBellTheorem",
@@ -1371,7 +1371,7 @@
         "OutputStates.RevisionOutputTheorem"
       ],
       "exit_code": 0,
-      "seconds": 3.528
+      "seconds": 3.509
     },
     {
       "module": "Preliminaries.RevisionTensorChannels",
@@ -1382,7 +1382,7 @@
         "Preliminaries.CompletePositivity"
       ],
       "exit_code": 0,
-      "seconds": 3.485
+      "seconds": 3.236
     },
     {
       "module": "BellOutput.RevisionBellEntropyTransport",
@@ -1394,7 +1394,7 @@
         "Entropy.RevisionMatrixEntropyConjugate"
       ],
       "exit_code": 0,
-      "seconds": 8.053
+      "seconds": 6.019
     },
     {
       "module": "Dimension182.K182ShapeCalculus",
@@ -1405,7 +1405,7 @@
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 5.678
+      "seconds": 5.664
     },
     {
       "module": "Dimension182.RevisionK182Stationarity",
@@ -1418,7 +1418,7 @@
         "Mathlib.Analysis.SpecialFunctions.Log.Deriv"
       ],
       "exit_code": 0,
-      "seconds": 14.765
+      "seconds": 11.167
     },
     {
       "module": "Dimension182.K182Dual",
@@ -1431,7 +1431,7 @@
         "Mathlib.Tactic.NormNum"
       ],
       "exit_code": 0,
-      "seconds": 6.534
+      "seconds": 6.14
     },
     {
       "module": "Dimension182.K182Numerics",
@@ -1442,7 +1442,7 @@
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 9.093
+      "seconds": 7.842
     },
     {
       "module": "Dimension182.K182Entropy",
@@ -1456,7 +1456,7 @@
         "Dimension182.K182Numerics"
       ],
       "exit_code": 0,
-      "seconds": 4.676
+      "seconds": 4.395
     },
     {
       "module": "Dimension182.RevisionK182Multiplier",
@@ -1468,7 +1468,7 @@
         "Mathlib.Analysis.Calculus.LagrangeMultipliers"
       ],
       "exit_code": 0,
-      "seconds": 19.088
+      "seconds": 12.011
     },
     {
       "module": "Dimension182.RevisionK182BoundaryTools",
@@ -1482,7 +1482,7 @@
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 5.753
+      "seconds": 5.683
     },
     {
       "module": "Dimension182.RevisionK182Nonuniform",
@@ -1494,7 +1494,7 @@
         "Mathlib.Analysis.Convex.Jensen"
       ],
       "exit_code": 0,
-      "seconds": 5.319
+      "seconds": 3.647
     },
     {
       "module": "Dimension182.RevisionK182Compact",
@@ -1505,7 +1505,7 @@
         "Dimension182.K182Dual"
       ],
       "exit_code": 0,
-      "seconds": 3.608
+      "seconds": 2.865
     },
     {
       "module": "Dimension182.K182SecondVariation",
@@ -1518,7 +1518,7 @@
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 5.127
+      "seconds": 4.769
     },
     {
       "module": "Dimension182.RevisionK182Curve",
@@ -1529,7 +1529,7 @@
         "Dimension182.K182SecondVariation"
       ],
       "exit_code": 0,
-      "seconds": 6.281
+      "seconds": 4.528
     },
     {
       "module": "Dimension182.RevisionK182Descent",
@@ -1539,7 +1539,7 @@
         "Dimension182.K182SecondVariation"
       ],
       "exit_code": 0,
-      "seconds": 6.255
+      "seconds": 4.149
     },
     {
       "module": "Dimension182.RevisionK182RepeatedHigh",
@@ -1550,7 +1550,7 @@
         "Dimension182.RevisionK182Descent"
       ],
       "exit_code": 0,
-      "seconds": 9.601
+      "seconds": 8.123
     },
     {
       "module": "Dimension182.RevisionK182Normalization",
@@ -1561,7 +1561,7 @@
         "Dimension182.RevisionK182RepeatedHigh"
       ],
       "exit_code": 0,
-      "seconds": 4.331
+      "seconds": 3.538
     },
     {
       "module": "Dimension182.RevisionK182BirthCurve",
@@ -1572,7 +1572,7 @@
         "Dimension182.RevisionK182BoundaryTools"
       ],
       "exit_code": 0,
-      "seconds": 3.624
+      "seconds": 3.299
     },
     {
       "module": "Dimension182.RevisionK182BoundaryExclusion",
@@ -1583,7 +1583,7 @@
         "Dimension182.RevisionK182Descent"
       ],
       "exit_code": 0,
-      "seconds": 5.602
+      "seconds": 5.192
     },
     {
       "module": "Dimension182.RevisionK182BoundaryEqual",
@@ -1595,7 +1595,7 @@
         "Dimension182.RevisionK182Curve"
       ],
       "exit_code": 0,
-      "seconds": 9.046
+      "seconds": 7.351
     },
     {
       "module": "Dimension182.RevisionK182Minimizer",
@@ -1607,7 +1607,7 @@
         "Dimension182.RevisionK182BoundaryEqual"
       ],
       "exit_code": 0,
-      "seconds": 18.579
+      "seconds": 12.081
     },
     {
       "module": "Dimension182.RevisionK182EntropyMaximum",
@@ -1618,7 +1618,7 @@
         "Mathlib.Analysis.Convex.Jensen"
       ],
       "exit_code": 0,
-      "seconds": 7.599
+      "seconds": 6.476
     },
     {
       "module": "Dimension182.RevisionCoordinateCap",
@@ -1628,7 +1628,7 @@
         "Preliminaries.PreliminariesLegendre"
       ],
       "exit_code": 0,
-      "seconds": 24.066
+      "seconds": 19.813
     },
     {
       "module": "Dimension182.RevisionLemmaC1",
@@ -1640,7 +1640,7 @@
         "Entropy.Defs"
       ],
       "exit_code": 0,
-      "seconds": 10.911
+      "seconds": 9.613
     },
     {
       "module": "Entropy.RevisionMatrixEntropyBody",
@@ -1652,7 +1652,7 @@
         "Dimension182.RevisionLemmaC1"
       ],
       "exit_code": 0,
-      "seconds": 23.64
+      "seconds": 11.983
     },
     {
       "module": "Entropy.RevisionMatrixEntropyWitness",
@@ -1663,7 +1663,7 @@
         "Preliminaries.RevisionTensorChannels"
       ],
       "exit_code": 0,
-      "seconds": 9.759
+      "seconds": 5.608
     },
     {
       "module": "Antisymmetric.RevisionPostprocessingTransport",
@@ -1676,7 +1676,7 @@
         "Antisymmetric.RevisionAntisymmetricBellBridge"
       ],
       "exit_code": 0,
-      "seconds": 3.349
+      "seconds": 3.232
     },
     {
       "module": "Preliminaries.RevisionTensorComposition",
@@ -1686,7 +1686,7 @@
         "Preliminaries.RevisionTensorChannels"
       ],
       "exit_code": 0,
-      "seconds": 4.04
+      "seconds": 3.745
     },
     {
       "module": "Antisymmetric.RevisionPostprocessTensor",
@@ -1697,7 +1697,7 @@
         "Preliminaries.RevisionTensorComposition"
       ],
       "exit_code": 0,
-      "seconds": 5.214
+      "seconds": 3.338
     },
     {
       "module": "Entropy.MainCoefficient",
@@ -1709,7 +1709,7 @@
         "Mathlib.Analysis.Calculus.Deriv.MeanValue"
       ],
       "exit_code": 0,
-      "seconds": 10.627
+      "seconds": 7.816
     },
     {
       "module": "Entropy.MainSpectral",
@@ -1721,7 +1721,7 @@
         "Entropy.BellGeneral"
       ],
       "exit_code": 0,
-      "seconds": 7.052
+      "seconds": 5.966
     },
     {
       "module": "Nonadditivity.RevisionMainNonadditivity",
@@ -1732,7 +1732,7 @@
         "Entropy.MainSpectral"
       ],
       "exit_code": 0,
-      "seconds": 2.808
+      "seconds": 2.638
     },
     {
       "module": "Antisymmetric.RevisionPostprocessedBellLimit",
@@ -1743,7 +1743,7 @@
         "Nonadditivity.RevisionMainNonadditivity"
       ],
       "exit_code": 0,
-      "seconds": 3.18
+      "seconds": 3.002
     },
     {
       "module": "Antisymmetric.RevisionEntropyTheoremV",
@@ -1756,7 +1756,7 @@
         "Antisymmetric.RevisionAntisymmetricBellEntropy"
       ],
       "exit_code": 0,
-      "seconds": 2.59
+      "seconds": 3.062
     },
     {
       "module": "HaarProjections.ProjectionOrbit",
@@ -1768,7 +1768,7 @@
         "Mathlib.Tactic.Linarith"
       ],
       "exit_code": 0,
-      "seconds": 3.672
+      "seconds": 3.007
     },
     {
       "module": "Entropy.RevisionMatrixEntropyProjection",
@@ -1779,7 +1779,7 @@
         "HaarProjections.ProjectionOrbit"
       ],
       "exit_code": 0,
-      "seconds": 4.04
+      "seconds": 3.312
     },
     {
       "module": "Entropy.RevisionMatrixEntropyBell",
@@ -1790,7 +1790,7 @@
         "Preliminaries.RevisionTensorChannels"
       ],
       "exit_code": 0,
-      "seconds": 4.925
+      "seconds": 3.285
     },
     {
       "module": "Entropy.BellOne",
@@ -1801,7 +1801,7 @@
         "Entropy.BellBounds"
       ],
       "exit_code": 0,
-      "seconds": 27.601
+      "seconds": 16.511
     },
     {
       "module": "BellOutput.RevisionCorollaryIV",
@@ -1815,7 +1815,7 @@
         "Mathlib.Topology.Algebra.Order.LiminfLimsup"
       ],
       "exit_code": 0,
-      "seconds": 11.922
+      "seconds": 9.449
     },
     {
       "module": "Dimension182.RevisionPropositionVI",
@@ -1828,7 +1828,7 @@
         "Entropy.RevisionMatrixEntropyBell"
       ],
       "exit_code": 0,
-      "seconds": 17.986
+      "seconds": 12.185
     },
     {
       "module": "Dimension182.RevisionScalarCertificate",
@@ -1839,7 +1839,7 @@
         "Entropy.OutputSpaceBody"
       ],
       "exit_code": 0,
-      "seconds": 3.216
+      "seconds": 3.852
     },
     {
       "module": "Entropy.Bell",
@@ -1850,7 +1850,7 @@
         "Entropy.BellGeneral"
       ],
       "exit_code": 0,
-      "seconds": 2.086
+      "seconds": 2.632
     },
     {
       "module": "Entropy",
@@ -1880,7 +1880,7 @@
         "Entropy.OutputSpaceBody"
       ],
       "exit_code": 0,
-      "seconds": 3.236
+      "seconds": 2.536
     },
     {
       "module": "HaarProjections.GaussianRank",
@@ -1896,7 +1896,7 @@
         "Mathlib.Algebra.Polynomial.Roots"
       ],
       "exit_code": 0,
-      "seconds": 3.257
+      "seconds": 3.802
     },
     {
       "module": "HaarProjections.GaussianRadial",
@@ -1910,7 +1910,7 @@
         "Mathlib.Analysis.InnerProductSpace.LinearMap"
       ],
       "exit_code": 0,
-      "seconds": 4.251
+      "seconds": 3.517
     },
     {
       "module": "HaarProjections.GaussianUnitary",
@@ -1921,7 +1921,7 @@
         "Mathlib.Analysis.InnerProductSpace.LinearMap"
       ],
       "exit_code": 0,
-      "seconds": 4.927
+      "seconds": 3.961
     },
     {
       "module": "HaarProjections.GaussianMatrixLaw",
@@ -1933,7 +1933,7 @@
         "Mathlib.Analysis.InnerProductSpace.PiL2"
       ],
       "exit_code": 0,
-      "seconds": 4.933
+      "seconds": 4.717
     },
     {
       "module": "HaarProjections.GaussianWhitening",
@@ -1944,7 +1944,7 @@
         "HaarProjections.HaarMeasure"
       ],
       "exit_code": 0,
-      "seconds": 2.336
+      "seconds": 2.927
     },
     {
       "module": "HaarProjections.HaarOrbitUnique",
@@ -1955,7 +1955,7 @@
         "Mathlib.MeasureTheory.Integral.Prod"
       ],
       "exit_code": 0,
-      "seconds": 2.943
+      "seconds": 3.48
     },
     {
       "module": "HaarProjections.MatrixRankMeasurable",
@@ -1968,7 +1968,7 @@
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 2.83
+      "seconds": 3.012
     },
     {
       "module": "HaarProjections.HaarLocalSupport",
@@ -1981,7 +1981,7 @@
         "HaarProjections.MatrixRankMeasurable"
       ],
       "exit_code": 0,
-      "seconds": 3.167
+      "seconds": 2.892
     },
     {
       "module": "HaarProjections.HaarFullLocalSupport",
@@ -1992,18 +1992,18 @@
         "HaarProjections.GaussianMatrixLaw"
       ],
       "exit_code": 0,
-      "seconds": 2.66
+      "seconds": 3.359
     },
     {
       "module": "HaarProjections.RevisionCanonicalEnsemble",
       "path": "lean/HaarProjections/RevisionCanonicalEnsemble.lean",
-      "sha256": "00efd2856a1da22f72bdac3877884b24411a02a2942a7dd3dc2a59e2e4e27818",
+      "sha256": "94adcaf21523d2f8f09592e25e0a978987b7fa1531e06d164b9822adb553b5ad",
       "imports": [
         "RandomCompression.RevisionFullBlockInput",
         "Mathlib.Analysis.SpecificLimits.Basic"
       ],
       "exit_code": 0,
-      "seconds": 5.992
+      "seconds": 5.035
     },
     {
       "module": "Nonadditivity.RevisionMainExistence",
@@ -2014,7 +2014,7 @@
         "HaarProjections.RevisionCanonicalEnsemble"
       ],
       "exit_code": 0,
-      "seconds": 2.584
+      "seconds": 2.654
     },
     {
       "module": "Nonadditivity.RevisionMainTheorem",
@@ -2025,7 +2025,7 @@
         "Nonadditivity.RevisionMainExistence"
       ],
       "exit_code": 0,
-      "seconds": 9.355
+      "seconds": 7.302
     },
     {
       "module": "Preliminaries.RevisionTraceDuality",
@@ -2036,7 +2036,7 @@
         "OutputStates.RevisionOutputBody"
       ],
       "exit_code": 0,
-      "seconds": 4.01
+      "seconds": 3.611
     },
     {
       "module": "OutputStates.RevisionOutputTraceBalls",
@@ -2047,7 +2047,7 @@
         "Preliminaries.RevisionTraceDuality"
       ],
       "exit_code": 0,
-      "seconds": 3.529
+      "seconds": 3.199
     },
     {
       "module": "OutputStates.RevisionOutputHausdorff",
@@ -2058,7 +2058,7 @@
         "OutputStates.RevisionOutputMetricComparison"
       ],
       "exit_code": 0,
-      "seconds": 3.831
+      "seconds": 4.815
     },
     {
       "module": "Preliminaries.PaperFormalization",
@@ -2097,7 +2097,7 @@
         "RandomCompression.CauchyLocalInverse"
       ],
       "exit_code": 0,
-      "seconds": 2.105
+      "seconds": 3.602
     },
     {
       "module": "Preliminaries.Preliminaries",
@@ -2107,7 +2107,7 @@
         "Preliminaries.PaperFormalization"
       ],
       "exit_code": 0,
-      "seconds": 3.045
+      "seconds": 2.529
     },
     {
       "module": "RandomCompression.SuppliedBernoulliEdge",
@@ -2121,7 +2121,56 @@
         "Entropy.OutputSpace"
       ],
       "exit_code": 0,
-      "seconds": 11.172
+      "seconds": 9.047
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFreeCumulant",
+      "path": "lean/StrongConvergence/StrongConvergenceFreeCumulant.lean",
+      "sha256": "2f3e2ce3c965a6b0e5cdc01fbf61120a8000c6f72e202ad2885be71bfd4092db",
+      "imports": [
+        "Mathlib.RingTheory.PowerSeries.Basic",
+        "Mathlib.RingTheory.PowerSeries.NoZeroDivisors",
+        "Mathlib.RingTheory.MvPowerSeries.Substitution",
+        "Mathlib.Combinatorics.Enumerative.Catalan",
+        "Mathlib.Data.Nat.Choose.Bounds",
+        "Mathlib.Analysis.SpecificLimits.Normed",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 18.241
+    },
+    {
+      "module": "StrongConvergence.StrongConvergencePowerSeriesEvaluation",
+      "path": "lean/StrongConvergence/StrongConvergencePowerSeriesEvaluation.lean",
+      "sha256": "381217371e48fd98bd5ce28826496d4cceeb09a9d3cdc86c881aedfefceab51a",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFreeCumulant",
+        "Mathlib.Analysis.Normed.Ring.InfiniteSum",
+        "Mathlib.Topology.Algebra.InfiniteSum.Real"
+      ],
+      "exit_code": 0,
+      "seconds": 5.179
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceMomentCumulantRecurrence",
+      "path": "lean/StrongConvergence/StrongConvergenceMomentCumulantRecurrence.lean",
+      "sha256": "cf9f32a8e5b8cecc554362fca836c67ecc56ee69e0427d1600cd3a55a22d1a1b",
+      "imports": [
+        "StrongConvergence.StrongConvergencePowerSeriesEvaluation",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 3.168
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceBernoulliRecurrence",
+      "path": "lean/StrongConvergence/StrongConvergenceBernoulliRecurrence.lean",
+      "sha256": "9465285fcdfa3bc22237f183a9bea2ca8bd8e51ac4996878bc30b6c36e770e5f",
+      "imports": [
+        "StrongConvergence.StrongConvergenceMomentCumulantRecurrence"
+      ],
+      "exit_code": 0,
+      "seconds": 2.988
     },
     {
       "module": "StrongConvergence.StrongConvergenceBlockPolynomials",
@@ -2132,7 +2181,7 @@
         "Mathlib.Analysis.CStarAlgebra.Matrix"
       ],
       "exit_code": 0,
-      "seconds": 3.89
+      "seconds": 2.765
     },
     {
       "module": "StrongConvergence.StrongConvergenceBlockModification",
@@ -2142,7 +2191,7 @@
         "StrongConvergence.StrongConvergenceBlockPolynomials"
       ],
       "exit_code": 0,
-      "seconds": 4.854
+      "seconds": 3.573
     },
     {
       "module": "StrongConvergence.StrongConvergenceBlockMatrixUnits",
@@ -2153,7 +2202,7 @@
         "RandomCompression.RevisionBernoulliTensor"
       ],
       "exit_code": 0,
-      "seconds": 4.081
+      "seconds": 3.782
     },
     {
       "module": "StrongConvergence.StrongConvergenceBlockCompression",
@@ -2163,73 +2212,65 @@
         "StrongConvergence.StrongConvergenceBlockMatrixUnits"
       ],
       "exit_code": 0,
-      "seconds": 8.13
+      "seconds": 3.098
     },
     {
-      "module": "StrongConvergence.StrongConvergenceHaarMoment",
-      "path": "lean/StrongConvergence/StrongConvergenceHaarMoment.lean",
-      "sha256": "f7389eeaf99a5217d3cc5dfcee3f4c5cf6a6848ba1ecd5134b25a3c2f2724a07",
+      "module": "StrongConvergence.StrongConvergenceGaussMGF",
+      "path": "lean/StrongConvergence/StrongConvergenceGaussMGF.lean",
+      "sha256": "d5c6364e40399a4e6f75cfc9f7da6abcdf33fe17b18de56e427c6120275d685c",
       "imports": [
-        "HaarProjections.RevisionCanonicalEnsemble",
-        "RandomCompression.ProjectionStrongConvergence",
-        "HaarProjections.ProjectionOrbit",
-        "Mathlib.MeasureTheory.Group.Integral",
-        "Mathlib.MeasureTheory.Function.LocallyIntegrable"
+        "HaarProjections.GaussianRadial",
+        "Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap",
+        "Mathlib.Analysis.InnerProductSpace.Dual",
+        "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 17.339
+      "seconds": 7.779
     },
     {
-      "module": "StrongConvergence.StrongConvergenceHaarPairMoments",
-      "path": "lean/StrongConvergence/StrongConvergenceHaarPairMoments.lean",
-      "sha256": "ad564c1545e3f380392351166ccb15fafaaf247f22f13586a126379e89357911",
+      "module": "StrongConvergence.StrongConvergenceGaussRotation",
+      "path": "lean/StrongConvergence/StrongConvergenceGaussRotation.lean",
+      "sha256": "04b5ffcb4ddcb833b5bad1af895efec1e9b905a031986389f3d6d64e844030a7",
       "imports": [
-        "StrongConvergence.StrongConvergenceHaarMoment"
+        "HaarProjections.GaussianRadial",
+        "Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar",
+        "Mathlib.MeasureTheory.Measure.WithDensity",
+        "Mathlib.MeasureTheory.Group.Measure",
+        "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 10.465
+      "seconds": 5.3
     },
     {
-      "module": "StrongConvergence.StrongConvergenceHaarVariance",
-      "path": "lean/StrongConvergence/StrongConvergenceHaarVariance.lean",
-      "sha256": "10b2fb17089d45fe06cd3914a379f59bc8fc4d525fb7708b3aa2c8cc2654d113",
+      "module": "StrongConvergence.StrongConvergenceGaussMollify",
+      "path": "lean/StrongConvergence/StrongConvergenceGaussMollify.lean",
+      "sha256": "dc902ffb518c0ffc2701923e15735f55f7ff8a31a8e21bac3fd7bd50d5105932",
       "imports": [
-        "StrongConvergence.StrongConvergenceHaarPairMoments"
+        "Mathlib.Analysis.Calculus.BumpFunction.Convolution",
+        "Mathlib.Analysis.Calculus.FDeriv.Basic",
+        "Mathlib.MeasureTheory.Measure.Haar.InnerProductSpace",
+        "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 11.522
+      "seconds": 5.994
     },
     {
-      "module": "StrongConvergence.StrongConvergenceVarianceAlgebra",
-      "path": "lean/StrongConvergence/StrongConvergenceVarianceAlgebra.lean",
-      "sha256": "9bd3d8f15944b462669bd33e24ae12e2cad468ec9171cc9c0b496afb414c8d77",
+      "module": "StrongConvergence.StrongConvergenceGaussConcentration",
+      "path": "lean/StrongConvergence/StrongConvergenceGaussConcentration.lean",
+      "sha256": "958f5546e3a5e2f852f61bfa0f033396e0c02c6c01de5a9fbb5d6e15ffca50bb",
       "imports": [
-        "StrongConvergence.StrongConvergenceHaarMoment"
+        "StrongConvergence.StrongConvergenceGaussMGF",
+        "StrongConvergence.StrongConvergenceGaussRotation",
+        "StrongConvergence.StrongConvergenceGaussMollify",
+        "HaarProjections.GaussianRadial",
+        "Mathlib.Analysis.Convex.Integral",
+        "Mathlib.MeasureTheory.Integral.IntervalIntegral.FundThmCalculus",
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv",
+        "Mathlib.Probability.Moments.Basic",
+        "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 9.559
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceHaarVarianceResult",
-      "path": "lean/StrongConvergence/StrongConvergenceHaarVarianceResult.lean",
-      "sha256": "f4b3e3ecc6b5cf28fc46fdb96d0ca4071a77411e09aded36f8b5a2826bd79e99",
-      "imports": [
-        "StrongConvergence.StrongConvergenceHaarPairMoments",
-        "StrongConvergence.StrongConvergenceHaarVariance",
-        "StrongConvergence.StrongConvergenceVarianceAlgebra"
-      ],
-      "exit_code": 0,
-      "seconds": 15.749
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceCanonicalVariance",
-      "path": "lean/StrongConvergence/StrongConvergenceCanonicalVariance.lean",
-      "sha256": "a5ba1e36c030aba4b22e176e30d880d57db97dc86218a5196d104560062d57af",
-      "imports": [
-        "StrongConvergence.StrongConvergenceHaarVarianceResult"
-      ],
-      "exit_code": 0,
-      "seconds": 6.407
+      "seconds": 23.799
     },
     {
       "module": "StrongConvergence.StrongConvergenceNorm",
@@ -2240,7 +2281,7 @@
         "Mathlib.MeasureTheory.Integral.Bochner.Basic"
       ],
       "exit_code": 0,
-      "seconds": 18.819
+      "seconds": 12.909
     },
     {
       "module": "StrongConvergence.StrongConvergenceCompressionBounds",
@@ -2251,190 +2292,34 @@
         "RandomCompression.RevisionFullBlockInput"
       ],
       "exit_code": 0,
-      "seconds": 6.709
+      "seconds": 5.631
     },
     {
-      "module": "StrongConvergence.StrongConvergenceTensorPower",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean",
-      "sha256": "2fb74d57ca4d923d967b15aac3fc292abdbe964af4145c69eea16cf32f35fd84",
+      "module": "StrongConvergence.StrongConvergenceWhiteningLipschitz",
+      "path": "lean/StrongConvergence/StrongConvergenceWhiteningLipschitz.lean",
+      "sha256": "36549cafe5ccba449d5acfa77e2e3d6c5da1eb670d36f69822b8cec10f3a17fa",
       "imports": [
-        "Mathlib.LinearAlgebra.Matrix.Spectrum",
-        "Mathlib.Algebra.BigOperators.Ring.Finset"
+        "HaarProjections.GaussianMatrixLaw",
+        "HaarProjections.HaarProjection",
+        "StrongConvergence.StrongConvergenceCompressionBounds"
       ],
       "exit_code": 0,
-      "seconds": 5.405
+      "seconds": 28.42
     },
     {
-      "module": "StrongConvergence.StrongConvergenceTensorPhase",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean",
-      "sha256": "f0224321dac2f863003868686aa31401afccf27e0f2f7d352afdcc47d5e4c710",
+      "module": "StrongConvergence.StrongConvergenceCanonicalTails",
+      "path": "lean/StrongConvergence/StrongConvergenceCanonicalTails.lean",
+      "sha256": "260b308a4a5d2f6461ed560cb1a391027c14c865f1bbfdbd4b365af5d188684c",
       "imports": [
-        "StrongConvergence.StrongConvergenceTensorPower",
-        "Mathlib.Analysis.Complex.Circle",
-        "Mathlib.Algebra.Polynomial.Roots"
+        "StrongConvergence.StrongConvergenceGaussConcentration",
+        "StrongConvergence.StrongConvergenceWhiteningLipschitz",
+        "HaarProjections.RevisionCanonicalEnsemble",
+        "HaarProjections.HaarOrbitUnique",
+        "HaarProjections.ProjectionOrbit",
+        "Mathlib.Topology.MetricSpace.Lipschitz"
       ],
       "exit_code": 0,
-      "seconds": 5.231
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorComplexification",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorComplexification.lean",
-      "sha256": "ea009e399996e6801398abf0d2465860094dfcb398663069c9d2747a8f50e5f0",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorPhase",
-        "Mathlib.Algebra.Polynomial.Roots",
-        "Mathlib.Tactic"
-      ],
-      "exit_code": 0,
-      "seconds": 5.904
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorHaarIntegral",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorHaarIntegral.lean",
-      "sha256": "2e28302232d760a78950f77c2442e88df995ba4061d9381873b6bea7ce71f1bb",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorPower",
-        "StrongConvergence.StrongConvergenceHaarMoment"
-      ],
-      "exit_code": 0,
-      "seconds": 5.672
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorSpanning",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean",
-      "sha256": "a265f20d355698b54c6be79458e8dd0dc91d551508fa14ce1e4ee506654aad31",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorPower",
-        "Mathlib.Algebra.BigOperators.Group.Finset.Basic"
-      ],
-      "exit_code": 0,
-      "seconds": 3.078
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorPermutation",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean",
-      "sha256": "88885d72bd8d885a002f91548c9ca35b85d7798e27456ccfb61f3f703aca918e",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorSpanning"
-      ],
-      "exit_code": 0,
-      "seconds": 3.385
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorHaarTrace",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorHaarTrace.lean",
-      "sha256": "73e1cb2f010b81fc5004bfd865c334402af43114d3ca7f5bf978a7949a63ae41",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorHaarIntegral",
-        "StrongConvergence.StrongConvergenceTensorPermutation"
-      ],
-      "exit_code": 0,
-      "seconds": 5.907
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorGram",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean",
-      "sha256": "68021d7ddd7116dc9c474e67fd193addaf8bb1314213cc6e4246608c1d1f777c",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorSpanning",
-        "Mathlib.LinearAlgebra.Matrix.PosDef"
-      ],
-      "exit_code": 0,
-      "seconds": 4.594
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorCycles",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorCycles.lean",
-      "sha256": "56b1004231034873f10a40daf01ed804b547b5ad45c6fde3fab7964ffea2d642",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorPermutation",
-        "StrongConvergence.StrongConvergenceTensorGram",
-        "Mathlib.Logic.Relation",
-        "Mathlib.Data.Fintype.Quotient"
-      ],
-      "exit_code": 0,
-      "seconds": 4.347
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorProjection",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorProjection.lean",
-      "sha256": "45b3b7dda47556f6057974ca161b405cf42255f4c4311c7aeeb2818ced3cc02a",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorCycles",
-        "StrongConvergence.StrongConvergenceTensorHaarTrace",
-        "HaarProjections.ProjectionOrbit"
-      ],
-      "exit_code": 0,
-      "seconds": 7.585
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorWeingarten",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean",
-      "sha256": "c1113ab77ef3ef2b29715372deecafa3017e969e7c22ff0c5335fae5fb455136",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorComplexification",
-        "StrongConvergence.StrongConvergenceTensorHaarIntegral",
-        "StrongConvergence.StrongConvergenceTensorHaarTrace",
-        "StrongConvergence.StrongConvergenceTensorGram",
-        "StrongConvergence.StrongConvergenceTensorProjection"
-      ],
-      "exit_code": 0,
-      "seconds": 14.285
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceHaarSecondCompression",
-      "path": "lean/StrongConvergence/StrongConvergenceHaarSecondCompression.lean",
-      "sha256": "239ef9527c584f5e61285749ae85a40b6c04fcfb0889e575d37143f03120594b",
-      "imports": [
-        "StrongConvergence.StrongConvergenceHaarVarianceResult"
-      ],
-      "exit_code": 0,
-      "seconds": 16.444
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorBlockMoments",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorBlockMoments.lean",
-      "sha256": "bb322c7b0547b3dff1978a19b9671580c9f8acffb0dc7b0fd2839742d62bc757",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorWeingarten",
-        "StrongConvergence.StrongConvergenceHaarSecondCompression",
-        "Mathlib.Algebra.BigOperators.Fin"
-      ],
-      "exit_code": 0,
-      "seconds": 19.975
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorCompressionCycles",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorCompressionCycles.lean",
-      "sha256": "b3d12968a863553b189f17bac9cc8fe23f671011e3bdc0080107251bf2c2fe8f",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorBlockMoments",
-        "Mathlib.Logic.Equiv.Fin.Rotate"
-      ],
-      "exit_code": 0,
-      "seconds": 5.796
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceTensorCanonical",
-      "path": "lean/StrongConvergence/StrongConvergenceTensorCanonical.lean",
-      "sha256": "b7d0ed1964961f98d5677cf7ab9b893711ec5221ce78efaf854ca1cb432cae06",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorBlockMoments",
-        "StrongConvergence.StrongConvergenceTensorProjection",
-        "StrongConvergence.StrongConvergenceTensorCompressionCycles"
-      ],
-      "exit_code": 0,
-      "seconds": 11.048
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceFluctuationMoments",
-      "path": "lean/StrongConvergence/StrongConvergenceFluctuationMoments.lean",
-      "sha256": "ff37a27add347dfc6fbea4cda582fb64fab0ef720f0bf1028611d4a6e52172fd",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorCanonical"
-      ],
-      "exit_code": 0,
-      "seconds": 13.387
+      "seconds": 19.805
     },
     {
       "module": "StrongConvergence.StrongConvergenceProbability",
@@ -2449,338 +2334,115 @@
         "Mathlib.Topology.Algebra.Order.Field"
       ],
       "exit_code": 0,
-      "seconds": 3.092
+      "seconds": 2.462
     },
     {
-      "module": "StrongConvergence.StrongConvergenceVarianceBorelCantelli",
-      "path": "lean/StrongConvergence/StrongConvergenceVarianceBorelCantelli.lean",
-      "sha256": "44901f2f0a3cb854e8e8160bbec3a55aa88f0367effee5fb9b071c71e6966ce4",
+      "module": "StrongConvergence.StrongConvergenceExponentialTails",
+      "path": "lean/StrongConvergence/StrongConvergenceExponentialTails.lean",
+      "sha256": "df0ff37a1f264f9e42713a4351688b5c585beb470c155fed5360fed0acbdb2d6",
       "imports": [
         "StrongConvergence.StrongConvergenceProbability",
+        "Mathlib.Analysis.SpecialFunctions.Exp",
         "Mathlib.MeasureTheory.Integral.Bochner.Basic",
-        "Mathlib.Analysis.PSeries"
-      ],
-      "exit_code": 0,
-      "seconds": 3.694
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics",
-      "path": "lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean",
-      "sha256": "56e993e4295aeec990657b2ec058eecbe1004eead7cb2cdf0a870e07cd34f8db",
-      "imports": [
-        "Mathlib.Analysis.SpecificLimits.Basic",
-        "Mathlib.Tactic.FieldSimp",
-        "Mathlib.Tactic.Ring",
-        "Mathlib.Tactic.FunProp",
-        "Mathlib.Tactic.NormNum",
-        "Mathlib.Tactic.Positivity"
-      ],
-      "exit_code": 0,
-      "seconds": 15.533
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceFluctuationAEBase",
-      "path": "lean/StrongConvergence/StrongConvergenceFluctuationAEBase.lean",
-      "sha256": "73cb2de4b7b1466894d2c22f8f0a4d7d7acc8d81f2fb78b9351507e1834453c6",
-      "imports": [
-        "StrongConvergence.StrongConvergenceFluctuationMoments",
-        "StrongConvergence.StrongConvergenceHaarSecondCompression",
-        "StrongConvergence.StrongConvergenceVarianceBorelCantelli",
-        "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics"
-      ],
-      "exit_code": 0,
-      "seconds": 4.156
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceFluctuationWeights",
-      "path": "lean/StrongConvergence/StrongConvergenceFluctuationWeights.lean",
-      "sha256": "c764d2d3a49868442705877824713156c0c8b05ca1d1061d8ba7207c6861d24e",
-      "imports": [
-        "StrongConvergence.StrongConvergenceFluctuationMoments"
-      ],
-      "exit_code": 0,
-      "seconds": 4.984
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceFourthFinite",
-      "path": "lean/StrongConvergence/StrongConvergenceFourthFinite.lean",
-      "sha256": "7e662921fead065467c29775a50b39d01fa7cfd2b9d1bbda2d8ec720290ac67d",
-      "imports": [
-        "Mathlib.Data.Fintype.Perm",
-        "Mathlib.Data.Matrix.Notation"
-      ],
-      "exit_code": 0,
-      "seconds": 56.79
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceFluctuationFinite",
-      "path": "lean/StrongConvergence/StrongConvergenceFluctuationFinite.lean",
-      "sha256": "f32c5e59a9b706bbbd069b6dae257d6ff28c94b517431e3b19c2aeb234c3c0e7",
-      "imports": [
-        "StrongConvergence.StrongConvergenceFluctuationWeights",
-        "StrongConvergence.StrongConvergenceFourthFinite"
-      ],
-      "exit_code": 0,
-      "seconds": 9.397
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceFourthCoefficients",
-      "path": "lean/StrongConvergence/StrongConvergenceFourthCoefficients.lean",
-      "sha256": "126e167d6d818ad28113a4e68750e70b524386d2fcddd7eb609ddb147a621293",
-      "imports": [
-        "StrongConvergence.StrongConvergenceTensorWeingarten",
-        "StrongConvergence.StrongConvergenceFourthFinite",
-        "Mathlib.Tactic.FinCases",
-        "Mathlib.Tactic.FieldSimp",
-        "Mathlib.Tactic.Ring",
-        "Mathlib.Tactic.NormNum",
-        "Mathlib.Tactic.Linarith"
-      ],
-      "exit_code": 0,
-      "seconds": 31.044
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceFluctuationClasses",
-      "path": "lean/StrongConvergence/StrongConvergenceFluctuationClasses.lean",
-      "sha256": "d1999bbf39d834547ccf579a4880e3d4dbbb2a0becd82fedfb42136a9dca10ae",
-      "imports": [
-        "StrongConvergence.StrongConvergenceFluctuationFinite",
-        "StrongConvergence.StrongConvergenceFourthCoefficients"
-      ],
-      "exit_code": 0,
-      "seconds": 11.06
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceFourthNormalization",
-      "path": "lean/StrongConvergence/StrongConvergenceFourthNormalization.lean",
-      "sha256": "cb0910431257e18c338b26a91a4c0b5cd3ddb90ba4918ea004a2f761c6ff13bf",
-      "imports": [
-        "StrongConvergence.StrongConvergenceFourthCoefficients",
-        "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics"
-      ],
-      "exit_code": 0,
-      "seconds": 27.775
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceFluctuationAE",
-      "path": "lean/StrongConvergence/StrongConvergenceFluctuationAE.lean",
-      "sha256": "f483fbcdc697d0022ded869bf93cb9272267cf8b14772f2c926f14a7ea0d326e",
-      "imports": [
-        "StrongConvergence.StrongConvergenceFluctuationAEBase",
-        "StrongConvergence.StrongConvergenceFluctuationClasses",
-        "StrongConvergence.StrongConvergenceFourthNormalization"
-      ],
-      "exit_code": 0,
-      "seconds": 12.197
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceHaarFirstMomentAE",
-      "path": "lean/StrongConvergence/StrongConvergenceHaarFirstMomentAE.lean",
-      "sha256": "84a495adad68126b13cdc6a4ee2f4c048a56fc474bef2227393f3f32d6bbb37a",
-      "imports": [
-        "StrongConvergence.StrongConvergenceCanonicalVariance",
-        "StrongConvergence.StrongConvergenceVarianceBorelCantelli"
-      ],
-      "exit_code": 0,
-      "seconds": 6.83
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceMoments",
-      "path": "lean/StrongConvergence/StrongConvergenceMoments.lean",
-      "sha256": "d7d1f67bc0468f7b63f52197d9605b780627262c6cf44794543515eac86b3062",
-      "imports": [
-        "Mathlib.Topology.ContinuousMap.Weierstrass",
-        "Mathlib.MeasureTheory.Function.LocallyIntegrable",
-        "Mathlib.MeasureTheory.Integral.Bochner.Basic",
-        "Mathlib.Algebra.Polynomial.Eval.Degree",
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 3.439
+      "seconds": 4.245
     },
     {
-      "module": "StrongConvergence.StrongConvergenceMomentMeasures",
-      "path": "lean/StrongConvergence/StrongConvergenceMomentMeasures.lean",
-      "sha256": "eefa37fd3654a20b28aa5485524f3c23cbfe813255d3e5bf9680bd96d88cb037",
+      "module": "StrongConvergence.StrongConvergenceGaussMarginals",
+      "path": "lean/StrongConvergence/StrongConvergenceGaussMarginals.lean",
+      "sha256": "bca415ffff6107968f1e98e58847b958c2e3c3319c42838f8fd019caedd45a8b",
       "imports": [
-        "StrongConvergence.StrongConvergenceMoments",
-        "Mathlib.MeasureTheory.Measure.Dirac"
-      ],
-      "exit_code": 0,
-      "seconds": 3.263
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceMomentMatrices",
-      "path": "lean/StrongConvergence/StrongConvergenceMomentMatrices.lean",
-      "sha256": "4cc4634bf9c359851eb7541d42976774b5e5fdb673fdc613157d53a52157128e",
-      "imports": [
-        "StrongConvergence.StrongConvergenceMomentMeasures",
-        "Entropy.RevisionMatrixEntropy",
-        "Mathlib.Analysis.CStarAlgebra.Matrix"
-      ],
-      "exit_code": 0,
-      "seconds": 5.022
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceNormLower",
-      "path": "lean/StrongConvergence/StrongConvergenceNormLower.lean",
-      "sha256": "3c1dcc02e42194db013e8fa8a69c2f61e755fef1386e0e1b14c4b844e006d1ef",
-      "imports": [
-        "StrongConvergence.StrongConvergenceMomentMatrices",
-        "RandomCompression.SpectralEdge",
-        "Mathlib.Order.LiminfLimsup"
-      ],
-      "exit_code": 0,
-      "seconds": 20.782
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceNormProbability",
-      "path": "lean/StrongConvergence/StrongConvergenceNormProbability.lean",
-      "sha256": "70f62db95c854a84ed8fd29173cb815512e2d1444d5bce0d83f3657f0b6ec442",
-      "imports": [
-        "StrongConvergence.StrongConvergenceNorm",
-        "StrongConvergence.StrongConvergenceProbability",
-        "Mathlib.Topology.Algebra.Order.LiminfLimsup"
-      ],
-      "exit_code": 0,
-      "seconds": 15.15
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceMomentStrong",
-      "path": "lean/StrongConvergence/StrongConvergenceMomentStrong.lean",
-      "sha256": "9e540abe6ad7ef2f1c3605f8faee4d789e5e780ef71ec51c3a88be68922a2603",
-      "imports": [
-        "StrongConvergence.StrongConvergenceNormLower",
-        "StrongConvergence.StrongConvergenceNormProbability"
-      ],
-      "exit_code": 0,
-      "seconds": 7.441
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceOutlier",
-      "path": "lean/StrongConvergence/StrongConvergenceOutlier.lean",
-      "sha256": "0f10731f15c8313348c06c1d0275671d1f5c7a126bd12f0ca76c2d0a57db8726",
-      "imports": [
-        "StrongConvergence.StrongConvergenceNorm",
-        "Entropy.RevisionMatrixEntropy",
-        "Mathlib.Analysis.SpecificLimits.Basic"
-      ],
-      "exit_code": 0,
-      "seconds": 9.004
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceProbabilityDense",
-      "path": "lean/StrongConvergence/StrongConvergenceProbabilityDense.lean",
-      "sha256": "2d578803a53ff15c853a127e2de1f0ae7414018077de12ab7c7d44e34fd48d33",
-      "imports": [
-        "StrongConvergence.StrongConvergenceProbability",
-        "Preliminaries.PreliminariesAnalysis",
-        "Entropy.OutputSpace"
-      ],
-      "exit_code": 0,
-      "seconds": 4.018
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceProbabilityMoments",
-      "path": "lean/StrongConvergence/StrongConvergenceProbabilityMoments.lean",
-      "sha256": "5254634f34b57a76d3c14d95a54b1530237d2de50c0b097720e237dc1c0903b8",
-      "imports": [
-        "StrongConvergence.StrongConvergenceProbability",
-        "Mathlib.MeasureTheory.Integral.Lebesgue.Markov",
-        "Mathlib.MeasureTheory.Constructions.BorelSpace.Basic",
-        "Mathlib.Analysis.SpecificLimits.Normed",
+        "HaarProjections.GaussianMatrixLaw",
+        "Mathlib.MeasureTheory.Measure.CharacteristicFunction",
+        "Mathlib.MeasureTheory.Integral.Bochner.ContinuousLinearMap",
         "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 4.318
+      "seconds": 12.578
     },
     {
-      "module": "StrongConvergence.StrongConvergenceScalarLaw",
-      "path": "lean/StrongConvergence/StrongConvergenceScalarLaw.lean",
-      "sha256": "a86fcac040107b7411bd218dc08ae5da54c031029613ae1a83075609057c24b6",
+      "module": "StrongConvergence.StrongConvergenceGaussNormTails",
+      "path": "lean/StrongConvergence/StrongConvergenceGaussNormTails.lean",
+      "sha256": "f44f5c2c165ad5303e3f7daa88e803bf707ab14151e378c661ebc900af6e16e3",
       "imports": [
-        "RandomCompression.RevisionBernoulliLaw"
+        "StrongConvergence.StrongConvergenceGaussMGF",
+        "HaarProjections.GaussianMatrixLaw",
+        "Mathlib.Data.Complex.FiniteDimensional",
+        "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 4.358
+      "seconds": 13.515
     },
     {
-      "module": "StrongConvergence.StrongConvergenceScalarTrace",
-      "path": "lean/StrongConvergence/StrongConvergenceScalarTrace.lean",
-      "sha256": "8f70df50465f644ba10478f2c29daf5d884c87cbf1ea7903401c31b42b0b91c5",
+      "module": "StrongConvergence.StrongConvergenceSphereNet",
+      "path": "lean/StrongConvergence/StrongConvergenceSphereNet.lean",
+      "sha256": "3c443b9ebcc5b8f1e1541660055c06f4595c84420f3652e03f3eec1c06e30b1d",
       "imports": [
-        "HaarProjections.RevisionCanonicalEnsemble",
-        "Entropy.RevisionMatrixEntropy",
-        "HaarProjections.ProjectionOrbit",
-        "RandomCompression.ProjectionStrongConvergence"
+        "Mathlib.MeasureTheory.Measure.Lebesgue.EqHaar",
+        "Mathlib.Analysis.NormedSpace.OperatorNorm.Basic",
+        "Mathlib.Data.Nat.Find",
+        "Mathlib.Tactic"
       ],
       "exit_code": 0,
-      "seconds": 2.973
+      "seconds": 8.026
     },
     {
-      "module": "StrongConvergence.StrongConvergenceScalarMatrix",
-      "path": "lean/StrongConvergence/StrongConvergenceScalarMatrix.lean",
-      "sha256": "96655fb70e0534a2fa427de3598e4dfddcedffae50e2be6a58ee583fa7293bc3",
+      "module": "StrongConvergence.StrongConvergenceGaussGoodEvent",
+      "path": "lean/StrongConvergence/StrongConvergenceGaussGoodEvent.lean",
+      "sha256": "a3741a24a74a9a2dc9290e94095d8fac254d307f131e7f3f684625a46ad6d2ff",
       "imports": [
-        "HaarProjections.RevisionCanonicalEnsemble",
-        "HaarProjections.ProjectionOrbit"
+        "StrongConvergence.StrongConvergenceGaussMarginals",
+        "StrongConvergence.StrongConvergenceGaussNormTails",
+        "StrongConvergence.StrongConvergenceSphereNet",
+        "StrongConvergence.StrongConvergenceWhiteningLipschitz"
       ],
       "exit_code": 0,
-      "seconds": 49.665
+      "seconds": 19.775
     },
     {
-      "module": "StrongConvergence.StrongConvergenceScalarBridge",
-      "path": "lean/StrongConvergence/StrongConvergenceScalarBridge.lean",
-      "sha256": "051f89c715b24fb0bc9971d64d35839bae91f1497db816d23619bccb1879eb93",
+      "module": "StrongConvergence.StrongConvergenceTensorPower",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorPower.lean",
+      "sha256": "2fb74d57ca4d923d967b15aac3fc292abdbe964af4145c69eea16cf32f35fd84",
       "imports": [
-        "StrongConvergence.StrongConvergenceScalarMatrix",
-        "Entropy.RevisionMatrixEntropy"
+        "Mathlib.LinearAlgebra.Matrix.Spectrum",
+        "Mathlib.Algebra.BigOperators.Ring.Finset"
       ],
       "exit_code": 0,
-      "seconds": 3.899
+      "seconds": 3.932
     },
     {
-      "module": "StrongConvergence.StrongConvergenceScalar",
-      "path": "lean/StrongConvergence/StrongConvergenceScalar.lean",
-      "sha256": "37b7c1c065b6e7add53928b854b81906a0467bcab27cd2d78ba6a93bbd919b4a",
+      "module": "StrongConvergence.StrongConvergenceTensorSpanning",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorSpanning.lean",
+      "sha256": "a265f20d355698b54c6be79458e8dd0dc91d551508fa14ce1e4ee506654aad31",
       "imports": [
-        "StrongConvergence.StrongConvergenceScalarLaw",
-        "StrongConvergence.StrongConvergenceScalarTrace",
-        "StrongConvergence.StrongConvergenceScalarBridge"
+        "StrongConvergence.StrongConvergenceTensorPower",
+        "Mathlib.Algebra.BigOperators.Group.Finset.Basic"
       ],
       "exit_code": 0,
-      "seconds": 2.752
+      "seconds": 3.333
     },
     {
-      "module": "StrongConvergence.StrongConvergenceScalarProjectionTrace",
-      "path": "lean/StrongConvergence/StrongConvergenceScalarProjectionTrace.lean",
-      "sha256": "e6339fa857fed1dba2cc1fdf9c8a200f111d889e8229338bc8cb61b5c0bfd08b",
+      "module": "StrongConvergence.StrongConvergenceTensorPermutation",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorPermutation.lean",
+      "sha256": "88885d72bd8d885a002f91548c9ca35b85d7798e27456ccfb61f3f703aca918e",
       "imports": [
-        "StrongConvergence.StrongConvergenceScalarTrace"
+        "StrongConvergence.StrongConvergenceTensorSpanning"
       ],
       "exit_code": 0,
-      "seconds": 3.67
+      "seconds": 3.199
     },
     {
-      "module": "StrongConvergence.StrongConvergenceScalarProjection",
-      "path": "lean/StrongConvergence/StrongConvergenceScalarProjection.lean",
-      "sha256": "56a3f1e8eef187b79f803c7c4d1c132e99ae4aadab37908d5756323bdd6039f1",
+      "module": "StrongConvergence.StrongConvergenceTensorGram",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorGram.lean",
+      "sha256": "68021d7ddd7116dc9c474e67fd193addaf8bb1314213cc6e4246608c1d1f777c",
       "imports": [
-        "StrongConvergence.StrongConvergenceScalar",
-        "StrongConvergence.StrongConvergenceScalarProjectionTrace"
+        "StrongConvergence.StrongConvergenceTensorSpanning",
+        "Mathlib.LinearAlgebra.Matrix.PosDef"
       ],
       "exit_code": 0,
-      "seconds": 35.945
-    },
-    {
-      "module": "StrongConvergence.StrongConvergenceSpectralEstimate",
-      "path": "lean/StrongConvergence/StrongConvergenceSpectralEstimate.lean",
-      "sha256": "8102e61314bbd27c454d10fea80a0717c930a78cd09e46e9701650dbed3cec0d",
-      "imports": [
-        "StrongConvergence.StrongConvergenceCompressionBounds"
-      ],
-      "exit_code": 0,
-      "seconds": 12.977
+      "seconds": 4.217
     },
     {
       "module": "StrongConvergence.StrongConvergenceTensorGramBounds",
@@ -2793,7 +2455,19 @@
         "Mathlib.Data.Fintype.Perm"
       ],
       "exit_code": 0,
-      "seconds": 5.421
+      "seconds": 4.111
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceTensorPhase",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorPhase.lean",
+      "sha256": "f0224321dac2f863003868686aa31401afccf27e0f2f7d352afdcc47d5e4c710",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorPower",
+        "Mathlib.Analysis.Complex.Circle",
+        "Mathlib.Algebra.Polynomial.Roots"
+      ],
+      "exit_code": 0,
+      "seconds": 4.788
     },
     {
       "module": "StrongConvergence.StrongConvergenceTensorGramRow",
@@ -2809,7 +2483,7 @@
         "Mathlib.Data.Nat.Factorial.BigOperators"
       ],
       "exit_code": 0,
-      "seconds": 3.693
+      "seconds": 3.539
     },
     {
       "module": "StrongConvergence.StrongConvergenceTensorInverseBound",
@@ -2820,7 +2494,7 @@
         "Mathlib.Analysis.Matrix"
       ],
       "exit_code": 0,
-      "seconds": 8.355
+      "seconds": 3.99
     },
     {
       "module": "StrongConvergence.StrongConvergenceTensorInverseAsymptotics",
@@ -2831,7 +2505,181 @@
         "Mathlib.Analysis.SpecificLimits.Basic"
       ],
       "exit_code": 0,
-      "seconds": 15.412
+      "seconds": 8.557
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceTensorComplexification",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorComplexification.lean",
+      "sha256": "ea009e399996e6801398abf0d2465860094dfcb398663069c9d2747a8f50e5f0",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorPhase",
+        "Mathlib.Algebra.Polynomial.Roots",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 4.694
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceHaarMoment",
+      "path": "lean/StrongConvergence/StrongConvergenceHaarMoment.lean",
+      "sha256": "f7389eeaf99a5217d3cc5dfcee3f4c5cf6a6848ba1ecd5134b25a3c2f2724a07",
+      "imports": [
+        "HaarProjections.RevisionCanonicalEnsemble",
+        "RandomCompression.ProjectionStrongConvergence",
+        "HaarProjections.ProjectionOrbit",
+        "Mathlib.MeasureTheory.Group.Integral",
+        "Mathlib.MeasureTheory.Function.LocallyIntegrable"
+      ],
+      "exit_code": 0,
+      "seconds": 7.834
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorHaarIntegral.lean",
+      "sha256": "2e28302232d760a78950f77c2442e88df995ba4061d9381873b6bea7ce71f1bb",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorPower",
+        "StrongConvergence.StrongConvergenceHaarMoment"
+      ],
+      "exit_code": 0,
+      "seconds": 5.479
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceTensorHaarTrace",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorHaarTrace.lean",
+      "sha256": "73e1cb2f010b81fc5004bfd865c334402af43114d3ca7f5bf978a7949a63ae41",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+        "StrongConvergence.StrongConvergenceTensorPermutation"
+      ],
+      "exit_code": 0,
+      "seconds": 4.093
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceTensorCycles",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorCycles.lean",
+      "sha256": "56b1004231034873f10a40daf01ed804b547b5ad45c6fde3fab7964ffea2d642",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorPermutation",
+        "StrongConvergence.StrongConvergenceTensorGram",
+        "Mathlib.Logic.Relation",
+        "Mathlib.Data.Fintype.Quotient"
+      ],
+      "exit_code": 0,
+      "seconds": 3.296
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceTensorProjection",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorProjection.lean",
+      "sha256": "45b3b7dda47556f6057974ca161b405cf42255f4c4311c7aeeb2818ced3cc02a",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorCycles",
+        "StrongConvergence.StrongConvergenceTensorHaarTrace",
+        "HaarProjections.ProjectionOrbit"
+      ],
+      "exit_code": 0,
+      "seconds": 6.278
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceTensorWeingarten",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorWeingarten.lean",
+      "sha256": "c1113ab77ef3ef2b29715372deecafa3017e969e7c22ff0c5335fae5fb455136",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorComplexification",
+        "StrongConvergence.StrongConvergenceTensorHaarIntegral",
+        "StrongConvergence.StrongConvergenceTensorHaarTrace",
+        "StrongConvergence.StrongConvergenceTensorGram",
+        "StrongConvergence.StrongConvergenceTensorProjection"
+      ],
+      "exit_code": 0,
+      "seconds": 12.242
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceHaarPairMoments",
+      "path": "lean/StrongConvergence/StrongConvergenceHaarPairMoments.lean",
+      "sha256": "ad564c1545e3f380392351166ccb15fafaaf247f22f13586a126379e89357911",
+      "imports": [
+        "StrongConvergence.StrongConvergenceHaarMoment"
+      ],
+      "exit_code": 0,
+      "seconds": 7.731
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceHaarVariance",
+      "path": "lean/StrongConvergence/StrongConvergenceHaarVariance.lean",
+      "sha256": "10b2fb17089d45fe06cd3914a379f59bc8fc4d525fb7708b3aa2c8cc2654d113",
+      "imports": [
+        "StrongConvergence.StrongConvergenceHaarPairMoments"
+      ],
+      "exit_code": 0,
+      "seconds": 7.469
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceVarianceAlgebra",
+      "path": "lean/StrongConvergence/StrongConvergenceVarianceAlgebra.lean",
+      "sha256": "9bd3d8f15944b462669bd33e24ae12e2cad468ec9171cc9c0b496afb414c8d77",
+      "imports": [
+        "StrongConvergence.StrongConvergenceHaarMoment"
+      ],
+      "exit_code": 0,
+      "seconds": 5.637
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceHaarVarianceResult",
+      "path": "lean/StrongConvergence/StrongConvergenceHaarVarianceResult.lean",
+      "sha256": "f4b3e3ecc6b5cf28fc46fdb96d0ca4071a77411e09aded36f8b5a2826bd79e99",
+      "imports": [
+        "StrongConvergence.StrongConvergenceHaarPairMoments",
+        "StrongConvergence.StrongConvergenceHaarVariance",
+        "StrongConvergence.StrongConvergenceVarianceAlgebra"
+      ],
+      "exit_code": 0,
+      "seconds": 8.722
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceHaarSecondCompression",
+      "path": "lean/StrongConvergence/StrongConvergenceHaarSecondCompression.lean",
+      "sha256": "239ef9527c584f5e61285749ae85a40b6c04fcfb0889e575d37143f03120594b",
+      "imports": [
+        "StrongConvergence.StrongConvergenceHaarVarianceResult"
+      ],
+      "exit_code": 0,
+      "seconds": 13.118
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceTensorBlockMoments",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorBlockMoments.lean",
+      "sha256": "bb322c7b0547b3dff1978a19b9671580c9f8acffb0dc7b0fd2839742d62bc757",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "StrongConvergence.StrongConvergenceHaarSecondCompression",
+        "Mathlib.Algebra.BigOperators.Fin"
+      ],
+      "exit_code": 0,
+      "seconds": 8.723
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceTensorCompressionCycles",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorCompressionCycles.lean",
+      "sha256": "b3d12968a863553b189f17bac9cc8fe23f671011e3bdc0080107251bf2c2fe8f",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorBlockMoments",
+        "Mathlib.Logic.Equiv.Fin.Rotate"
+      ],
+      "exit_code": 0,
+      "seconds": 4.929
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceTensorCanonical",
+      "path": "lean/StrongConvergence/StrongConvergenceTensorCanonical.lean",
+      "sha256": "b7d0ed1964961f98d5677cf7ab9b893711ec5221ce78efaf854ca1cb432cae06",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorBlockMoments",
+        "StrongConvergence.StrongConvergenceTensorProjection",
+        "StrongConvergence.StrongConvergenceTensorCompressionCycles"
+      ],
+      "exit_code": 0,
+      "seconds": 11.927
     },
     {
       "module": "StrongConvergence.StrongConvergenceTensorMomentAsymptotics",
@@ -2842,7 +2690,629 @@
         "StrongConvergence.StrongConvergenceTensorCanonical"
       ],
       "exit_code": 0,
-      "seconds": 8.865
+      "seconds": 6.887
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusLength",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusLength.lean",
+      "sha256": "718d62440038e1cad365f26faaf16091c93dae1f219e2c0e766672aaf22e0743",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorMomentAsymptotics",
+        "Mathlib.LinearAlgebra.FiniteDimensional.Lemmas",
+        "Mathlib.GroupTheory.Perm.Fin"
+      ],
+      "exit_code": 0,
+      "seconds": 6.016
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusParity",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusParity.lean",
+      "sha256": "5a56757bc0063a5bf75df293c2a3521f0230844968c49484378b0c7cab0936ae",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusLength",
+        "Mathlib.Algebra.Ring.Commute"
+      ],
+      "exit_code": 0,
+      "seconds": 6.321
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusNeumann",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusNeumann.lean",
+      "sha256": "115acf4c1632b57d42044c4ff5df0cdad9eb527d55b7fdd2b290c4dbfc5c8320",
+      "imports": [
+        "Mathlib.Algebra.Polynomial.Coeff",
+        "Mathlib.Algebra.Polynomial.BigOperators",
+        "Mathlib.Data.Matrix.Basic",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 4.496
+    },
+    {
+      "module": "StrongConvergence.StrongConvergencePermutationNeumann",
+      "path": "lean/StrongConvergence/StrongConvergencePermutationNeumann.lean",
+      "sha256": "18a225d322416b46943e78d6eaa036386ec82390a599ad01fb8ac3cdc9e66af1",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusParity",
+        "StrongConvergence.StrongConvergenceGenusNeumann"
+      ],
+      "exit_code": 0,
+      "seconds": 9.0
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusRadius",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusRadius.lean",
+      "sha256": "d4c96248576a8a593061f383fb0aa310d62bcf5dbcb7f9fd86e2894c4f665df7",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorInverseAsymptotics",
+        "Mathlib.Algebra.BigOperators.Intervals",
+        "Mathlib.Algebra.Order.BigOperators.Ring.Finset",
+        "Mathlib.Algebra.Polynomial.Eval.Defs",
+        "Mathlib.Data.Real.Basic",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 9.1
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusExpansion",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusExpansion.lean",
+      "sha256": "8a52124c7234ef9058cb3ee9ac5314836871a5653fac82a57355b05fe0fedfb4",
+      "imports": [
+        "StrongConvergence.StrongConvergencePermutationNeumann",
+        "StrongConvergence.StrongConvergenceGenusRadius",
+        "Mathlib.Algebra.Polynomial.Div"
+      ],
+      "exit_code": 0,
+      "seconds": 11.792
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusTail",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusTail.lean",
+      "sha256": "4d207835df74602cebd27580dbf1ca670e0922bb5899318ce2fd2217cfc62b03",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusExpansion"
+      ],
+      "exit_code": 0,
+      "seconds": 6.147
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusTruncation",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusTruncation.lean",
+      "sha256": "dc668e418e3a69362ea1d3c35e110010ba836c71bdbda3783ec5fa2bb6ded225",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusTail"
+      ],
+      "exit_code": 0,
+      "seconds": 3.945
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusMomentBound",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusMomentBound.lean",
+      "sha256": "e272c374f1963599cbb737c43712127a8f89d5c260537da3ff2f5c474d0c5c14",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusTruncation"
+      ],
+      "exit_code": 0,
+      "seconds": 10.241
+    },
+    {
+      "module": "StrongConvergence.StrongConvergencePolyChebyshev",
+      "path": "lean/StrongConvergence/StrongConvergencePolyChebyshev.lean",
+      "sha256": "df984a7fc8958d011897f76d039ebdad4a670379dfc6b5533a0a02ca5ff3fedc",
+      "imports": [
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.Chebyshev",
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.Inverse",
+        "Mathlib.LinearAlgebra.Finsupp.LinearCombination",
+        "Mathlib.Algebra.Polynomial.Degree.Support",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 4.527
+    },
+    {
+      "module": "StrongConvergence.StrongConvergencePolyOrthogonality",
+      "path": "lean/StrongConvergence/StrongConvergencePolyOrthogonality.lean",
+      "sha256": "43231b800e7c5168924ed0e62565ac47d480718878cfa635e85c3fa1c60d609f",
+      "imports": [
+        "Mathlib.Analysis.SpecialFunctions.Integrals",
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.Chebyshev",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 7.614
+    },
+    {
+      "module": "StrongConvergence.StrongConvergencePolyMarkov",
+      "path": "lean/StrongConvergence/StrongConvergencePolyMarkov.lean",
+      "sha256": "b4a6fad7fa7823957ef4ef0fb9c27723471010e8aaf360d5c560b980eedc6c3b",
+      "imports": [
+        "StrongConvergence.StrongConvergencePolyChebyshev",
+        "StrongConvergence.StrongConvergencePolyOrthogonality",
+        "Mathlib.Analysis.Calculus.Deriv.Polynomial",
+        "Mathlib.Analysis.Calculus.MeanValue"
+      ],
+      "exit_code": 0,
+      "seconds": 10.383
+    },
+    {
+      "module": "StrongConvergence.StrongConvergencePolyMeshes",
+      "path": "lean/StrongConvergence/StrongConvergencePolyMeshes.lean",
+      "sha256": "6360ac37e750f8f2dcda11abdfab3983794c509ca282eb2304e0b54220da7b67",
+      "imports": [
+        "Mathlib.Algebra.Order.Floor.Semiring",
+        "Mathlib.Data.Real.Archimedean",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 10.961
+    },
+    {
+      "module": "StrongConvergence.StrongConvergencePolyInterpolation",
+      "path": "lean/StrongConvergence/StrongConvergencePolyInterpolation.lean",
+      "sha256": "8b72c685847c0927ebbd0d4abaee0b3a97c96cc503e601f13a4ca6bb18bafe72",
+      "imports": [
+        "StrongConvergence.StrongConvergencePolyMarkov",
+        "StrongConvergence.StrongConvergencePolyMeshes"
+      ],
+      "exit_code": 0,
+      "seconds": 8.55
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusCoefficients",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusCoefficients.lean",
+      "sha256": "e4e968786d9487a8dbcb1b902d27147c98aba6ef6b2b2d2ac876d1114d0edf0d",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusTail",
+        "StrongConvergence.StrongConvergenceGenusTruncation",
+        "StrongConvergence.StrongConvergencePolyInterpolation"
+      ],
+      "exit_code": 0,
+      "seconds": 5.568
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusMomentLimit",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusMomentLimit.lean",
+      "sha256": "bec9a1425decaa1e41c8cf0ff9459b1833e719a8b3cc08c9b4cc459154e169d1",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusMomentBound",
+        "StrongConvergence.StrongConvergenceGenusCoefficients"
+      ],
+      "exit_code": 0,
+      "seconds": 5.945
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceCanonicalConcentration",
+      "path": "lean/StrongConvergence/StrongConvergenceCanonicalConcentration.lean",
+      "sha256": "9cd2a63eca429e7a8d6724f1830fd8e8e590d6300590ac5301c3a08d624940cd",
+      "imports": [
+        "StrongConvergence.StrongConvergenceCanonicalTails",
+        "StrongConvergence.StrongConvergenceExponentialTails",
+        "StrongConvergence.StrongConvergenceGaussGoodEvent",
+        "StrongConvergence.StrongConvergenceGenusMomentLimit"
+      ],
+      "exit_code": 0,
+      "seconds": 17.209
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceRotationTransfer",
+      "path": "lean/StrongConvergence/StrongConvergenceRotationTransfer.lean",
+      "sha256": "71fac52d28898d9de8906f8f4ea9ac0d65f2237d51d318c8bf020fb1c30475fe",
+      "imports": [
+        "HaarProjections.RevisionCanonicalEnsemble",
+        "Mathlib.MeasureTheory.Group.Measure"
+      ],
+      "exit_code": 0,
+      "seconds": 9.954
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceEdgeBootstrap",
+      "path": "lean/StrongConvergence/StrongConvergenceEdgeBootstrap.lean",
+      "sha256": "d8ccefd7ea391c31afc7f6cef52df82321618a03ee2b0dc9c559fdd7eb9cc752",
+      "imports": [
+        "StrongConvergence.StrongConvergenceProbability",
+        "Mathlib.Topology.Instances.ENNReal.Lemmas",
+        "Mathlib.MeasureTheory.Measure.Typeclasses.Probability",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 4.192
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceSpectralEstimate",
+      "path": "lean/StrongConvergence/StrongConvergenceSpectralEstimate.lean",
+      "sha256": "8102e61314bbd27c454d10fea80a0717c930a78cd09e46e9701650dbed3cec0d",
+      "imports": [
+        "StrongConvergence.StrongConvergenceCompressionBounds"
+      ],
+      "exit_code": 0,
+      "seconds": 5.767
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceEdgeSandwich",
+      "path": "lean/StrongConvergence/StrongConvergenceEdgeSandwich.lean",
+      "sha256": "9e06669ea60150c8c217ce27f78aeeaab462a15fe8733a8ef14013ad7b9ab8dc",
+      "imports": [
+        "StrongConvergence.StrongConvergenceSpectralEstimate",
+        "Mathlib.Topology.Order.Compact"
+      ],
+      "exit_code": 0,
+      "seconds": 14.813
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceCanonicalEdgeConcentration",
+      "path": "lean/StrongConvergence/StrongConvergenceCanonicalEdgeConcentration.lean",
+      "sha256": "34d84d753443aca39141fb53e4279baa9ef7a12600a0bf2860ebae2cbefd2499",
+      "imports": [
+        "StrongConvergence.StrongConvergenceCanonicalConcentration",
+        "StrongConvergence.StrongConvergenceRotationTransfer",
+        "StrongConvergence.StrongConvergenceEdgeBootstrap",
+        "StrongConvergence.StrongConvergenceEdgeSandwich"
+      ],
+      "exit_code": 0,
+      "seconds": 13.259
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceMoments",
+      "path": "lean/StrongConvergence/StrongConvergenceMoments.lean",
+      "sha256": "d7d1f67bc0468f7b63f52197d9605b780627262c6cf44794543515eac86b3062",
+      "imports": [
+        "Mathlib.Topology.ContinuousMap.Weierstrass",
+        "Mathlib.MeasureTheory.Function.LocallyIntegrable",
+        "Mathlib.MeasureTheory.Integral.Bochner.Basic",
+        "Mathlib.Algebra.Polynomial.Eval.Degree",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 3.058
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceMomentLaw",
+      "path": "lean/StrongConvergence/StrongConvergenceMomentLaw.lean",
+      "sha256": "693200f22cc88327e9e26c83af8a78f6d382b228db14b91de5a1bc9e45ea7720",
+      "imports": [
+        "StrongConvergence.StrongConvergenceMoments",
+        "Mathlib.MeasureTheory.Integral.RieszMarkovKakutani.Real",
+        "Mathlib.Topology.Order.ProjIcc"
+      ],
+      "exit_code": 0,
+      "seconds": 4.812
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceMomentMeasures",
+      "path": "lean/StrongConvergence/StrongConvergenceMomentMeasures.lean",
+      "sha256": "eefa37fd3654a20b28aa5485524f3c23cbfe813255d3e5bf9680bd96d88cb037",
+      "imports": [
+        "StrongConvergence.StrongConvergenceMoments",
+        "Mathlib.MeasureTheory.Measure.Dirac"
+      ],
+      "exit_code": 0,
+      "seconds": 2.958
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceMomentMatrices",
+      "path": "lean/StrongConvergence/StrongConvergenceMomentMatrices.lean",
+      "sha256": "4cc4634bf9c359851eb7541d42976774b5e5fdb673fdc613157d53a52157128e",
+      "imports": [
+        "StrongConvergence.StrongConvergenceMomentMeasures",
+        "Entropy.RevisionMatrixEntropy",
+        "Mathlib.Analysis.CStarAlgebra.Matrix"
+      ],
+      "exit_code": 0,
+      "seconds": 3.014
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceSpectralLimitLaw",
+      "path": "lean/StrongConvergence/StrongConvergenceSpectralLimitLaw.lean",
+      "sha256": "fef62eaa65bc96e5ad5ac7ff4decf56321f6c20d26419819a3ef8546bedcec54",
+      "imports": [
+        "StrongConvergence.StrongConvergenceMomentLaw",
+        "StrongConvergence.StrongConvergenceMomentMatrices"
+      ],
+      "exit_code": 0,
+      "seconds": 4.293
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceSmoothChebyshev",
+      "path": "lean/StrongConvergence/StrongConvergenceSmoothChebyshev.lean",
+      "sha256": "08e928f1419053ac3844d847eb0c8a68f02d13e54d49eebf11e386f8a68363a6",
+      "imports": [
+        "Mathlib.Analysis.Fourier.AddCircle",
+        "Mathlib.Analysis.SpecialFunctions.Trigonometric.Deriv",
+        "Mathlib.Analysis.Calculus.IteratedDeriv.Lemmas",
+        "Mathlib.Analysis.PSeries",
+        "StrongConvergence.StrongConvergencePolyChebyshev",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 9.335
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceSmoothSeriesBound",
+      "path": "lean/StrongConvergence/StrongConvergenceSmoothSeriesBound.lean",
+      "sha256": "4d8b3257d61bf352998b4519a43270474320445d5c4252139a352f32941f4c63",
+      "imports": [
+        "Mathlib.Analysis.Normed.Group.InfiniteSum",
+        "Mathlib.MeasureTheory.Integral.DominatedConvergence",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 5.021
+    },
+    {
+      "module": "StrongConvergence.StrongConvergencePositiveQuadratic",
+      "path": "lean/StrongConvergence/StrongConvergencePositiveQuadratic.lean",
+      "sha256": "1297f948e5401c31b3fcd30365ab6d2b8839bd7cc4f9a7763867b941b008570f",
+      "imports": [
+        "Mathlib.Analysis.Calculus.MeanValue",
+        "Mathlib.Analysis.Calculus.Deriv.Polynomial",
+        "Mathlib.Analysis.Normed.Group.InfiniteSum",
+        "Mathlib.Analysis.SpecialFunctions.SmoothTransition",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.FunProp",
+        "Mathlib.Tactic.Linarith",
+        "Mathlib.Tactic.Ring"
+      ],
+      "exit_code": 0,
+      "seconds": 8.189
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceSmoothSpectralTests",
+      "path": "lean/StrongConvergence/StrongConvergenceSmoothSpectralTests.lean",
+      "sha256": "0d15a4d68a9515ce15db21e4f770d5a9f8960f72818ea0636425606b17ff2e11",
+      "imports": [
+        "StrongConvergence.StrongConvergenceSmoothChebyshev",
+        "StrongConvergence.StrongConvergenceSmoothSeriesBound",
+        "StrongConvergence.StrongConvergenceMomentMatrices",
+        "StrongConvergence.StrongConvergenceCompressionBounds",
+        "StrongConvergence.StrongConvergenceRotationTransfer",
+        "StrongConvergence.StrongConvergenceTensorCanonical",
+        "StrongConvergence.StrongConvergenceGenusExpansion",
+        "StrongConvergence.StrongConvergencePositiveQuadratic",
+        "Mathlib.Analysis.NormedSpace.FunctionSeries"
+      ],
+      "exit_code": 0,
+      "seconds": 17.339
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceCanonicalLimitLaw",
+      "path": "lean/StrongConvergence/StrongConvergenceCanonicalLimitLaw.lean",
+      "sha256": "c5526bc1a3f5fa5405845527e2a36748ec92285ac5fdd2446e1f44a26d1df417",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusCoefficients",
+        "StrongConvergence.StrongConvergenceCanonicalConcentration",
+        "StrongConvergence.StrongConvergenceSpectralLimitLaw",
+        "StrongConvergence.StrongConvergenceSmoothSpectralTests"
+      ],
+      "exit_code": 0,
+      "seconds": 9.742
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceNormLower",
+      "path": "lean/StrongConvergence/StrongConvergenceNormLower.lean",
+      "sha256": "3c1dcc02e42194db013e8fa8a69c2f61e755fef1386e0e1b14c4b844e006d1ef",
+      "imports": [
+        "StrongConvergence.StrongConvergenceMomentMatrices",
+        "RandomCompression.SpectralEdge",
+        "Mathlib.Order.LiminfLimsup"
+      ],
+      "exit_code": 0,
+      "seconds": 9.655
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceEdgeSupport",
+      "path": "lean/StrongConvergence/StrongConvergenceEdgeSupport.lean",
+      "sha256": "0fc52a3a5ed8d988f556d5f390095f14f0aa721b9dd9afb6b80a7be81e523342",
+      "imports": [
+        "StrongConvergence.StrongConvergenceNormLower",
+        "StrongConvergence.StrongConvergenceEdgeSandwich",
+        "RandomCompression.RevisionBernoulliLaw"
+      ],
+      "exit_code": 0,
+      "seconds": 8.346
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceReflectedLaw",
+      "path": "lean/StrongConvergence/StrongConvergenceReflectedLaw.lean",
+      "sha256": "d281ad91d5e1ba168889a1bf34b35fcd1bd3cc2950ee1bbb30ed8d62bbda8993",
+      "imports": [
+        "StrongConvergence.StrongConvergenceCanonicalLimitLaw",
+        "StrongConvergence.StrongConvergenceEdgeSandwich",
+        "StrongConvergence.StrongConvergenceEdgeSupport"
+      ],
+      "exit_code": 0,
+      "seconds": 13.306
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceChebyshevDegree",
+      "path": "lean/StrongConvergence/StrongConvergenceChebyshevDegree.lean",
+      "sha256": "0975042b115b13727fca7383dd13f12b9f026f8d7f3aa21a0ac0786202fd3b73",
+      "imports": [
+        "StrongConvergence.StrongConvergenceSmoothSpectralTests"
+      ],
+      "exit_code": 0,
+      "seconds": 3.094
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusLimitTests",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusLimitTests.lean",
+      "sha256": "8018c348ebf86c48be42ae4dc2b60f185d0fa518f35a5c74f41eddd97a118acb",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusMomentLimit",
+        "StrongConvergence.StrongConvergenceSmoothSpectralTests"
+      ],
+      "exit_code": 0,
+      "seconds": 10.784
+    },
+    {
+      "module": "StrongConvergence.StrongConvergencePolyCoeffNorm",
+      "path": "lean/StrongConvergence/StrongConvergencePolyCoeffNorm.lean",
+      "sha256": "6194a91d51dc3151ea26d521a9b750dcfe6783d16c41fa1ba48d5bb0c518dc78",
+      "imports": [
+        "StrongConvergence.StrongConvergencePolyChebyshev",
+        "StrongConvergence.StrongConvergencePolyOrthogonality",
+        "Mathlib.RingTheory.Polynomial.Chebyshev",
+        "Mathlib.Algebra.Polynomial.Eval.Degree",
+        "Mathlib.Analysis.Normed.Group.InfiniteSum",
+        "Mathlib.Topology.Algebra.InfiniteSum.NatInt",
+        "Mathlib.Topology.Algebra.InfiniteSum.Ring",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 6.663
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusTestBound",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusTestBound.lean",
+      "sha256": "bb7c976445881af0f987c46096045774e53ddcd48ec8307071ccb4e7c67ec768",
+      "imports": [
+        "StrongConvergence.StrongConvergencePolyCoeffNorm",
+        "StrongConvergence.StrongConvergenceGenusCoefficients",
+        "StrongConvergence.StrongConvergenceGenusMomentBound",
+        "StrongConvergence.StrongConvergenceSmoothSpectralTests"
+      ],
+      "exit_code": 0,
+      "seconds": 6.802
+    },
+    {
+      "module": "StrongConvergence.StrongConvergencePolyMaster",
+      "path": "lean/StrongConvergence/StrongConvergencePolyMaster.lean",
+      "sha256": "18e8edc8f33d2fa7e04d33308359cef44e324ca4b3af4ab3a88b13428b2fd4f2",
+      "imports": [
+        "StrongConvergence.StrongConvergencePolyInterpolation"
+      ],
+      "exit_code": 0,
+      "seconds": 14.113
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusMaster",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusMaster.lean",
+      "sha256": "7be0f80961434c9b884c447d459a4bafb30c264172193fda3210a5aaad20a701",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusTestBound",
+        "StrongConvergence.StrongConvergencePolyMaster"
+      ],
+      "exit_code": 0,
+      "seconds": 9.644
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceSmoothLimit",
+      "path": "lean/StrongConvergence/StrongConvergenceSmoothLimit.lean",
+      "sha256": "dd1882cbdea8bc97cee08dcfc5bd7e9514a62fe5d409f18c08b45c11ccb2c3c7",
+      "imports": [
+        "StrongConvergence.StrongConvergenceChebyshevDegree",
+        "StrongConvergence.StrongConvergenceGenusLimitTests",
+        "StrongConvergence.StrongConvergenceGenusMaster",
+        "Mathlib.Analysis.Normed.Group.Tannery"
+      ],
+      "exit_code": 0,
+      "seconds": 6.795
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceRankDensityBound",
+      "path": "lean/StrongConvergence/StrongConvergenceRankDensityBound.lean",
+      "sha256": "977c0d408c8af999db9c8197aa0739bf949dfcfddaf5412ef820c43dda4d0c1e",
+      "imports": [
+        "HaarProjections.RevisionCanonicalEnsemble",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 3.904
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceSmoothMaster",
+      "path": "lean/StrongConvergence/StrongConvergenceSmoothMaster.lean",
+      "sha256": "40fb81627f2c1185ee8cfdbdd4a4c05011ad197a7f473670b14d337e8de93760",
+      "imports": [
+        "StrongConvergence.StrongConvergenceSmoothLimit",
+        "StrongConvergence.StrongConvergenceRankDensityBound"
+      ],
+      "exit_code": 0,
+      "seconds": 6.542
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusDerivatives",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusDerivatives.lean",
+      "sha256": "0f0233c2836057dcf194be8208bb7f02090bc637410007a84f88c6ca963e3844",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusLimitTests",
+        "StrongConvergence.StrongConvergencePolyMarkov",
+        "StrongConvergence.StrongConvergencePositiveQuadratic"
+      ],
+      "exit_code": 0,
+      "seconds": 5.87
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceSmoothEdge",
+      "path": "lean/StrongConvergence/StrongConvergenceSmoothEdge.lean",
+      "sha256": "28a6617cab92da3b0488481932f599c2f93510a2976f8cb865db306b804f6287",
+      "imports": [
+        "StrongConvergence.StrongConvergenceSmoothMaster",
+        "StrongConvergence.StrongConvergenceGenusDerivatives",
+        "StrongConvergence.StrongConvergenceRankDensityBound",
+        "RandomCompression.RevisionBernoulliLaw"
+      ],
+      "exit_code": 0,
+      "seconds": 11.904
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceCanonicalStrongLimit",
+      "path": "lean/StrongConvergence/StrongConvergenceCanonicalStrongLimit.lean",
+      "sha256": "590bbf8a85f16ff2775f20fae7e8df13e7daa35d23514a05bfbcd9a0a65a2382",
+      "imports": [
+        "StrongConvergence.StrongConvergenceCanonicalLimitLaw",
+        "StrongConvergence.StrongConvergenceReflectedLaw",
+        "StrongConvergence.StrongConvergenceSmoothEdge",
+        "StrongConvergence.StrongConvergenceCanonicalEdgeConcentration",
+        "StrongConvergence.StrongConvergenceEdgeSupport",
+        "StrongConvergence.StrongConvergenceRotationTransfer"
+      ],
+      "exit_code": 0,
+      "seconds": 6.793
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFreeOrder",
+      "path": "lean/StrongConvergence/StrongConvergenceFreeOrder.lean",
+      "sha256": "6610a49accac291d2b95b92b5c7db7d92f19e8f8f88e932d3f9a7292753beb00",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusParity",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 9.73
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFreePeel",
+      "path": "lean/StrongConvergence/StrongConvergenceFreePeel.lean",
+      "sha256": "97b5f5f151604b4b74f4092affeaa6092e0697d369ff92a8f14dd280f4a6739d",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFreeOrder"
+      ],
+      "exit_code": 0,
+      "seconds": 6.225
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFreeMoments",
+      "path": "lean/StrongConvergence/StrongConvergenceFreeMoments.lean",
+      "sha256": "bd69996b3adf65c2c573006b238b1242eff635ece2b16e9a6d315fd62aad44f4",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFreePeel",
+        "StrongConvergence.StrongConvergenceFreeCumulant"
+      ],
+      "exit_code": 0,
+      "seconds": 5.316
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusLeading",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusLeading.lean",
+      "sha256": "fccd6bf03be77a189ddc5d10ffff32de7a7602069b3affd981194ca1576a5ed6",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusCoefficients",
+        "StrongConvergence.StrongConvergenceFreeMoments",
+        "Mathlib.Algebra.GeomSum"
+      ],
+      "exit_code": 0,
+      "seconds": 4.596
     },
     {
       "module": "StrongConvergence.StrongConvergenceTensorWeightedCycles",
@@ -2852,12 +3322,563 @@
         "StrongConvergence.StrongConvergenceTensorCompressionCycles"
       ],
       "exit_code": 0,
-      "seconds": 3.667
+      "seconds": 3.672
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusFreeScaling",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusFreeScaling.lean",
+      "sha256": "e55daa18742a138b73ecf8dbdaada8dd2ca2ae38847c65c50a572112c17b6f01",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusLeading",
+        "StrongConvergence.StrongConvergenceTensorWeightedCycles"
+      ],
+      "exit_code": 0,
+      "seconds": 4.754
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFreeIntervalLaw",
+      "path": "lean/StrongConvergence/StrongConvergenceFreeIntervalLaw.lean",
+      "sha256": "abc7f20ac71c6f4674fada6ebd3bc9e75cbc3323e51cbf208ecb7bb5a0bd4b23",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFreeMoments"
+      ],
+      "exit_code": 0,
+      "seconds": 3.796
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFreeMarked",
+      "path": "lean/StrongConvergence/StrongConvergenceFreeMarked.lean",
+      "sha256": "86878d0cb20906d46d272743faaa895ff4b80a03064f506c4f469e79f4c869e1",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFreeMoments"
+      ],
+      "exit_code": 0,
+      "seconds": 3.86
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFreeArc",
+      "path": "lean/StrongConvergence/StrongConvergenceFreeArc.lean",
+      "sha256": "d04f7000de08a02aa57cb58fb7c3ef5f6a886cba21fab41af9b45dfe1166995c",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFreePeel",
+        "StrongConvergence.StrongConvergenceFreeMoments"
+      ],
+      "exit_code": 0,
+      "seconds": 3.587
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFreeRecurrence",
+      "path": "lean/StrongConvergence/StrongConvergenceFreeRecurrence.lean",
+      "sha256": "be7d9a8e73e27a074915de90d44db69b79383df04c03719c8023dec5555e546f",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFreeMarked",
+        "StrongConvergence.StrongConvergenceFreeArc",
+        "StrongConvergence.StrongConvergenceMomentCumulantRecurrence"
+      ],
+      "exit_code": 0,
+      "seconds": 6.26
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFreeCumulantAnalytic",
+      "path": "lean/StrongConvergence/StrongConvergenceFreeCumulantAnalytic.lean",
+      "sha256": "f07dc184c9e84cdec1265707f9720a1f1b9ab25c669a7e6eb61c55c76ce5bafb",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFreeCumulant",
+        "RandomCompression.RevisionBernoulliLaw"
+      ],
+      "exit_code": 0,
+      "seconds": 4.148
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceCauchyMoments",
+      "path": "lean/StrongConvergence/StrongConvergenceCauchyMoments.lean",
+      "sha256": "3111cb3d167e50371a6ef9341cae12769e9046fc6e976055a7bb18299663ea70",
+      "imports": [
+        "StrongConvergence.StrongConvergenceMomentLaw",
+        "RandomCompression.RevisionBernoulliLaw",
+        "Mathlib.MeasureTheory.Integral.DominatedConvergence",
+        "Mathlib.Analysis.SpecificLimits.Normed"
+      ],
+      "exit_code": 0,
+      "seconds": 4.489
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceInverseGerm",
+      "path": "lean/StrongConvergence/StrongConvergenceInverseGerm.lean",
+      "sha256": "268183f9cc89e6c5e1e359faf83f7860a8e1204600b8017dfad9fd2ed0958c99",
+      "imports": [
+        "StrongConvergence.StrongConvergencePowerSeriesEvaluation",
+        "StrongConvergence.StrongConvergenceFreeCumulantAnalytic",
+        "StrongConvergence.StrongConvergenceCauchyMoments"
+      ],
+      "exit_code": 0,
+      "seconds": 9.523
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceGenusLawIdentification",
+      "path": "lean/StrongConvergence/StrongConvergenceGenusLawIdentification.lean",
+      "sha256": "4efc50bc7c1c2cda99c736b2c9945ec17e082b435900cfb4406cffc61055f48b",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusFreeScaling",
+        "StrongConvergence.StrongConvergenceFreeIntervalLaw",
+        "StrongConvergence.StrongConvergenceFreeRecurrence",
+        "StrongConvergence.StrongConvergenceInverseGerm"
+      ],
+      "exit_code": 0,
+      "seconds": 4.106
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceCanonicalStrong",
+      "path": "lean/StrongConvergence/StrongConvergenceCanonicalStrong.lean",
+      "sha256": "7ea23f0b4d57e44864e0c611767c71a826556d4a3b0e82495443d9a44058fd55",
+      "imports": [
+        "StrongConvergence.StrongConvergenceCanonicalStrongLimit",
+        "StrongConvergence.StrongConvergenceGenusLawIdentification"
+      ],
+      "exit_code": 0,
+      "seconds": 6.595
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceCanonicalPaperCorollaries",
+      "path": "lean/StrongConvergence/StrongConvergenceCanonicalPaperCorollaries.lean",
+      "sha256": "aa9af0f0160d23d370bdc4542d14ad938086b26efd2c05a6d66a6f0509c4da69",
+      "imports": [
+        "StrongConvergence.StrongConvergenceCanonicalStrong",
+        "Nonadditivity.RevisionMainTheorem",
+        "Dimension182.RevisionPropositionVI",
+        "BellOutput.RevisionCorollaryIV"
+      ],
+      "exit_code": 0,
+      "seconds": 29.484
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceCanonicalVariance",
+      "path": "lean/StrongConvergence/StrongConvergenceCanonicalVariance.lean",
+      "sha256": "a5ba1e36c030aba4b22e176e30d880d57db97dc86218a5196d104560062d57af",
+      "imports": [
+        "StrongConvergence.StrongConvergenceHaarVarianceResult"
+      ],
+      "exit_code": 0,
+      "seconds": 6.829
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFluctuationMoments",
+      "path": "lean/StrongConvergence/StrongConvergenceFluctuationMoments.lean",
+      "sha256": "ff37a27add347dfc6fbea4cda582fb64fab0ef720f0bf1028611d4a6e52172fd",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorCanonical"
+      ],
+      "exit_code": 0,
+      "seconds": 10.814
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceVarianceBorelCantelli",
+      "path": "lean/StrongConvergence/StrongConvergenceVarianceBorelCantelli.lean",
+      "sha256": "44901f2f0a3cb854e8e8160bbec3a55aa88f0367effee5fb9b071c71e6966ce4",
+      "imports": [
+        "StrongConvergence.StrongConvergenceProbability",
+        "Mathlib.MeasureTheory.Integral.Bochner.Basic",
+        "Mathlib.Analysis.PSeries"
+      ],
+      "exit_code": 0,
+      "seconds": 4.864
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics",
+      "path": "lean/StrongConvergence/StrongConvergenceSecondVarianceAsymptotics.lean",
+      "sha256": "56e993e4295aeec990657b2ec058eecbe1004eead7cb2cdf0a870e07cd34f8db",
+      "imports": [
+        "Mathlib.Analysis.SpecificLimits.Basic",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Ring",
+        "Mathlib.Tactic.FunProp",
+        "Mathlib.Tactic.NormNum",
+        "Mathlib.Tactic.Positivity"
+      ],
+      "exit_code": 0,
+      "seconds": 7.709
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFluctuationAEBase",
+      "path": "lean/StrongConvergence/StrongConvergenceFluctuationAEBase.lean",
+      "sha256": "73cb2de4b7b1466894d2c22f8f0a4d7d7acc8d81f2fb78b9351507e1834453c6",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFluctuationMoments",
+        "StrongConvergence.StrongConvergenceHaarSecondCompression",
+        "StrongConvergence.StrongConvergenceVarianceBorelCantelli",
+        "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics"
+      ],
+      "exit_code": 0,
+      "seconds": 3.84
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFluctuationWeights",
+      "path": "lean/StrongConvergence/StrongConvergenceFluctuationWeights.lean",
+      "sha256": "c764d2d3a49868442705877824713156c0c8b05ca1d1061d8ba7207c6861d24e",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFluctuationMoments"
+      ],
+      "exit_code": 0,
+      "seconds": 5.86
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFourthFinite",
+      "path": "lean/StrongConvergence/StrongConvergenceFourthFinite.lean",
+      "sha256": "7e662921fead065467c29775a50b39d01fa7cfd2b9d1bbda2d8ec720290ac67d",
+      "imports": [
+        "Mathlib.Data.Fintype.Perm",
+        "Mathlib.Data.Matrix.Notation"
+      ],
+      "exit_code": 0,
+      "seconds": 43.566
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFluctuationFinite",
+      "path": "lean/StrongConvergence/StrongConvergenceFluctuationFinite.lean",
+      "sha256": "f32c5e59a9b706bbbd069b6dae257d6ff28c94b517431e3b19c2aeb234c3c0e7",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFluctuationWeights",
+        "StrongConvergence.StrongConvergenceFourthFinite"
+      ],
+      "exit_code": 0,
+      "seconds": 6.036
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFourthCoefficients",
+      "path": "lean/StrongConvergence/StrongConvergenceFourthCoefficients.lean",
+      "sha256": "126e167d6d818ad28113a4e68750e70b524386d2fcddd7eb609ddb147a621293",
+      "imports": [
+        "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "StrongConvergence.StrongConvergenceFourthFinite",
+        "Mathlib.Tactic.FinCases",
+        "Mathlib.Tactic.FieldSimp",
+        "Mathlib.Tactic.Ring",
+        "Mathlib.Tactic.NormNum",
+        "Mathlib.Tactic.Linarith"
+      ],
+      "exit_code": 0,
+      "seconds": 12.539
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFluctuationClasses",
+      "path": "lean/StrongConvergence/StrongConvergenceFluctuationClasses.lean",
+      "sha256": "d1999bbf39d834547ccf579a4880e3d4dbbb2a0becd82fedfb42136a9dca10ae",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFluctuationFinite",
+        "StrongConvergence.StrongConvergenceFourthCoefficients"
+      ],
+      "exit_code": 0,
+      "seconds": 4.487
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFourthNormalization",
+      "path": "lean/StrongConvergence/StrongConvergenceFourthNormalization.lean",
+      "sha256": "cb0910431257e18c338b26a91a4c0b5cd3ddb90ba4918ea004a2f761c6ff13bf",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFourthCoefficients",
+        "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics"
+      ],
+      "exit_code": 0,
+      "seconds": 18.834
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceFluctuationAE",
+      "path": "lean/StrongConvergence/StrongConvergenceFluctuationAE.lean",
+      "sha256": "f483fbcdc697d0022ded869bf93cb9272267cf8b14772f2c926f14a7ea0d326e",
+      "imports": [
+        "StrongConvergence.StrongConvergenceFluctuationAEBase",
+        "StrongConvergence.StrongConvergenceFluctuationClasses",
+        "StrongConvergence.StrongConvergenceFourthNormalization"
+      ],
+      "exit_code": 0,
+      "seconds": 8.295
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceHaarFirstMomentAE",
+      "path": "lean/StrongConvergence/StrongConvergenceHaarFirstMomentAE.lean",
+      "sha256": "84a495adad68126b13cdc6a4ee2f4c048a56fc474bef2227393f3f32d6bbb37a",
+      "imports": [
+        "StrongConvergence.StrongConvergenceCanonicalVariance",
+        "StrongConvergence.StrongConvergenceVarianceBorelCantelli"
+      ],
+      "exit_code": 0,
+      "seconds": 5.947
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceHaarSequenceTransfer",
+      "path": "lean/StrongConvergence/StrongConvergenceHaarSequenceTransfer.lean",
+      "sha256": "2bc8e9e172c61515b848650ecb895a062285cae5831c17e5482546247dd54ce4",
+      "imports": [
+        "HaarProjections.ProjectionOrbit",
+        "StrongConvergence.StrongConvergenceGenusMomentBound",
+        "StrongConvergence.StrongConvergenceProbability"
+      ],
+      "exit_code": 0,
+      "seconds": 9.726
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceVariableConcentration",
+      "path": "lean/StrongConvergence/StrongConvergenceVariableConcentration.lean",
+      "sha256": "a7ad1548f71eb2426f9565d31b8f1558bfe6a30ff4a2be80bb8e399d642ea351",
+      "imports": [
+        "StrongConvergence.StrongConvergenceCanonicalConcentration",
+        "StrongConvergence.StrongConvergenceCanonicalEdgeConcentration",
+        "Mathlib.Analysis.Normed.Group.InfiniteSum"
+      ],
+      "exit_code": 0,
+      "seconds": 34.505
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceVariableMomentLimit",
+      "path": "lean/StrongConvergence/StrongConvergenceVariableMomentLimit.lean",
+      "sha256": "c6a2023e096fc745693a612e4ebe292d821b83874e4b72a4a78e98ef08b641a8",
+      "imports": [
+        "StrongConvergence.StrongConvergenceGenusMomentLimit"
+      ],
+      "exit_code": 0,
+      "seconds": 5.933
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceVariableLimitLaw",
+      "path": "lean/StrongConvergence/StrongConvergenceVariableLimitLaw.lean",
+      "sha256": "89bddd2bc444c29d2b57187a277a6cfbd5d25e51ecd8a33314320b3c8d10e799",
+      "imports": [
+        "StrongConvergence.StrongConvergenceVariableConcentration",
+        "StrongConvergence.StrongConvergenceVariableMomentLimit",
+        "StrongConvergence.StrongConvergenceCanonicalLimitLaw"
+      ],
+      "exit_code": 0,
+      "seconds": 10.351
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceVariableRotationTransfer",
+      "path": "lean/StrongConvergence/StrongConvergenceVariableRotationTransfer.lean",
+      "sha256": "b531b3b4d41db9f3561b001dd5c312ef667d9e9ef545cfd041cb050055f409d9",
+      "imports": [
+        "StrongConvergence.StrongConvergenceRotationTransfer"
+      ],
+      "exit_code": 0,
+      "seconds": 6.295
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceSupportDensity",
+      "path": "lean/StrongConvergence/StrongConvergenceSupportDensity.lean",
+      "sha256": "ef59721da2be94fa72542085dab69dd0af3e5954e37cff3c51912843813504e6",
+      "imports": [
+        "RandomCompression.RevisionBernoulliHolomorphic",
+        "RandomCompression.CompressionExtension",
+        "Mathlib.Topology.Compactness.Compact",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 4.0
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceVariableSmoothEdge",
+      "path": "lean/StrongConvergence/StrongConvergenceVariableSmoothEdge.lean",
+      "sha256": "ab68a51a42d544034d519c1ee706f9eefe3b48663aa78389bb40d6752b0eed39",
+      "imports": [
+        "StrongConvergence.StrongConvergenceSmoothEdge",
+        "StrongConvergence.StrongConvergenceCanonicalLimitLaw",
+        "StrongConvergence.StrongConvergenceGenusLawIdentification",
+        "StrongConvergence.StrongConvergenceVariableMomentLimit",
+        "StrongConvergence.StrongConvergenceSupportDensity"
+      ],
+      "exit_code": 0,
+      "seconds": 7.61
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceVariableStrong",
+      "path": "lean/StrongConvergence/StrongConvergenceVariableStrong.lean",
+      "sha256": "c825792b0da596cc1e581e2492753cc0a5002233670db627f2f1383ab84fe5bb",
+      "imports": [
+        "StrongConvergence.StrongConvergenceVariableLimitLaw",
+        "StrongConvergence.StrongConvergenceVariableRotationTransfer",
+        "StrongConvergence.StrongConvergenceVariableSmoothEdge",
+        "StrongConvergence.StrongConvergenceReflectedLaw",
+        "StrongConvergence.StrongConvergenceGenusLawIdentification",
+        "StrongConvergence.StrongConvergenceEdgeSupport"
+      ],
+      "exit_code": 0,
+      "seconds": 10.215
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceHaarSequenceStrong",
+      "path": "lean/StrongConvergence/StrongConvergenceHaarSequenceStrong.lean",
+      "sha256": "ad960573efca27099b353ac78e643becb843ff7731dd53f2d6fff3b0a6d6ae25",
+      "imports": [
+        "StrongConvergence.StrongConvergenceHaarSequenceTransfer",
+        "StrongConvergence.StrongConvergenceVariableStrong"
+      ],
+      "exit_code": 0,
+      "seconds": 7.029
+    },
+    {
+      "module": "Checks.UnprovedTargets",
+      "path": "lean/Checks/UnprovedTargets.lean",
+      "sha256": "0c60511f570236d15ef915f613b004b85141ebfc9aafa3af3c37da2c0683acd1",
+      "imports": [
+        "RandomCompression.CompressionExtension",
+        "HaarProjections.HaarMeasure"
+      ],
+      "exit_code": 0,
+      "seconds": 2.774
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceHaarPaperCorollaries",
+      "path": "lean/StrongConvergence/StrongConvergenceHaarPaperCorollaries.lean",
+      "sha256": "5663b08e7fd893ca67ee4d34963cf8fa9453cb185aca02dc80820663565e6335",
+      "imports": [
+        "StrongConvergence.StrongConvergenceHaarSequenceStrong",
+        "StrongConvergence.StrongConvergenceCanonicalPaperCorollaries",
+        "Checks.UnprovedTargets"
+      ],
+      "exit_code": 0,
+      "seconds": 39.923
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceNormProbability",
+      "path": "lean/StrongConvergence/StrongConvergenceNormProbability.lean",
+      "sha256": "70f62db95c854a84ed8fd29173cb815512e2d1444d5bce0d83f3657f0b6ec442",
+      "imports": [
+        "StrongConvergence.StrongConvergenceNorm",
+        "StrongConvergence.StrongConvergenceProbability",
+        "Mathlib.Topology.Algebra.Order.LiminfLimsup"
+      ],
+      "exit_code": 0,
+      "seconds": 8.138
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceMomentStrong",
+      "path": "lean/StrongConvergence/StrongConvergenceMomentStrong.lean",
+      "sha256": "9e540abe6ad7ef2f1c3605f8faee4d789e5e780ef71ec51c3a88be68922a2603",
+      "imports": [
+        "StrongConvergence.StrongConvergenceNormLower",
+        "StrongConvergence.StrongConvergenceNormProbability"
+      ],
+      "exit_code": 0,
+      "seconds": 5.525
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceOutlier",
+      "path": "lean/StrongConvergence/StrongConvergenceOutlier.lean",
+      "sha256": "0f10731f15c8313348c06c1d0275671d1f5c7a126bd12f0ca76c2d0a57db8726",
+      "imports": [
+        "StrongConvergence.StrongConvergenceNorm",
+        "Entropy.RevisionMatrixEntropy",
+        "Mathlib.Analysis.SpecificLimits.Basic"
+      ],
+      "exit_code": 0,
+      "seconds": 6.209
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceProbabilityDense",
+      "path": "lean/StrongConvergence/StrongConvergenceProbabilityDense.lean",
+      "sha256": "2d578803a53ff15c853a127e2de1f0ae7414018077de12ab7c7d44e34fd48d33",
+      "imports": [
+        "StrongConvergence.StrongConvergenceProbability",
+        "Preliminaries.PreliminariesAnalysis",
+        "Entropy.OutputSpace"
+      ],
+      "exit_code": 0,
+      "seconds": 3.127
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceProbabilityMoments",
+      "path": "lean/StrongConvergence/StrongConvergenceProbabilityMoments.lean",
+      "sha256": "5254634f34b57a76d3c14d95a54b1530237d2de50c0b097720e237dc1c0903b8",
+      "imports": [
+        "StrongConvergence.StrongConvergenceProbability",
+        "Mathlib.MeasureTheory.Integral.Lebesgue.Markov",
+        "Mathlib.MeasureTheory.Constructions.BorelSpace.Basic",
+        "Mathlib.Analysis.SpecificLimits.Normed",
+        "Mathlib.Tactic"
+      ],
+      "exit_code": 0,
+      "seconds": 3.575
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceScalarLaw",
+      "path": "lean/StrongConvergence/StrongConvergenceScalarLaw.lean",
+      "sha256": "a86fcac040107b7411bd218dc08ae5da54c031029613ae1a83075609057c24b6",
+      "imports": [
+        "RandomCompression.RevisionBernoulliLaw"
+      ],
+      "exit_code": 0,
+      "seconds": 2.917
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceScalarTrace",
+      "path": "lean/StrongConvergence/StrongConvergenceScalarTrace.lean",
+      "sha256": "8f70df50465f644ba10478f2c29daf5d884c87cbf1ea7903401c31b42b0b91c5",
+      "imports": [
+        "HaarProjections.RevisionCanonicalEnsemble",
+        "Entropy.RevisionMatrixEntropy",
+        "HaarProjections.ProjectionOrbit",
+        "RandomCompression.ProjectionStrongConvergence"
+      ],
+      "exit_code": 0,
+      "seconds": 3.624
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceScalarMatrix",
+      "path": "lean/StrongConvergence/StrongConvergenceScalarMatrix.lean",
+      "sha256": "96655fb70e0534a2fa427de3598e4dfddcedffae50e2be6a58ee583fa7293bc3",
+      "imports": [
+        "HaarProjections.RevisionCanonicalEnsemble",
+        "HaarProjections.ProjectionOrbit"
+      ],
+      "exit_code": 0,
+      "seconds": 26.164
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceScalarBridge",
+      "path": "lean/StrongConvergence/StrongConvergenceScalarBridge.lean",
+      "sha256": "051f89c715b24fb0bc9971d64d35839bae91f1497db816d23619bccb1879eb93",
+      "imports": [
+        "StrongConvergence.StrongConvergenceScalarMatrix",
+        "Entropy.RevisionMatrixEntropy"
+      ],
+      "exit_code": 0,
+      "seconds": 2.996
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceScalar",
+      "path": "lean/StrongConvergence/StrongConvergenceScalar.lean",
+      "sha256": "37b7c1c065b6e7add53928b854b81906a0467bcab27cd2d78ba6a93bbd919b4a",
+      "imports": [
+        "StrongConvergence.StrongConvergenceScalarLaw",
+        "StrongConvergence.StrongConvergenceScalarTrace",
+        "StrongConvergence.StrongConvergenceScalarBridge"
+      ],
+      "exit_code": 0,
+      "seconds": 2.779
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceScalarProjectionTrace",
+      "path": "lean/StrongConvergence/StrongConvergenceScalarProjectionTrace.lean",
+      "sha256": "e6339fa857fed1dba2cc1fdf9c8a200f111d889e8229338bc8cb61b5c0bfd08b",
+      "imports": [
+        "StrongConvergence.StrongConvergenceScalarTrace"
+      ],
+      "exit_code": 0,
+      "seconds": 2.944
+    },
+    {
+      "module": "StrongConvergence.StrongConvergenceScalarProjection",
+      "path": "lean/StrongConvergence/StrongConvergenceScalarProjection.lean",
+      "sha256": "56a3f1e8eef187b79f803c7c4d1c132e99ae4aadab37908d5756323bdd6039f1",
+      "imports": [
+        "StrongConvergence.StrongConvergenceScalar",
+        "StrongConvergence.StrongConvergenceScalarProjectionTrace"
+      ],
+      "exit_code": 0,
+      "seconds": 28.021
     },
     {
       "module": "AllProofs",
       "path": "lean/AllProofs.lean",
-      "sha256": "db6fb973ee8f8111536ebc64cd95baa13aa6b41c720fada494ecce315ffa268e",
+      "sha256": "dbb0a5b1d47523d0593f3276a25b85663e94e4ed34d265c33a1c809a95d5b6d6",
       "imports": [
         "Antisymmetric.RevisionAntisymmetric",
         "Antisymmetric.RevisionAntisymmetricBasis",
@@ -3037,12 +4058,26 @@
         "RandomCompression.RevisionFullBlockInput",
         "RandomCompression.SpectralEdge",
         "RandomCompression.SuppliedBernoulliEdge",
+        "StrongConvergence.StrongConvergenceBernoulliRecurrence",
         "StrongConvergence.StrongConvergenceBlockCompression",
         "StrongConvergence.StrongConvergenceBlockMatrixUnits",
         "StrongConvergence.StrongConvergenceBlockModification",
         "StrongConvergence.StrongConvergenceBlockPolynomials",
+        "StrongConvergence.StrongConvergenceCanonicalConcentration",
+        "StrongConvergence.StrongConvergenceCanonicalEdgeConcentration",
+        "StrongConvergence.StrongConvergenceCanonicalLimitLaw",
+        "StrongConvergence.StrongConvergenceCanonicalPaperCorollaries",
+        "StrongConvergence.StrongConvergenceCanonicalStrong",
+        "StrongConvergence.StrongConvergenceCanonicalStrongLimit",
+        "StrongConvergence.StrongConvergenceCanonicalTails",
         "StrongConvergence.StrongConvergenceCanonicalVariance",
+        "StrongConvergence.StrongConvergenceCauchyMoments",
+        "StrongConvergence.StrongConvergenceChebyshevDegree",
         "StrongConvergence.StrongConvergenceCompressionBounds",
+        "StrongConvergence.StrongConvergenceEdgeBootstrap",
+        "StrongConvergence.StrongConvergenceEdgeSandwich",
+        "StrongConvergence.StrongConvergenceEdgeSupport",
+        "StrongConvergence.StrongConvergenceExponentialTails",
         "StrongConvergence.StrongConvergenceFluctuationAE",
         "StrongConvergence.StrongConvergenceFluctuationAEBase",
         "StrongConvergence.StrongConvergenceFluctuationClasses",
@@ -3052,12 +4087,51 @@
         "StrongConvergence.StrongConvergenceFourthCoefficients",
         "StrongConvergence.StrongConvergenceFourthFinite",
         "StrongConvergence.StrongConvergenceFourthNormalization",
+        "StrongConvergence.StrongConvergenceFreeArc",
+        "StrongConvergence.StrongConvergenceFreeCumulant",
+        "StrongConvergence.StrongConvergenceFreeCumulantAnalytic",
+        "StrongConvergence.StrongConvergenceFreeIntervalLaw",
+        "StrongConvergence.StrongConvergenceFreeMarked",
+        "StrongConvergence.StrongConvergenceFreeMoments",
+        "StrongConvergence.StrongConvergenceFreeOrder",
+        "StrongConvergence.StrongConvergenceFreePeel",
+        "StrongConvergence.StrongConvergenceFreeRecurrence",
+        "StrongConvergence.StrongConvergenceGaussConcentration",
+        "StrongConvergence.StrongConvergenceGaussGoodEvent",
+        "StrongConvergence.StrongConvergenceGaussMGF",
+        "StrongConvergence.StrongConvergenceGaussMarginals",
+        "StrongConvergence.StrongConvergenceGaussMollify",
+        "StrongConvergence.StrongConvergenceGaussNormTails",
+        "StrongConvergence.StrongConvergenceGaussRotation",
+        "StrongConvergence.StrongConvergenceGenusCoefficients",
+        "StrongConvergence.StrongConvergenceGenusDerivatives",
+        "StrongConvergence.StrongConvergenceGenusExpansion",
+        "StrongConvergence.StrongConvergenceGenusFreeScaling",
+        "StrongConvergence.StrongConvergenceGenusLawIdentification",
+        "StrongConvergence.StrongConvergenceGenusLeading",
+        "StrongConvergence.StrongConvergenceGenusLength",
+        "StrongConvergence.StrongConvergenceGenusLimitTests",
+        "StrongConvergence.StrongConvergenceGenusMaster",
+        "StrongConvergence.StrongConvergenceGenusMomentBound",
+        "StrongConvergence.StrongConvergenceGenusMomentLimit",
+        "StrongConvergence.StrongConvergenceGenusNeumann",
+        "StrongConvergence.StrongConvergenceGenusParity",
+        "StrongConvergence.StrongConvergenceGenusRadius",
+        "StrongConvergence.StrongConvergenceGenusTail",
+        "StrongConvergence.StrongConvergenceGenusTestBound",
+        "StrongConvergence.StrongConvergenceGenusTruncation",
         "StrongConvergence.StrongConvergenceHaarFirstMomentAE",
         "StrongConvergence.StrongConvergenceHaarMoment",
         "StrongConvergence.StrongConvergenceHaarPairMoments",
+        "StrongConvergence.StrongConvergenceHaarPaperCorollaries",
         "StrongConvergence.StrongConvergenceHaarSecondCompression",
+        "StrongConvergence.StrongConvergenceHaarSequenceStrong",
+        "StrongConvergence.StrongConvergenceHaarSequenceTransfer",
         "StrongConvergence.StrongConvergenceHaarVariance",
         "StrongConvergence.StrongConvergenceHaarVarianceResult",
+        "StrongConvergence.StrongConvergenceInverseGerm",
+        "StrongConvergence.StrongConvergenceMomentCumulantRecurrence",
+        "StrongConvergence.StrongConvergenceMomentLaw",
         "StrongConvergence.StrongConvergenceMomentMatrices",
         "StrongConvergence.StrongConvergenceMomentMeasures",
         "StrongConvergence.StrongConvergenceMomentStrong",
@@ -3066,9 +4140,22 @@
         "StrongConvergence.StrongConvergenceNormLower",
         "StrongConvergence.StrongConvergenceNormProbability",
         "StrongConvergence.StrongConvergenceOutlier",
+        "StrongConvergence.StrongConvergencePermutationNeumann",
+        "StrongConvergence.StrongConvergencePolyChebyshev",
+        "StrongConvergence.StrongConvergencePolyCoeffNorm",
+        "StrongConvergence.StrongConvergencePolyInterpolation",
+        "StrongConvergence.StrongConvergencePolyMarkov",
+        "StrongConvergence.StrongConvergencePolyMaster",
+        "StrongConvergence.StrongConvergencePolyMeshes",
+        "StrongConvergence.StrongConvergencePolyOrthogonality",
+        "StrongConvergence.StrongConvergencePositiveQuadratic",
+        "StrongConvergence.StrongConvergencePowerSeriesEvaluation",
         "StrongConvergence.StrongConvergenceProbability",
         "StrongConvergence.StrongConvergenceProbabilityDense",
         "StrongConvergence.StrongConvergenceProbabilityMoments",
+        "StrongConvergence.StrongConvergenceRankDensityBound",
+        "StrongConvergence.StrongConvergenceReflectedLaw",
+        "StrongConvergence.StrongConvergenceRotationTransfer",
         "StrongConvergence.StrongConvergenceScalar",
         "StrongConvergence.StrongConvergenceScalarBridge",
         "StrongConvergence.StrongConvergenceScalarLaw",
@@ -3077,7 +4164,16 @@
         "StrongConvergence.StrongConvergenceScalarProjectionTrace",
         "StrongConvergence.StrongConvergenceScalarTrace",
         "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics",
+        "StrongConvergence.StrongConvergenceSmoothChebyshev",
+        "StrongConvergence.StrongConvergenceSmoothEdge",
+        "StrongConvergence.StrongConvergenceSmoothLimit",
+        "StrongConvergence.StrongConvergenceSmoothMaster",
+        "StrongConvergence.StrongConvergenceSmoothSeriesBound",
+        "StrongConvergence.StrongConvergenceSmoothSpectralTests",
         "StrongConvergence.StrongConvergenceSpectralEstimate",
+        "StrongConvergence.StrongConvergenceSpectralLimitLaw",
+        "StrongConvergence.StrongConvergenceSphereNet",
+        "StrongConvergence.StrongConvergenceSupportDensity",
         "StrongConvergence.StrongConvergenceTensorBlockMoments",
         "StrongConvergence.StrongConvergenceTensorCanonical",
         "StrongConvergence.StrongConvergenceTensorComplexification",
@@ -3098,11 +4194,18 @@
         "StrongConvergence.StrongConvergenceTensorSpanning",
         "StrongConvergence.StrongConvergenceTensorWeightedCycles",
         "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "StrongConvergence.StrongConvergenceVariableConcentration",
+        "StrongConvergence.StrongConvergenceVariableLimitLaw",
+        "StrongConvergence.StrongConvergenceVariableMomentLimit",
+        "StrongConvergence.StrongConvergenceVariableRotationTransfer",
+        "StrongConvergence.StrongConvergenceVariableSmoothEdge",
+        "StrongConvergence.StrongConvergenceVariableStrong",
         "StrongConvergence.StrongConvergenceVarianceAlgebra",
-        "StrongConvergence.StrongConvergenceVarianceBorelCantelli"
+        "StrongConvergence.StrongConvergenceVarianceBorelCantelli",
+        "StrongConvergence.StrongConvergenceWhiteningLipschitz"
       ],
       "exit_code": 0,
-      "seconds": 2.253
+      "seconds": 3.013
     },
     {
       "module": "Checks.CompressionEndpointAudit",
@@ -3112,7 +4215,7 @@
         "RandomCompression.CompressionEndpointGlue"
       ],
       "exit_code": 0,
-      "seconds": 9.43
+      "seconds": 7.768
     },
     {
       "module": "Checks.FinalAudit",
@@ -3129,7 +4232,7 @@
         "Lean.Util.CollectAxioms"
       ],
       "exit_code": 0,
-      "seconds": 11.259
+      "seconds": 9.206
     },
     {
       "module": "Checks.FullAudit",
@@ -3140,7 +4243,7 @@
         "Lean.Util.CollectAxioms"
       ],
       "exit_code": 0,
-      "seconds": 14.131
+      "seconds": 8.83
     },
     {
       "module": "Checks.K182Audit",
@@ -3153,7 +4256,7 @@
         "Lean.Util.CollectAxioms"
       ],
       "exit_code": 0,
-      "seconds": 13.264
+      "seconds": 6.452
     },
     {
       "module": "Checks.OutputSpaceCompressionBridgeAudit",
@@ -3163,7 +4266,7 @@
         "OutputStates.OutputSpaceCompressionBridge"
       ],
       "exit_code": 0,
-      "seconds": 5.199
+      "seconds": 3.508
     },
     {
       "module": "Checks.OutputSpaceMatrixAudit",
@@ -3173,17 +4276,17 @@
         "OutputStates.OutputSpaceMatrix"
       ],
       "exit_code": 0,
-      "seconds": 15.617
+      "seconds": 10.86
     },
     {
       "module": "Checks.ResultChecks",
       "path": "lean/Checks/ResultChecks.lean",
-      "sha256": "d2da66adf2bf6acbb9211453b66b8a3cd00466691eb701180e6877af573ab7f8",
+      "sha256": "4f7921f559577f6bc6699fb5b017d5efab5a64d74dae600b45d0b0a46563ae57",
       "imports": [
         "AllProofs"
       ],
       "exit_code": 0,
-      "seconds": 2.731
+      "seconds": 3.289
     },
     {
       "module": "Checks.RevisionAntisymmetricAudit",
@@ -3194,7 +4297,7 @@
         "Antisymmetric.RevisionAntisymmetricBellEntropy"
       ],
       "exit_code": 0,
-      "seconds": 194.619
+      "seconds": 128.016
     },
     {
       "module": "Checks.RevisionAntisymmetricEntropyAudit",
@@ -3204,7 +4307,7 @@
         "Antisymmetric.RevisionAntisymmetricEntropy"
       ],
       "exit_code": 0,
-      "seconds": 19.587
+      "seconds": 14.711
     },
     {
       "module": "Checks.RevisionBellAudit",
@@ -3214,7 +4317,7 @@
         "BellOutput.RevisionBellTheorem"
       ],
       "exit_code": 0,
-      "seconds": 31.227
+      "seconds": 27.142
     },
     {
       "module": "Checks.RevisionBellHessianAudit",
@@ -3224,7 +4327,7 @@
         "BellOutput.RevisionBellHessianResult"
       ],
       "exit_code": 0,
-      "seconds": 15.787
+      "seconds": 12.746
     },
     {
       "module": "Checks.RevisionBernoulliAudit",
@@ -3234,7 +4337,7 @@
         "RandomCompression.RevisionBernoulliCompression"
       ],
       "exit_code": 0,
-      "seconds": 19.675
+      "seconds": 14.065
     },
     {
       "module": "Checks.RevisionMainAudit",
@@ -3244,7 +4347,7 @@
         "Nonadditivity.RevisionMainTheorem"
       ],
       "exit_code": 0,
-      "seconds": 48.084
+      "seconds": 24.871
     },
     {
       "module": "Checks.RevisionMatrixEntropyAudit",
@@ -3254,7 +4357,7 @@
         "Entropy.RevisionMatrixEntropyBell"
       ],
       "exit_code": 0,
-      "seconds": 26.389
+      "seconds": 14.306
     },
     {
       "module": "Checks.RevisionOutputAudit",
@@ -3264,18 +4367,7 @@
         "OutputStates.RevisionOutputHausdorff"
       ],
       "exit_code": 0,
-      "seconds": 36.217
-    },
-    {
-      "module": "Checks.UnprovedTargets",
-      "path": "lean/Checks/UnprovedTargets.lean",
-      "sha256": "d563352735c494d4ae19e55bc25239bde9ef68deeb2704b9f4f3d6d09d9b4cb8",
-      "imports": [
-        "RandomCompression.CompressionExtension",
-        "HaarProjections.HaarMeasure"
-      ],
-      "exit_code": 0,
-      "seconds": 2.521
+      "seconds": 19.21
     },
     {
       "module": "StrongConvergence.StrongConvergenceBlockAudit",
@@ -3285,7 +4377,7 @@
         "StrongConvergence.StrongConvergenceBlockCompression"
       ],
       "exit_code": 0,
-      "seconds": 18.713
+      "seconds": 8.972
     },
     {
       "module": "StrongConvergence.StrongConvergenceMomentAudit",
@@ -3296,7 +4388,7 @@
         "StrongConvergence.StrongConvergenceMomentStrong"
       ],
       "exit_code": 0,
-      "seconds": 30.305
+      "seconds": 22.36
     },
     {
       "module": "StrongConvergence.StrongConvergenceScalarAudit",
@@ -3306,12 +4398,12 @@
         "StrongConvergence.StrongConvergenceScalarProjection"
       ],
       "exit_code": 0,
-      "seconds": 24.753
+      "seconds": 17.041
     },
     {
       "module": "Checks.AggregateAudit",
       "path": "lean/Checks/AggregateAudit.lean",
-      "sha256": "df59a06b5a08694d999d76eb37d492be67c03ce85ada80178433ec74a3ea5953",
+      "sha256": "76f71a55d8723958059b339dfa89b8bf050307548741df524407ec0f6851e5aa",
       "imports": [
         "AllProofs",
         "Antisymmetric.RevisionAntisymmetric",
@@ -3508,13 +4600,27 @@
         "RandomCompression.RevisionFullBlockInput",
         "RandomCompression.SpectralEdge",
         "RandomCompression.SuppliedBernoulliEdge",
+        "StrongConvergence.StrongConvergenceBernoulliRecurrence",
         "StrongConvergence.StrongConvergenceBlockAudit",
         "StrongConvergence.StrongConvergenceBlockCompression",
         "StrongConvergence.StrongConvergenceBlockMatrixUnits",
         "StrongConvergence.StrongConvergenceBlockModification",
         "StrongConvergence.StrongConvergenceBlockPolynomials",
+        "StrongConvergence.StrongConvergenceCanonicalConcentration",
+        "StrongConvergence.StrongConvergenceCanonicalEdgeConcentration",
+        "StrongConvergence.StrongConvergenceCanonicalLimitLaw",
+        "StrongConvergence.StrongConvergenceCanonicalPaperCorollaries",
+        "StrongConvergence.StrongConvergenceCanonicalStrong",
+        "StrongConvergence.StrongConvergenceCanonicalStrongLimit",
+        "StrongConvergence.StrongConvergenceCanonicalTails",
         "StrongConvergence.StrongConvergenceCanonicalVariance",
+        "StrongConvergence.StrongConvergenceCauchyMoments",
+        "StrongConvergence.StrongConvergenceChebyshevDegree",
         "StrongConvergence.StrongConvergenceCompressionBounds",
+        "StrongConvergence.StrongConvergenceEdgeBootstrap",
+        "StrongConvergence.StrongConvergenceEdgeSandwich",
+        "StrongConvergence.StrongConvergenceEdgeSupport",
+        "StrongConvergence.StrongConvergenceExponentialTails",
         "StrongConvergence.StrongConvergenceFluctuationAE",
         "StrongConvergence.StrongConvergenceFluctuationAEBase",
         "StrongConvergence.StrongConvergenceFluctuationClasses",
@@ -3524,13 +4630,52 @@
         "StrongConvergence.StrongConvergenceFourthCoefficients",
         "StrongConvergence.StrongConvergenceFourthFinite",
         "StrongConvergence.StrongConvergenceFourthNormalization",
+        "StrongConvergence.StrongConvergenceFreeArc",
+        "StrongConvergence.StrongConvergenceFreeCumulant",
+        "StrongConvergence.StrongConvergenceFreeCumulantAnalytic",
+        "StrongConvergence.StrongConvergenceFreeIntervalLaw",
+        "StrongConvergence.StrongConvergenceFreeMarked",
+        "StrongConvergence.StrongConvergenceFreeMoments",
+        "StrongConvergence.StrongConvergenceFreeOrder",
+        "StrongConvergence.StrongConvergenceFreePeel",
+        "StrongConvergence.StrongConvergenceFreeRecurrence",
+        "StrongConvergence.StrongConvergenceGaussConcentration",
+        "StrongConvergence.StrongConvergenceGaussGoodEvent",
+        "StrongConvergence.StrongConvergenceGaussMGF",
+        "StrongConvergence.StrongConvergenceGaussMarginals",
+        "StrongConvergence.StrongConvergenceGaussMollify",
+        "StrongConvergence.StrongConvergenceGaussNormTails",
+        "StrongConvergence.StrongConvergenceGaussRotation",
+        "StrongConvergence.StrongConvergenceGenusCoefficients",
+        "StrongConvergence.StrongConvergenceGenusDerivatives",
+        "StrongConvergence.StrongConvergenceGenusExpansion",
+        "StrongConvergence.StrongConvergenceGenusFreeScaling",
+        "StrongConvergence.StrongConvergenceGenusLawIdentification",
+        "StrongConvergence.StrongConvergenceGenusLeading",
+        "StrongConvergence.StrongConvergenceGenusLength",
+        "StrongConvergence.StrongConvergenceGenusLimitTests",
+        "StrongConvergence.StrongConvergenceGenusMaster",
+        "StrongConvergence.StrongConvergenceGenusMomentBound",
+        "StrongConvergence.StrongConvergenceGenusMomentLimit",
+        "StrongConvergence.StrongConvergenceGenusNeumann",
+        "StrongConvergence.StrongConvergenceGenusParity",
+        "StrongConvergence.StrongConvergenceGenusRadius",
+        "StrongConvergence.StrongConvergenceGenusTail",
+        "StrongConvergence.StrongConvergenceGenusTestBound",
+        "StrongConvergence.StrongConvergenceGenusTruncation",
         "StrongConvergence.StrongConvergenceHaarFirstMomentAE",
         "StrongConvergence.StrongConvergenceHaarMoment",
         "StrongConvergence.StrongConvergenceHaarPairMoments",
+        "StrongConvergence.StrongConvergenceHaarPaperCorollaries",
         "StrongConvergence.StrongConvergenceHaarSecondCompression",
+        "StrongConvergence.StrongConvergenceHaarSequenceStrong",
+        "StrongConvergence.StrongConvergenceHaarSequenceTransfer",
         "StrongConvergence.StrongConvergenceHaarVariance",
         "StrongConvergence.StrongConvergenceHaarVarianceResult",
+        "StrongConvergence.StrongConvergenceInverseGerm",
         "StrongConvergence.StrongConvergenceMomentAudit",
+        "StrongConvergence.StrongConvergenceMomentCumulantRecurrence",
+        "StrongConvergence.StrongConvergenceMomentLaw",
         "StrongConvergence.StrongConvergenceMomentMatrices",
         "StrongConvergence.StrongConvergenceMomentMeasures",
         "StrongConvergence.StrongConvergenceMomentStrong",
@@ -3539,9 +4684,22 @@
         "StrongConvergence.StrongConvergenceNormLower",
         "StrongConvergence.StrongConvergenceNormProbability",
         "StrongConvergence.StrongConvergenceOutlier",
+        "StrongConvergence.StrongConvergencePermutationNeumann",
+        "StrongConvergence.StrongConvergencePolyChebyshev",
+        "StrongConvergence.StrongConvergencePolyCoeffNorm",
+        "StrongConvergence.StrongConvergencePolyInterpolation",
+        "StrongConvergence.StrongConvergencePolyMarkov",
+        "StrongConvergence.StrongConvergencePolyMaster",
+        "StrongConvergence.StrongConvergencePolyMeshes",
+        "StrongConvergence.StrongConvergencePolyOrthogonality",
+        "StrongConvergence.StrongConvergencePositiveQuadratic",
+        "StrongConvergence.StrongConvergencePowerSeriesEvaluation",
         "StrongConvergence.StrongConvergenceProbability",
         "StrongConvergence.StrongConvergenceProbabilityDense",
         "StrongConvergence.StrongConvergenceProbabilityMoments",
+        "StrongConvergence.StrongConvergenceRankDensityBound",
+        "StrongConvergence.StrongConvergenceReflectedLaw",
+        "StrongConvergence.StrongConvergenceRotationTransfer",
         "StrongConvergence.StrongConvergenceScalar",
         "StrongConvergence.StrongConvergenceScalarAudit",
         "StrongConvergence.StrongConvergenceScalarBridge",
@@ -3551,7 +4709,16 @@
         "StrongConvergence.StrongConvergenceScalarProjectionTrace",
         "StrongConvergence.StrongConvergenceScalarTrace",
         "StrongConvergence.StrongConvergenceSecondVarianceAsymptotics",
+        "StrongConvergence.StrongConvergenceSmoothChebyshev",
+        "StrongConvergence.StrongConvergenceSmoothEdge",
+        "StrongConvergence.StrongConvergenceSmoothLimit",
+        "StrongConvergence.StrongConvergenceSmoothMaster",
+        "StrongConvergence.StrongConvergenceSmoothSeriesBound",
+        "StrongConvergence.StrongConvergenceSmoothSpectralTests",
         "StrongConvergence.StrongConvergenceSpectralEstimate",
+        "StrongConvergence.StrongConvergenceSpectralLimitLaw",
+        "StrongConvergence.StrongConvergenceSphereNet",
+        "StrongConvergence.StrongConvergenceSupportDensity",
         "StrongConvergence.StrongConvergenceTensorBlockMoments",
         "StrongConvergence.StrongConvergenceTensorCanonical",
         "StrongConvergence.StrongConvergenceTensorComplexification",
@@ -3572,12 +4739,19 @@
         "StrongConvergence.StrongConvergenceTensorSpanning",
         "StrongConvergence.StrongConvergenceTensorWeightedCycles",
         "StrongConvergence.StrongConvergenceTensorWeingarten",
+        "StrongConvergence.StrongConvergenceVariableConcentration",
+        "StrongConvergence.StrongConvergenceVariableLimitLaw",
+        "StrongConvergence.StrongConvergenceVariableMomentLimit",
+        "StrongConvergence.StrongConvergenceVariableRotationTransfer",
+        "StrongConvergence.StrongConvergenceVariableSmoothEdge",
+        "StrongConvergence.StrongConvergenceVariableStrong",
         "StrongConvergence.StrongConvergenceVarianceAlgebra",
         "StrongConvergence.StrongConvergenceVarianceBorelCantelli",
+        "StrongConvergence.StrongConvergenceWhiteningLipschitz",
         "Lean.Util.CollectAxioms"
       ],
       "exit_code": 0,
-      "seconds": 18.201
+      "seconds": 13.143
     }
   ]
 }

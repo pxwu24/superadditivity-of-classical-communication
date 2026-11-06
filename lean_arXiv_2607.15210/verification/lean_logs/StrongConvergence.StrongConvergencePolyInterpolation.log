@@ -1,0 +1,4 @@
+'ProjectionChannels.PolyChebyshev.polynomial_sub_le_of_bound_and_derivative_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.PolyChebyshev.two_variable_interpolation' depends on axioms: [propext, Classical.choice, Quot.sound]

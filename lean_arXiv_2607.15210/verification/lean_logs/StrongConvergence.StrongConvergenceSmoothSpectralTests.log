@@ -1,0 +1,11 @@
+'ProjectionChannels.Canonical.upper_edge_probability_le_smooth_trace' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.expected_spectralTest_chebyshev_hasSum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.integral_spectralTest_power_succ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.continuous_spectralTest_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.spectralTest_chebyshev_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]

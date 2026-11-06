@@ -1,0 +1,18 @@
+'ProjectionChannels.TensorHaar.genusRowError_radius_lt_third' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.genusRowError_radius_prefactor_le_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.genusRowError_inv_dimension_neumann_tail_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.nonnegative_polynomial_tail_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.finite_expansion_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.genus_tail_uniform_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.scaled_inverse_permutationGram_neumann_row_bound_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.genus_tail_degree_uniform_error_of_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

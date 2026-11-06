@@ -1,0 +1,21 @@
+'ProjectionChannels.GaussConcentration.pisier_rotation_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.GaussConcentration.pisier_exp_difference_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.GaussConcentration.radialGaussian_double_exp_difference_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.GaussConcentration.radialGaussian_centered_mgf_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.GaussConcentration.radialGaussian_smooth_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.GaussConcentration.radialGaussian_lipschitz_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.GaussConcentration.radialGaussian_zero_lipschitz_tail' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

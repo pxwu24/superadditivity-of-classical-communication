@@ -1,0 +1,5 @@
+'ProjectionChannels.TensorHaar.permutationAbsoluteLE_trans' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.cycleCount_add_le_card_add_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.permutationLength_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]

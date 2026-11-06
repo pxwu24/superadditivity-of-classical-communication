@@ -1,0 +1,2 @@
+'ProjectionChannels.Canonical.variableStrongInput' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.arbitraryRankStrongInput' depends on axioms: [propext, Classical.choice, Quot.sound]

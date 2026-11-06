@@ -1,0 +1,7 @@
+'ProjectionChannels.Canonical.rankSequence_exact_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.expectedNormalizedMoment_degree_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.expectedNormalizedMoment_degree_uniform_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

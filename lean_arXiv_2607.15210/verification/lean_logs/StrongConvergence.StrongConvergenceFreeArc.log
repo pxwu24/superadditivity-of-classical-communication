@@ -1,0 +1,1 @@
+'ProjectionChannels.TensorHaar.finRotate_split_arc' depends on axioms: [propext, Quot.sound]

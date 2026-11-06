@@ -1,0 +1,9 @@
+'ProjectionChannels.TensorHaar.permutationAbsoluteLE_fixed_point' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.cycleCount_swap_mul_of_sameCycle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.sameCycle_apply_of_absoluteLE' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.permutationAbsoluteLE_peel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.swap_absoluteLE_iff_sameCycle' depends on axioms: [propext, Classical.choice, Quot.sound]

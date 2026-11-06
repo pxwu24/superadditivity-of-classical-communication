@@ -1,0 +1,3 @@
+'ProjectionChannels.GaussConcentration.exists_smooth_lipschitz_approximation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

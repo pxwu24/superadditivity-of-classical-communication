@@ -1,0 +1,8 @@
+'ProjectionChannels.TensorHaar.cycleCount_eq_card_cycleType_add_fixedPoints' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.sign_eq_neg_one_pow_permutationLength' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.permutationDistance_parity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.permutationLength_genus_even' depends on axioms: [propext, Classical.choice, Quot.sound]

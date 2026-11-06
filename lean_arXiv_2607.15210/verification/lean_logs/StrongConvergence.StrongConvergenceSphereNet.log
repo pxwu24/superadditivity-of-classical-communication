@@ -1,0 +1,14 @@
+lean/StrongConvergence/StrongConvergenceSphereNet.lean:107:0: warning: automatically included section variable(s) unused in theorem 'StrongConvergence.opNorm_le_of_sphere_net':
+  [FiniteDimensional ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+lean/StrongConvergence/StrongConvergenceSphereNet.lean:127:0: warning: automatically included section variable(s) unused in theorem 'StrongConvergence.lower_norm_of_sphere_net':
+  [FiniteDimensional ℝ E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [FiniteDimensional ℝ E] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+'StrongConvergence.opNorm_le_of_sphere_net' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.lower_norm_of_sphere_net' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.separated_unit_ball_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.exists_sphere_net' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,27 @@
+'ProjectionChannels.FreeCumulant.bernoulliCumulantSeries_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.FreeCumulant.bernoulliCumulantSeries_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.FreeCumulant.bernoulliMomentSeries_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.FreeCumulant.bernoulliMomentSeries_substitution' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.FreeCumulant.bernoulliMomentSeries_cumulant_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.FreeCumulant.bernoulliMomentSeries_unique' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.FreeCumulant.abs_bernoulliCumulant_succ_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.FreeCumulant.summable_abs_bernoulliCumulant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.FreeCumulant.tsum_abs_bernoulliCumulant_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

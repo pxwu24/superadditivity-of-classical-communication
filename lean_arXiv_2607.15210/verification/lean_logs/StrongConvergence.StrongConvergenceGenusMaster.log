@@ -1,0 +1,3 @@
+'ProjectionChannels.Canonical.expected_spectralTest_master_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

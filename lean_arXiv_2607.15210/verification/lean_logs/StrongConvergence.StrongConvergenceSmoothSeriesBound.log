@@ -1,0 +1,2 @@
+'StrongConvergence.hasSum_integrals_of_bounded_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.smooth_series_master_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'ProjectionChannels.Canonical.smoothGenusValue_le_quadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.upper_edge_probability_tendsto_zero_of_moments' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.upper_support_edge_measure_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

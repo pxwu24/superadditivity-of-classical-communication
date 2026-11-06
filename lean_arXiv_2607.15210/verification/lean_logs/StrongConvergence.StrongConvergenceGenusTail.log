@@ -1,0 +1,9 @@
+'ProjectionChannels.TensorHaar.genusMajorantPolynomial_eval_radius_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.genusMomentNumerator_expansion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.genusMomentPolynomial_coeff_abs_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

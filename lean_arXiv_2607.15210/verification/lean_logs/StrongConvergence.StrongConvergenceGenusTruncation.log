@@ -1,0 +1,4 @@
+'ProjectionChannels.TensorHaar.degreeTruncation_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.genusMomentPolynomial_truncation_error_even' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

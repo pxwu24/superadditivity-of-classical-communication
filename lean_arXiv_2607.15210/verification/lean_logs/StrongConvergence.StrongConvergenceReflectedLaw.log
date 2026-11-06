@@ -1,0 +1,5 @@
+'ProjectionChannels.Canonical.normalizedMomentCoefficient_neg_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.reflectedLaw_canonical_moments' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.ae_spectral_tests_reflectedLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

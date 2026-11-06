@@ -7,6 +7,24 @@ HaarProjection.haar_projection_full_local_support_iff_fin {n k d : ℕ} (hd : d 
   (∀ᵐ (U : ↥(Matrix.unitaryGroup (Fin n × Fin k) ℂ)) ∂HaarProjection.unitaryHaar,
       (PreliminariesMatrix.traceB (↑U * P₀ * (↑U).conjTranspose)).PosDef) ↔
     n ≤ k * d
+ProjectionChannels.randomCompressionStatement_verified.{u} : ProjectionChannels.randomCompressionStatement
+ProjectionChannels.HaarSequence.paper_random_compression_limit.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {μ : MeasureTheory.Measure Ω} {k : ℕ} {d : ℕ → ℕ}
+  {P₀ : (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  {P : Ω → (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  (h : ProjectionChannels.HaarSequence μ k d P₀ P) {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1)
+  (hdt : Filter.Tendsto (ProjectionChannels.HaarSequence.density k d) Filter.atTop (nhds t)) :
+  ∀ᵐ (ω : Ω) ∂μ,
+    ∀ (a : Fin k → ℝ),
+      Filter.Tendsto (fun n => ProjectionChannels.largestEigenvalue ⋯) Filter.atTop
+        (nhds (ProjectionChannels.bernoulliSupport t (↑k) a))
+ProjectionChannels.HaarSequence.fullBlockModifiedStrongInput.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {μ : MeasureTheory.Measure Ω} {k : ℕ} {d : ℕ → ℕ}
+  {P₀ : (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  {P : Ω → (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  (h : ProjectionChannels.HaarSequence μ k d P₀ P) {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1)
+  (hdt : Filter.Tendsto (ProjectionChannels.HaarSequence.density k d) Filter.atTop (nhds t)) :
+  ProjectionChannels.FullBlockModifiedStrongInput μ k t P ⋯
 ProjectionChannels.random_compression_from_amplified_block_strong.{u_2} {Ω : Type u_2} [MeasurableSpace Ω]
   (μ : MeasureTheory.Measure Ω) (k : ℕ) (hk : 0 < k) (t : ℝ) (ht0 : 0 < t) (ht1 : t < 1)
   (P : Ω → (m : ℕ) → Matrix (Fin (m + 1) × Fin k) (Fin (m + 1) × Fin k) ℂ) (hH : ∀ (ω : Ω) (m : ℕ), (P ω m).IsHermitian)
@@ -51,6 +69,18 @@ ProjectionChannels.bernoulli_edge_from_cauchy_characterization.{u_1} {ι : Type 
   (hgerm :
     ∀ᶠ (x : ℝ) in Filter.atTop, ProjectionChannels.bernoulliK t k a (ProjectionChannels.realCauchyTransform μ x) = x) :
   IsGLB (ProjectionChannels.bernoulliKValues t k a) r ∧ r = sSup (ProjectionChannels.bernoulliObjectiveValues t k a)
+ProjectionChannels.HaarSequence.paper_output_space_limit.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {μ : MeasureTheory.Measure Ω} {k : ℕ} {d : ℕ → ℕ}
+  {P₀ : (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  {P : Ω → (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  [NeZero k] (h : ProjectionChannels.HaarSequence μ k d P₀ P) {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1)
+  (hkt : 1 < ↑k ^ 2 * t) (hdt : Filter.Tendsto (ProjectionChannels.HaarSequence.density k d) Filter.atTop (nhds t)) :
+  ∀ᵐ (ω : Ω) ∂μ,
+    Filter.Tendsto
+      (fun n =>
+        RevisionOutput.traceHausdorff (h.paperOutput ω n '' RevisionOutput.densityMatrices (Fin (n + 1)))
+          (RevisionOutput.spectralBody k t))
+      Filter.atTop (nhds 0)
 RevisionOutput.output_space_limit.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (μ : MeasureTheory.Measure Ω) {k : ℕ}
   [NeZero k] {t : ℝ} (hk : 0 < k) (ht : 0 < t) (ht1 : t < 1) (hkt : 1 < ↑k ^ 2 * t)
   (P : Ω → (N : ℕ) → Matrix (Fin (N + 1) × Fin k) (Fin (N + 1) × Fin k) ℂ) (hH : ∀ (ω : Ω) (N : ℕ), (P ω N).IsHermitian)
@@ -71,6 +101,16 @@ RevisionOutput.raw_normalizedOutput_posSemidef {A B : Type} [Fintype A] [Fintype
   [Nonempty A] [Nonempty B] (P : Matrix (A × B) (A × B) ℂ) (hP : P.PosSemidef) {ρ : Matrix A A ℂ}
   (hρ : ρ ∈ RevisionOutput.densityMatrices A) :
   (RevisionOutput.normalizedOutput P (RevisionOutput.marginalNormalizer P hP) ρ).PosSemidef
+ProjectionChannels.HaarSequence.paper_minimum_output_entropy_limit.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {μ : MeasureTheory.Measure Ω} {k : ℕ} {d : ℕ → ℕ}
+  {P₀ : (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  {P : Ω → (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  [NeZero k] (h : ProjectionChannels.HaarSequence μ k d P₀ P) {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1)
+  (hkt : 1 < ↑k ^ 2 * t) (hdt : Filter.Tendsto (ProjectionChannels.HaarSequence.density k d) Filter.atTop (nhds t))
+  (p : ℝ) (hp : 0 < p) :
+  ∀ᵐ (ω : Ω) ∂μ,
+    Filter.Tendsto (fun n => RevisionMatrixEntropy.minimumOutputEntropy p (h.paperOutput ω n)) Filter.atTop
+      (nhds (sInf ((AppendixB.renyi p Finset.univ fun x => 1) '' AppendixB.Lam k t)))
 RevisionMatrixEntropy.actual_minimum_output_entropy_limit.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
   (μ : MeasureTheory.Measure Ω) {k : ℕ} [NeZero k] {t : ℝ} (hk : 0 < k) (ht : 0 < t) (ht1 : t < 1)
   (hkt : 1 < ↑k ^ 2 * t) (P : Ω → (N : ℕ) → Matrix (Fin (N + 1) × Fin k) (Fin (N + 1) × Fin k) ℂ)
@@ -125,6 +165,34 @@ RevisionOutput.density_expectation_isGreatest.{u_1} {A : Type u_1} [Fintype A] [
 RevisionOutput.normalizedOutput_pairing.{u_1, u_2} {A : Type u_1} {B : Type u_2} [Fintype A] [DecidableEq A]
   [Nonempty A] [Fintype B] [DecidableEq B] (P : Matrix (A × B) (A × B) ℂ) (D ρ : Matrix A A ℂ) (H : Matrix B B ℂ) :
   (H * RevisionOutput.normalizedOutput P D ρ).trace = (D * RevisionOutput.contraction P H * D * ρ.transpose).trace
+ProjectionChannels.HaarSequence.paper_bell_output_limit.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {μ : MeasureTheory.Measure Ω} {k : ℕ} {d : ℕ → ℕ}
+  {P₀ : (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  {P : Ω → (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  [NeZero k] (h : ProjectionChannels.HaarSequence μ k d P₀ P) {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1)
+  (hkt : 1 < ↑k ^ 2 * t) (hdt : Filter.Tendsto (ProjectionChannels.HaarSequence.density k d) Filter.atTop (nhds t)) :
+  ∀ᵐ (ω : Ω) ∂μ,
+    Filter.Tendsto
+      (fun n =>
+        ‖RevisionBell.tensorMap (h.paperOutput ω n) (ProjectionChannels.conjugateMap (h.paperOutput ω n))
+              (RevisionBell.bellState (Fin (n + 1))) -
+            RevisionBell.isotropic (Fin k) (BellLimitVerification.mixing (↑k) t)‖)
+      Filter.atTop (nhds 0)
+ProjectionChannels.HaarSequence.paper_bell_output_and_purity_limit.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {μ : MeasureTheory.Measure Ω} {k : ℕ} {d : ℕ → ℕ}
+  {P₀ : (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  {P : Ω → (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  [NeZero k] (h : ProjectionChannels.HaarSequence μ k d P₀ P) {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1)
+  (hkt : 1 < ↑k ^ 2 * t) (hdt : Filter.Tendsto (ProjectionChannels.HaarSequence.density k d) Filter.atTop (nhds t)) :
+  ∀ᵐ (ω : Ω) ∂μ,
+    Filter.Tendsto
+        (fun n =>
+          ‖RevisionBell.tensorMap (h.paperOutput ω n) (ProjectionChannels.conjugateMap (h.paperOutput ω n))
+                (RevisionBell.bellState (Fin (n + 1))) -
+              RevisionBell.isotropic (Fin k) (BellLimitVerification.mixing (↑k) t)‖)
+        Filter.atTop (nhds 0) ∧
+      Filter.Tendsto (fun n => (h.paperChoi ω n * h.paperChoi ω n).trace / (↑(n + 1) * ↑k)) Filter.atTop
+        (nhds ↑(BellLimitVerification.bellAlpha (↑k) t))
 RevisionBell.bell_output_limit.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (μ : MeasureTheory.Measure Ω) {k : ℕ} [NeZero k]
   {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1) (hkt : 1 < ↑k ^ 2 * t)
   (P : Ω → (n : ℕ) → Matrix (Fin (n + 1) × Fin k) (Fin (n + 1) × Fin k) ℂ) (hH : ∀ (ω : Ω) (n : ℕ), (P ω n).IsHermitian)
@@ -169,6 +237,20 @@ BellLimitVerification.bell_spectrum_identities {k t : ℝ} (hk : k ≠ 0)
       BellLimitVerification.bellAlpha k t + (k ^ 2 - 1) * BellLimitVerification.bellBeta k t = 1
 BellLimitVerification.bell_spectrum_positive {k t : ℝ} (hk : 1 < k) (ht : 0 < t) (ht1 : t < 1) (hkt : 1 < k ^ 2 * t) :
   0 < BellLimitVerification.bellBeta k t ∧ BellLimitVerification.bellBeta k t < BellLimitVerification.bellAlpha k t
+ProjectionChannels.HaarSequence.paper_product_entropy_limsup.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {μ : MeasureTheory.Measure Ω} {k : ℕ} {d : ℕ → ℕ}
+  {P₀ : (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  {P : Ω → (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  [NeZero k] (h : ProjectionChannels.HaarSequence μ k d P₀ P) {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1)
+  (hkt : 1 < ↑k ^ 2 * t) (hdt : Filter.Tendsto (ProjectionChannels.HaarSequence.density k d) Filter.atTop (nhds t))
+  (p : ℝ) (hp : 0 < p) :
+  ∀ᵐ (ω : Ω) ∂μ,
+    Filter.limsup
+        (fun n =>
+          RevisionMatrixEntropy.minimumOutputEntropy p
+            (RevisionBell.tensorMap (h.paperOutput ω n) (ProjectionChannels.conjugateMap (h.paperOutput ω n))))
+        Filter.atTop ≤
+      AppendixB.renyi p Finset.univ ![1, ↑k ^ 2 - 1] ![AppendixB.alphaB k t, AppendixB.betaB k t]
 RevisionMatrixEntropy.corollary_IV_2_fixed_k.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (μ : MeasureTheory.Measure Ω)
   {k : ℕ} [NeZero k] {t : ℝ} (hk : 0 < k) (ht : 0 < t) (ht1 : t < 1) (hkt : 1 < ↑k ^ 2 * t)
   (P : Ω → (N : ℕ) → Matrix (Fin (N + 1) × Fin k) (Fin (N + 1) × Fin k) ℂ) (hH : ∀ (ω : Ω) (N : ℕ), (P ω N).IsHermitian)
@@ -204,6 +286,23 @@ RevisionBell.bernoulli_law_logPotential_identity {k : ℕ} (hk : 0 < k) {t : ℝ
   RevisionBell.logPotential μ 0 =
     -Real.log (-ProjectionChannels.realCauchyTransform μ 0) - 1 -
       ↑k * ∑ i, RevisionBell.bernoulliPrimitive t (a i * ProjectionChannels.realCauchyTransform μ 0 / ↑k)
+ProjectionChannels.HaarSequence.paper_normalized_choi_mixed_moment_limit.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {μ : MeasureTheory.Measure Ω} {k : ℕ} {d : ℕ → ℕ}
+  {P₀ : (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  {P : Ω → (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  [NeZero k] (h : ProjectionChannels.HaarSequence μ k d P₀ P) {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1)
+  (hkt : 1 < ↑k ^ 2 * t) (hdt : Filter.Tendsto (ProjectionChannels.HaarSequence.density k d) Filter.atTop (nhds t)) :
+  ∀ᵐ (ω : Ω) ∂μ,
+    ∀ (i j p q : Fin k),
+      Filter.Tendsto
+        (fun n =>
+          1 / ↑(n + 1) *
+            (BellLimitVerification.choiBlock (h.paperChoi ω n) i j *
+                BellLimitVerification.choiBlock (h.paperChoi ω n) q p).trace)
+        Filter.atTop
+        (nhds
+          ((-↑(BellLimitVerification.hessianC0 (↑k) t) * if i = j ∧ p = q then 1 else 0) -
+            ↑(BellLimitVerification.hessianC1 (↑k) t) * if i = p ∧ j = q then 1 else 0))
 RevisionBell.normalized_choi_mixed_moment_limit.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (μ : MeasureTheory.Measure Ω)
   {k : ℕ} [NeZero k] {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1) (hkt : 1 < ↑k ^ 2 * t)
   (P : Ω → (n : ℕ) → Matrix (Fin (n + 1) × Fin k) (Fin (n + 1) × Fin k) ℂ) (hH : ∀ (ω : Ω) (n : ℕ), (P ω n).IsHermitian)
@@ -255,6 +354,15 @@ RevisionBell.ae_normalized_square_moment_limit.{u_1} {Ω : Type u_1} [Measurable
       (nhds
         (-BellLimitVerification.hessianC0 (↑k) t * H.trace.re * H.trace.re -
           BellLimitVerification.hessianC1 (↑k) t * (H * H).trace.re))
+ProjectionChannels.HaarSequence.paper_choi_purity_limit.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {μ : MeasureTheory.Measure Ω} {k : ℕ} {d : ℕ → ℕ}
+  {P₀ : (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  {P : Ω → (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  [NeZero k] (h : ProjectionChannels.HaarSequence μ k d P₀ P) {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1)
+  (hkt : 1 < ↑k ^ 2 * t) (hdt : Filter.Tendsto (ProjectionChannels.HaarSequence.density k d) Filter.atTop (nhds t)) :
+  ∀ᵐ (ω : Ω) ∂μ,
+    Filter.Tendsto (fun n => (h.paperChoi ω n * h.paperChoi ω n).trace / (↑(n + 1) * ↑k)) Filter.atTop
+      (nhds ↑(BellLimitVerification.bellAlpha (↑k) t))
 RevisionBell.asymptotic_choi_purity.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (μ : MeasureTheory.Measure Ω) {k : ℕ}
   [NeZero k] {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1) (hkt : 1 < ↑k ^ 2 * t)
   (P : Ω → (n : ℕ) → Matrix (Fin (n + 1) × Fin k) (Fin (n + 1) × Fin k) ℂ) (hH : ∀ (ω : Ω) (n : ℕ), (P ω n).IsHermitian)
@@ -267,6 +375,23 @@ RevisionBell.asymptotic_choi_purity.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (
         (RevisionBell.normalizedChoi (P ω n) (D ω n) * RevisionBell.normalizedChoi (P ω n) (D ω n)).trace /
           (↑(n + 1) * ↑k))
       Filter.atTop (nhds ↑(BellLimitVerification.bellAlpha (↑k) t))
+ProjectionChannels.HaarSequence.paper_antisymmetric_entropy_limits.{u_1} {Ω : Type u_1} [MeasurableSpace Ω]
+  {μ : MeasureTheory.Measure Ω} {k : ℕ} {d : ℕ → ℕ}
+  {P₀ : (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  {P : Ω → (n : ℕ) → Matrix (ProjectionChannels.Canonical.Index k n) (ProjectionChannels.Canonical.Index k n) ℂ}
+  [NeZero k] (h : ProjectionChannels.HaarSequence μ k d P₀ P) {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1)
+  (hkt : 1 < ↑k ^ 2 * t) (hdt : Filter.Tendsto (ProjectionChannels.HaarSequence.density k d) Filter.atTop (nhds t))
+  (r : ℕ) (hrk : r + 1 ≤ k) (p : ℝ) (hp : 0 < p) :
+  let Θ := fun ω n => RevisionMain.antisymmetricNormalizedChannel r (P ω n) ⋯;
+  ∀ᵐ (ω : Ω) ∂μ,
+    Filter.Tendsto (fun n => RevisionMatrixEntropy.minimumOutputEntropy p ⇑(Θ ω n)) Filter.atTop
+        (nhds (AppendixB.infimumOutputEntropy p t k (r + 1))) ∧
+      Filter.Tendsto
+        (fun n =>
+          RevisionMatrixEntropy.matrixRenyiEntropy p
+            (RevisionBell.tensorMap (⇑(Θ ω n)) (ProjectionChannels.conjugateMap ⇑(Θ ω n))
+              (RevisionBell.bellState (Fin (n + 1)))))
+        Filter.atTop (nhds (RevisionMatrixEntropy.matrixRenyiEntropy p (RevisionMain.antisymmetricBellLimit k r t)))
 RevisionMain.theorem_V_1_fixed_k.{u_1} {Ω : Type u_1} [MeasurableSpace Ω] (μ : MeasureTheory.Measure Ω) {k : ℕ}
   [NeZero k] {t : ℝ} (hk : 0 < k) (ht0 : 0 < t) (ht1 : t < 1) (hkt : 1 < ↑k ^ 2 * t) (r : ℕ) (hrk : r + 1 ≤ k)
   (P : Ω → (n : ℕ) → Matrix (Fin (n + 1) × Fin k) (Fin (n + 1) × Fin k) ℂ) (hH : ∀ (ω : Ω) (n : ℕ), (P ω n).IsHermitian)
@@ -385,6 +510,18 @@ AppendixB.bell_output_r1 {t p : ℝ} (ht0 : 0 < t) (ht1 : t < 1) (hp : 0 < p) :
         |AppendixB.renyi p Finset.univ ![1, ↑k ^ 2 - 1] ![AppendixB.alphaB k t, AppendixB.betaB k t] -
               (2 * Real.log ↑k - AppendixB.Ap p t / ↑k ^ 2)| ≤
           C / ↑k ^ 4
+RevisionMain.theorem_I_1_unconditional (p : ℝ) (hp : 0 < p) :
+  ∃ k N,
+    20 ≤ k ∧
+      ∃ Φ,
+        (ProjectionChannelsCP.CompletelyPositive Φ ∧ ProjectionChannelsCP.TracePreserving Φ) ∧
+          (ProjectionChannelsCP.CompletelyPositive (AntisymmetricVerification.conjugateLinearMap Φ) ∧
+              ProjectionChannelsCP.TracePreserving (AntisymmetricVerification.conjugateLinearMap Φ)) ∧
+            RevisionMatrixEntropy.minimumOutputEntropy p
+                (RevisionBell.tensorMap (⇑Φ) (ProjectionChannels.conjugateMap ⇑Φ)) <
+              RevisionMatrixEntropy.minimumOutputEntropy p ⇑Φ +
+                RevisionMatrixEntropy.minimumOutputEntropy p (ProjectionChannels.conjugateMap ⇑Φ)
+ProjectionChannels.Canonical.canonicalStrongInput : ProjectionChannels.Canonical.CanonicalStrongInput
 RevisionMain.theorem_I_1 (hStrong : ProjectionChannels.Canonical.CanonicalStrongInput) (p : ℝ) (hp : 0 < p) :
   ∃ k N,
     20 ≤ k ∧
@@ -409,6 +546,27 @@ ProjectionChannels.Canonical.projection_rank {k : ℕ} {t : ℝ} (ht0 : 0 ≤ t)
   (ProjectionChannels.Canonical.projection k t ω n).rank = ProjectionChannels.Canonical.rankSequence k t n
 ProjectionChannels.Canonical.rank_density_tendsto {k : ℕ} {t : ℝ} (hk : 0 < k) (ht : 0 ≤ t) :
   Filter.Tendsto (fun n => ↑(ProjectionChannels.Canonical.rankSequence k t n) / (↑k * (↑n + 1))) Filter.atTop (nhds t)
+RevisionMatrixEntropy.exists_quantum_channels_182_unconditional :
+  ∃ N Φ Ψ,
+    (ProjectionChannelsCP.CompletelyPositive Φ ∧ ProjectionChannelsCP.TracePreserving Φ) ∧
+      (ProjectionChannelsCP.CompletelyPositive Ψ ∧ ProjectionChannelsCP.TracePreserving Ψ) ∧
+        (∀ (X : Matrix (Fin (N + 1)) (Fin (N + 1)) ℂ), Ψ X = ProjectionChannels.conjugateMap (⇑Φ) X) ∧
+          477 / 1000000 <
+            RevisionMatrixEntropy.minimumOutputEntropy 1 ⇑Φ + RevisionMatrixEntropy.minimumOutputEntropy 1 ⇑Ψ -
+              RevisionMatrixEntropy.minimumOutputEntropy 1 (RevisionBell.tensorMap ⇑Φ ⇑Ψ)
+ProjectionChannels.Canonical.paper_eventual_nonadditivity_182 :
+  ∀ᵐ (ω : ProjectionChannels.Canonical.Sample 182) ∂ProjectionChannels.Canonical.probability 182,
+    ∀ᶠ (n : ℕ) in Filter.atTop,
+      477 / 1000000 <
+        RevisionMatrixEntropy.minimumOutputEntropy 1
+              (ProjectionChannels.Canonical.paperOutput 182 ProjectionChannels.K182.t ω n) +
+            RevisionMatrixEntropy.minimumOutputEntropy 1
+              (ProjectionChannels.conjugateMap
+                (ProjectionChannels.Canonical.paperOutput 182 ProjectionChannels.K182.t ω n)) -
+          RevisionMatrixEntropy.minimumOutputEntropy 1
+            (RevisionBell.tensorMap (ProjectionChannels.Canonical.paperOutput 182 ProjectionChannels.K182.t ω n)
+              (ProjectionChannels.conjugateMap
+                (ProjectionChannels.Canonical.paperOutput 182 ProjectionChannels.K182.t ω n)))
 RevisionMatrixEntropy.proposition_VI_1 :
   477 / 1000000 <
     2 * sInf (RevisionMatrixEntropy.matrixRenyiEntropy 1 '' RevisionOutput.spectralBody 182 ProjectionChannels.K182.t) -
