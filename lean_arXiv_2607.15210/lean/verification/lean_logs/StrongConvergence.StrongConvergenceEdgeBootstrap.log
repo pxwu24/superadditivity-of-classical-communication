@@ -1,0 +1,9 @@
+'StrongConvergenceProbability.center_lt_of_small_upper_and_centered_tails' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StrongConvergenceProbability.eventually_center_lt_of_vanishing_tails' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StrongConvergenceProbability.ae_upper_of_vanishing_upper_and_summable_centered_tails' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

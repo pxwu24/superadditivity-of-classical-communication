@@ -1,6 +1,0 @@
-'ProjectionChannels.TensorHaar.permutation_trace_tensorPower_projection' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'ProjectionChannels.TensorHaar.permutationContractions_tensorPower_projection' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

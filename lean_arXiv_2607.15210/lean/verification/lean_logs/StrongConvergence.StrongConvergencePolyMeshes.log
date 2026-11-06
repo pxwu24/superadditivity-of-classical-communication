@@ -1,0 +1,2 @@
+'ProjectionChannels.PolyChebyshev.rank_grid_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.PolyChebyshev.reciprocal_grid_mesh' depends on axioms: [propext, Classical.choice, Quot.sound]

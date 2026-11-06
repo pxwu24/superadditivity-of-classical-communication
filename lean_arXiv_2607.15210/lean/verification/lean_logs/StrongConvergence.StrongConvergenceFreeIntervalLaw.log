@@ -1,0 +1,3 @@
+'ProjectionChannels.FreeMoments.weightedInterval_eq_pow_of_fullCycle' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

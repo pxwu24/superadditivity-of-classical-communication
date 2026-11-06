@@ -1,0 +1,9 @@
+'StrongConvergence.sSup_abs_add_eq_max_of_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.sSup_abs_add_eq_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.blockCompression_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.norm_shift_le_of_largest_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.norm_shift_le_of_largest_le_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.eventually_norm_shift_le_of_largest_le_add' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'StrongConvergence.tendsto_norm_shift_of_edges_and_lower' depends on axioms: [propext, Classical.choice, Quot.sound]

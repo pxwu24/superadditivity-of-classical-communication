@@ -1,0 +1,3 @@
+'ProjectionChannels.Canonical.genus_polynomial_series_le_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

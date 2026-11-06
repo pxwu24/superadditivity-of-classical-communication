@@ -1,6 +1,0 @@
-'ProjectionChannels.HaarMoment.diagSecond_sub_diagCross' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.HaarMoment.weighted_diagonal_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.HaarMoment.weighted_diagonal_variance_le' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.HaarMoment.entrySecond_eq_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.HaarMoment.diagCross_eq_formula' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.HaarMoment.diagSecond_eq_formula' depends on axioms: [propext, Classical.choice, Quot.sound]

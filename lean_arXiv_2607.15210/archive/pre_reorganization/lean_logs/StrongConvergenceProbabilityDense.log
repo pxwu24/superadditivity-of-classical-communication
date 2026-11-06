@@ -1,6 +1,0 @@
-'StrongConvergenceProbability.ae_all_tests_of_summable_dense_deviations' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'StrongConvergenceProbability.ae_compact_uniform_of_dense_tail_majorants' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

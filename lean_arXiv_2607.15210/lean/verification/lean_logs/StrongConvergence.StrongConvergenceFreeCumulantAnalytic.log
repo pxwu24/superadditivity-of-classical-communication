@@ -1,0 +1,6 @@
+'ProjectionChannels.FreeCumulant.bernoulliCumulant_eval_quadratic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.FreeCumulant.bernoulliDual_eq_cumulant_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

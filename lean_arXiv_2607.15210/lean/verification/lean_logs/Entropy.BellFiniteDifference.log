@@ -1,0 +1,7 @@
+Try this: ring_nf
+src/Entropy/BellFiniteDifference.lean:38:20: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/Entropy/BellFiniteDifference.lean:62:21: warning: `pow_le_pow_left` has been deprecated: use `pow_le_pow_left₀` instead
+'BellLimitVerification.log_symmetric_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BellLimitVerification.log_central_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'BellLimitVerification.weighted_log_central_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'ProjectionChannels.PowerSeriesEvaluation.eval_formalSubst' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.PowerSeriesEvaluation.AbsSummable.formalSubst' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.PowerSeriesEvaluation.absSum_mul_le' depends on axioms: [propext, Classical.choice, Quot.sound]

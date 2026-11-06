@@ -1,0 +1,18 @@
+{
+  "all_indexed_deductions_verified_under_stated_hypotheses": true,
+  "all_requested_paper_results_complete": true,
+  "unconditional_paper_verification_complete": true,
+  "unfinished_deductions": [],
+  "results_depending_on_unverified_convergence_input": [],
+  "remaining_input": null,
+  "convergence_input_kernel_checked": true,
+  "source_snapshot_current": true,
+  "proved_input_declarations": [
+    "ProjectionChannels.Canonical.canonicalStrongInput",
+    "ProjectionChannels.HaarSequence.fullBlockModifiedStrongInput",
+    "ProjectionChannels.randomCompressionStatement_verified"
+  ],
+  "convergence_proof_guide": "../CONVERGENCE.md",
+  "only_permitted_external_assumption": "None. The formerly external block-modified strong-convergence input is proved in this project.",
+  "note": "The block-modified strong-convergence theorem is proved and included in the current kernel audit."
+}

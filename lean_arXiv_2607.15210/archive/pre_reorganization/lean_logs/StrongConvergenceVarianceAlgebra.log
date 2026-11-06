@@ -1,6 +1,0 @@
-'ProjectionChannels.HaarVarianceAlgebra.centered_weighted_variance' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'ProjectionChannels.HaarVarianceAlgebra.second_moment_difference' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

@@ -1,6 +1,0 @@
-'ProjectionChannels.RevisionK182.strict_descent_right_of_second_derivative_neg' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'ProjectionChannels.RevisionK182.not_sublevel_localMin_of_negative_curvatures' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

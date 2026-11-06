@@ -1,6 +1,0 @@
-'StrongConvergenceProbability.ae_countable_tendsto_of_summable_deviations' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'StrongConvergenceProbability.ae_countable_norm_trace_of_centered_tails' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

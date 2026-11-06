@@ -1,0 +1,33 @@
+src/OutputStates/RevisionOutputChannel.lean:22:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.re_trace_nonneg':
+  [Nonempty A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty A] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/OutputStates/RevisionOutputChannel.lean:49:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.eigenvector_norm_one':
+  [Nonempty A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty A] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/OutputStates/RevisionOutputChannel.lean:59:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.eigenstate_posSemidef':
+  [Nonempty A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty A] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/OutputStates/RevisionOutputChannel.lean:72:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.trace_mul_vecMulVec':
+  [DecidableEq A]
+  [Nonempty A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [Nonempty A] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/OutputStates/RevisionOutputChannel.lean:102:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.transpose_image_densityMatrices':
+  [DecidableEq A]
+  [Nonempty A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [Nonempty A] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/OutputStates/RevisionOutputChannel.lean:125:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.contraction_entry':
+  [Nonempty A]
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty A] [DecidableEq B] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`

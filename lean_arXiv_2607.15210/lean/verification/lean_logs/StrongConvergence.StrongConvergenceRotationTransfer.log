@@ -1,0 +1,12 @@
+'ProjectionChannels.Canonical.projection_outputRotation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.outputRotation_measurePreserving' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.ae_projection_localConjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.rotatedCompression_eigenvalues' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.fullBlockModifiedStrongInput_of_unrotated' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.fullBlockModifiedStrongInput_of_compression' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

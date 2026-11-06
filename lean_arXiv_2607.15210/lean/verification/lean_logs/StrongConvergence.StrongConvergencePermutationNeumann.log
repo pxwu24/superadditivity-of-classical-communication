@@ -1,0 +1,20 @@
+'ProjectionChannels.TensorHaar.polynomialProjectionCoefficients_coeff_eq_zero_of_parity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.polynomialProjectionCoefficients_coeff_stable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.genusNumerator_coeff_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.genusNumerator_coeff_eq_zero_of_parity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.polynomialGramError_eval_inv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.polynomialGramError_pow_coeff_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.polynomialGramError_pow_natDegree_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.polynomialGramError_neumann_coeff_stable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

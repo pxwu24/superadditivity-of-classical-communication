@@ -1,4 +1,0 @@
-'ProjectionChannels.TensorHaar.fixedTupleCount_le_pow_pred' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.TensorHaar.normalized_permutationGram_sub_one_row_bound_factorial' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

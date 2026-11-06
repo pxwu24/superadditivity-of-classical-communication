@@ -1,0 +1,4 @@
+'ProjectionChannels.PolyChebyshev.master_bound_of_truncation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.PolyChebyshev.polynomial_master_inequality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'ProjectionChannels.Canonical.variable_upper_edge_measure_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

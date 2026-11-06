@@ -1,6 +1,0 @@
-'StrongConvergenceProbability.ae_countable_tendsto_of_summable_second_moments' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'StrongConvergenceProbability.ae_countable_tendsto_of_geometric_tails' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

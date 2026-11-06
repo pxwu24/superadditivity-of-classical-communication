@@ -1,6 +1,0 @@
-'ProjectionChannels.HaarMoment.diagCross_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.HaarMoment.entrySecond_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.HaarMoment.second_moment_projection_trace' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'ProjectionChannels.HaarMoment.second_moment_trace_square' depends on axioms: [propext, Classical.choice, Quot.sound]

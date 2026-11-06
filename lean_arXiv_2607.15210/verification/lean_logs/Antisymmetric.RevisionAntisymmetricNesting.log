@@ -1,2 +1,0 @@
-lean/Antisymmetric/RevisionAntisymmetricNesting.lean:88:2: warning: 'congr 1' tactic does nothing
-note: this linter can be disabled with `set_option linter.unusedTactic false`

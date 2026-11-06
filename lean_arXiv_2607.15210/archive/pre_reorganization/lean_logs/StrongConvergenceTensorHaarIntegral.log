@@ -1,4 +1,0 @@
-'ProjectionChannels.TensorHaar.tensorHaarMoment_conjugate_invariant' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'ProjectionChannels.TensorHaar.tensorHaarMoment_commutes' depends on axioms: [propext, Classical.choice, Quot.sound]

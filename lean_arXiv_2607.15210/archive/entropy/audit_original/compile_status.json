@@ -1,6 +1,0 @@
-{
-  "exit_code": 1,
-  "timeout_seconds": 60,
-  "probe": "AppendixB_probe.lean",
-  "change": "import list only"
-}

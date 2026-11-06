@@ -1,0 +1,2 @@
+'ProjectionChannels.PolyChebyshev.abs_eval_derivative_T_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.PolyChebyshev.exists_chebyshev_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]

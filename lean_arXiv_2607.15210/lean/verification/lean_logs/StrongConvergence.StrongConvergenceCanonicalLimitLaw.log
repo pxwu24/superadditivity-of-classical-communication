@@ -1,0 +1,6 @@
+'ProjectionChannels.Canonical.ae_normalizedTrace_tendsto_genus' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.exists_canonical_spectral_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

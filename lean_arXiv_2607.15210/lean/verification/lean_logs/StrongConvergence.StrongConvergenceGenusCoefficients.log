@@ -1,0 +1,8 @@
+'ProjectionChannels.TensorHaar.genusRankCoefficient_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.genusRankCoefficient_odd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.testRankCoefficient_natDegree_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.genusRankTruncation_eq_degreeTruncation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,2 @@
+src/BellOutput/RevisionBellTraceConvergence.lean:49:15: warning: unused variable `hm`
+note: this linter can be disabled with `set_option linter.unusedVariables false`

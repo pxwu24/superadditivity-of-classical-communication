@@ -1,1 +1,0 @@
-'RevisionOutput.output_continuous_minimum_limit' depends on axioms: [propext, Classical.choice, Quot.sound]

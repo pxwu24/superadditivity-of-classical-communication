@@ -1,0 +1,6 @@
+'ProjectionChannels.StrongConvergence.integral_cos_nat_mul_cos_nat' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.StrongConvergence.abs_chebyshev_expansion_coeff_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

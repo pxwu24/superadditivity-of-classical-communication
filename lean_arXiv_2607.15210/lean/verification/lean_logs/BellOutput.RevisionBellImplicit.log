@@ -1,0 +1,4 @@
+src/BellOutput/RevisionBellImplicit.lean:25:117: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellImplicit.lean:113:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

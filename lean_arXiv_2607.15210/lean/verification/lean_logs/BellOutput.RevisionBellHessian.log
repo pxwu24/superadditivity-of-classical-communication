@@ -1,0 +1,58 @@
+src/BellOutput/RevisionBellHessian.lean:52:97: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:52:107: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:67:10: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:82:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:96:118: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+src/BellOutput/RevisionBellHessian.lean:96:118: warning: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+src/BellOutput/RevisionBellHessian.lean:96:105: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:116:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:120:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:141:118: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+src/BellOutput/RevisionBellHessian.lean:141:118: warning: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+src/BellOutput/RevisionBellHessian.lean:141:105: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:174:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:191:65: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:199:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:235:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:247:118: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+src/BellOutput/RevisionBellHessian.lean:247:118: warning: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+src/BellOutput/RevisionBellHessian.lean:247:105: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:267:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:271:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:296:118: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+src/BellOutput/RevisionBellHessian.lean:321:70: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+src/BellOutput/RevisionBellHessian.lean:296:118: warning: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+src/BellOutput/RevisionBellHessian.lean:321:70: warning: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+src/BellOutput/RevisionBellHessian.lean:296:105: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:316:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:323:29: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/BellOutput/RevisionBellHessian.lean:350:8: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

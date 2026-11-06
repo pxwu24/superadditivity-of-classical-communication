@@ -1,8 +1,0 @@
-'ProjectionChannels.K182ShapeCalculus.reduction_hypotheses' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.K182ShapeCalculus.denominator_sq_strictMono' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'ProjectionChannels.K182ShapeCalculus.denominator_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.K182ShapeCalculus.negative_second_variation' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

@@ -1,7 +1,0 @@
-lean/Dimension182/RevisionK182RepeatedHigh.lean:175:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-'ProjectionChannels.RevisionK182.not_minimum_of_parabolic_direction' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'ProjectionChannels.RevisionK182.high_coordinate_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.RevisionK182.interior_minimum_one_high' depends on axioms: [propext, Classical.choice, Quot.sound]

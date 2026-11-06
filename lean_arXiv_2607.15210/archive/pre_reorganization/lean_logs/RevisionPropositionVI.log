@@ -1,3 +1,0 @@
-'RevisionMatrixEntropy.proposition_VI_1' depends on axioms: [propext, Classical.choice, Quot.sound]
-'RevisionMatrixEntropy.eventual_nonadditivity_182' depends on axioms: [propext, Classical.choice, Quot.sound]
-'RevisionMatrixEntropy.exists_quantum_channels_182' depends on axioms: [propext, Classical.choice, Quot.sound]

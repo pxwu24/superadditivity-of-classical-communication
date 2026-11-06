@@ -1,0 +1,9 @@
+'ProjectionChannels.Canonical.exists_largestCompression_center_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.ae_largestCompression_upper_of_vanishing_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.ae_neg_compression_upper_of_vanishing_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

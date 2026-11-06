@@ -1,0 +1,1 @@
+'ProjectionChannels.eventually_bernoulliSupport_lt' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,27 @@
+'ProjectionChannels.Canonical.exists_projection_center_uniform_density' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.ae_variable_projection_observable_sub_mean_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.exists_variable_projection_observable_center_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.ae_variable_compressionMoment_sub_mean_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.exists_variable_largestCompression_center_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.ae_variable_largestCompression_upper_of_vanishing_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.ae_variable_neg_compression_upper_of_vanishing_probability' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.exists_variable_shiftedCompressionNorm_center_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.exists_variable_compressionMoment_center_summable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

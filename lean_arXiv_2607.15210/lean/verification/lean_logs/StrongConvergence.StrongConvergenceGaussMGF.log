@@ -1,0 +1,6 @@
+'ProjectionChannels.GaussConcentration.radialGaussian_mgf_inner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.GaussConcentration.radialGaussian_mgf_functional' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

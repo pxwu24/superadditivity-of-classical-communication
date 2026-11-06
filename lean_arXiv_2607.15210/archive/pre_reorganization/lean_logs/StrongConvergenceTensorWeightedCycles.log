@@ -1,9 +1,0 @@
-StrongConvergenceTensorWeightedCycles.lean:34:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.TensorHaar.cycleAssignment_product':
-  [Fintype K]
-  [DecidableEq K]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype K] [DecidableEq K] in theorem ...
-note: this linter can be disabled with `set_option linter.unusedSectionVars false`
-'ProjectionChannels.TensorHaar.weightedCycleMoment_eq_product_powerSums' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

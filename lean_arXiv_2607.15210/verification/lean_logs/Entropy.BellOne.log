@@ -1,8 +1,0 @@
-lean/Entropy/BellOne.lean:133:55: warning: `pow_le_pow_left` has been deprecated: use `pow_le_pow_left₀` instead
-lean/Entropy/BellOne.lean:174:33: warning: `pow_le_pow_left` has been deprecated: use `pow_le_pow_left₀` instead
-lean/Entropy/BellOne.lean:102:38: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-lean/Entropy/BellOne.lean:120:67: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-lean/Entropy/BellOne.lean:178:33: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

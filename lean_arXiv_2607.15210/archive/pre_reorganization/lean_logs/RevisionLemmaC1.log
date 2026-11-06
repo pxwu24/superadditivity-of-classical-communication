@@ -1,6 +1,0 @@
-'ProjectionChannels.RevisionK182.lemma_C1_minimizer_shape' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.RevisionK182.lemma_C1_entropy_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.RevisionK182.hasOneHighEntropyMinimizer_182' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'ProjectionChannels.RevisionK182.certified_entropy_gap_182' depends on axioms: [propext, Classical.choice, Quot.sound]

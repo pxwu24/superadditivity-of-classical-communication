@@ -1,6 +1,0 @@
-'ProjectionChannels.K182SecondVariation.not_localMin_of_second_derivative_neg' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'ProjectionChannels.K182SecondVariation.not_constrained_localMin_of_feasible_negative_curvature' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

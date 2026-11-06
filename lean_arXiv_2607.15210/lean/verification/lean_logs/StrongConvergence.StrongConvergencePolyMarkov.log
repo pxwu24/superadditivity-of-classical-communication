@@ -1,0 +1,4 @@
+'ProjectionChannels.PolyChebyshev.polynomial_markov_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.PolyChebyshev.polynomial_bound_of_dense_samples' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,9 @@
+'ProjectionChannels.GaussConcentration.exists_center_of_lipschitzOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.whitened_gaussian_law' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.projection_event_eq_gaussian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.projection_integral_eq_gaussian' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.exists_projection_center' depends on axioms: [propext, Classical.choice, Quot.sound]

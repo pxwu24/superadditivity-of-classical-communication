@@ -1,4 +1,0 @@
-'StrongConvergence.normLowerTest_integral_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
-'StrongConvergence.eventually_lt_norm_of_support' depends on axioms: [propext, Classical.choice, Quot.sound]
-'StrongConvergence.eventually_lt_norm_of_lt_supportNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
-'StrongConvergence.supportNorm_le_liminf_norm' depends on axioms: [propext, Classical.choice, Quot.sound]

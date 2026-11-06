@@ -1,0 +1,20 @@
+'ProjectionChannels.Canonical.expectedNormalizedMoment_neumann_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.Canonical.genusMomentPolynomial_eval_eq_neumann' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.polynomialProjectionCoefficients_eval_inv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.weightedCycleMoment_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.genusMomentPolynomial_factor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.TensorHaar.genusMomentPolynomial_odd_coeff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.genusMomentPolynomial_coeff_stable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.genusMomentPolynomial_constantTerm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

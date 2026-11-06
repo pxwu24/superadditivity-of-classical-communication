@@ -1,0 +1,3 @@
+'StrongConvergence.exists_smooth_chebyshev_expansion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.circleFourierCoeff_weighted_summable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.circleFourierCoeff_decay' depends on axioms: [propext, Classical.choice, Quot.sound]

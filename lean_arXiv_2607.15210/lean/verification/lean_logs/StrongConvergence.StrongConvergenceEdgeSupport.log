@@ -1,0 +1,3 @@
+'StrongConvergence.tendsto_norm_shift_of_weak_and_edges' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.compact_probability_endpoints' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.eventually_lt_norm_shift_of_support' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,4 +1,0 @@
-'ProjectionChannels.TensorHaar.permutationGram_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.TensorHaar.eq_sum_permutationTensor_invGram_of_commutes' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

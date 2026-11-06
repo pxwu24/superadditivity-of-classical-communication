@@ -1,0 +1,16 @@
+'ProjectionChannels.randomCompressionStatement_verified' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.HaarSequence.paper_output_space_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.HaarSequence.paper_minimum_output_entropy_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.HaarSequence.paper_bell_output_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.HaarSequence.paper_choi_purity_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.HaarSequence.paper_normalized_choi_mixed_moment_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.HaarSequence.paper_product_entropy_limsup' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.HaarSequence.paper_antisymmetric_entropy_limits' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

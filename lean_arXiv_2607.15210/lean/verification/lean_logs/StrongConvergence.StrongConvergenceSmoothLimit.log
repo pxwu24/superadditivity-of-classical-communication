@@ -1,0 +1,2 @@
+'ProjectionChannels.Canonical.smoothGenusValue_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.Canonical.smoothGenusValue_eq_integral' depends on axioms: [propext, Classical.choice, Quot.sound]

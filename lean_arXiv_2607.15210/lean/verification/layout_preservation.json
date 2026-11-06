@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "baseline_commit": "1a3527e8b02f95fce3f896c9636d7923632d1f30",
+  "maintained_lean_modules": 344,
+  "byte_identical_source_count": 342,
+  "comment_only_changes": [
+    "src/Preliminaries/Preliminaries.lean",
+    "src/StrongConvergence/StrongConvergenceScalarProjection.lean"
+  ],
+  "changed_mathematical_sources": [],
+  "note": "All Lean declarations and proof terms are unchanged by the folder reorganization. Two outdated module comments were updated; module names and imports are preserved."
+}
