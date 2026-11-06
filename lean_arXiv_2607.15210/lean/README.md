@@ -1,19 +1,31 @@
-# Lean proof sources
+# Lean verification
 
-Sources are grouped by mathematical topic. The [project summary](../README.md) distinguishes unconditional results from deductions using the remaining convergence theorem.
+This directory is the standalone Lean project for all 20 indexed results of
+arXiv:2607.15210, including block-modified strong convergence and the resulting
+finite-dimensional channel witnesses.
 
-| Folder | Content |
+| Location | Contents |
 | --- | --- |
-| [Preliminaries/](Preliminaries/) | Channels and matrix preliminaries |
-| [HaarProjections/](HaarProjections/) | Haar projections and local support |
-| [RandomCompression/](RandomCompression/) | Random compression and the Bernoulli spectral edge |
-| [OutputStates/](OutputStates/) | Output state spaces |
-| [BellOutput/](BellOutput/) | Bell outputs and normalized Choi moments |
-| [Antisymmetric/](Antisymmetric/) | Antisymmetric postprocessing |
-| [Entropy/](Entropy/) | Entropy estimates |
-| [Nonadditivity/](Nonadditivity/) | Main nonadditivity theorem |
-| [Dimension182/](Dimension182/) | Output dimension 182 and Appendix C |
-| [StrongConvergence/](StrongConvergence/) | Partial formalization of strong convergence |
-| [Checks/](Checks/) | Declaration checks and axiom audits |
+| [src/](src/) | 344 proof and audit modules, grouped by topic |
+| [CONVERGENCE.md](CONVERGENCE.md) | Full convergence statement and proof guide |
+| [results/](results/) | Numbered results, declarations, and source dependencies |
+| [verification/](verification/) | Compiler records, source hashes, and axiom audit |
+| [scripts/](scripts/) | Rebuild, indexing, and coverage tools |
 
-[AllProofs.lean](AllProofs.lean) imports every maintained proof source. [Checks/AggregateAudit.lean](Checks/AggregateAudit.lean) audits all declarations.
+From this directory, run:
+
+```sh
+bash verify-all.sh
+```
+
+With dependencies already installed:
+
+```sh
+bash verify-all.sh --no-setup --jobs 4
+```
+
+The verifier checks every maintained source and declaration, all indexed paper
+results, and the companion [Python certificates](../python/). Lean 4.19.0 and
+Mathlib are pinned by the committed toolchain and manifest.
+
+[Project summary](../readme.md)

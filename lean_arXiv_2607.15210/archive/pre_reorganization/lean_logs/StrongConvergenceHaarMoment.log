@@ -1,5 +1,0 @@
-'ProjectionChannels.HaarMoment.integral_orbit_diag' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.Canonical.integral_compression_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
-'ProjectionChannels.Canonical.normalized_first_moment_tendsto' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

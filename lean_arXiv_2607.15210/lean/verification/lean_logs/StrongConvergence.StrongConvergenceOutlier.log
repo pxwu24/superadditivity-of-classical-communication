@@ -1,0 +1,4 @@
+src/StrongConvergence/StrongConvergenceOutlier.lean:34:4: warning: try 'simp at h00' instead of 'simpa using h00'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+'StrongConvergence.spikeMatrix_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'StrongConvergence.spikeMatrix_weak_spectral_limit' depends on axioms: [propext, Classical.choice, Quot.sound]

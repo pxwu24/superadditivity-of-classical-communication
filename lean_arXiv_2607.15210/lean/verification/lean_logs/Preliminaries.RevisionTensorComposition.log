@@ -1,0 +1,16 @@
+src/Preliminaries/RevisionTensorComposition.lean:39:0: warning: automatically included section variable(s) unused in theorem 'RevisionBell.matrixUnit_prod':
+  [Fintype A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTensorComposition.lean:63:0: warning: automatically included section variable(s) unused in theorem 'RevisionBell.conjugateMap_comp':
+  [Fintype A]
+  [Fintype B]
+  [Fintype C]
+  [DecidableEq A]
+  [DecidableEq B]
+  [DecidableEq C]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] [Fintype B] [Fintype C] [DecidableEq A] [DecidableEq B] [DecidableEq C] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+'RevisionBell.tensorMap_comp' depends on axioms: [propext, Classical.choice, Quot.sound]

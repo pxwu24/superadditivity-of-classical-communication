@@ -1,0 +1,22 @@
+src/OutputStates/RevisionOutputGeometry.lean:17:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.trace_eq_sum_eigenvalues':
+  [Nonempty A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty A] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/OutputStates/RevisionOutputGeometry.lean:54:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.isClosed_posSemidef':
+  [DecidableEq A]
+  [Nonempty A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [Nonempty A] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/OutputStates/RevisionOutputGeometry.lean:101:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.normalizedOutput_continuous':
+  [DecidableEq A]
+  [Nonempty A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [Nonempty A] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/OutputStates/RevisionOutputGeometry.lean:117:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.normalizedOutput_linear_combination':
+  [Nonempty A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty A] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`

@@ -1,0 +1,15 @@
+src/Dimension182/RevisionK182Compact.lean:17:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.RevisionK182.feasible_compact':
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Dimension182/RevisionK182Compact.lean:25:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.RevisionK182.normalizedEntropy_continuousOn':
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Dimension182/RevisionK182Compact.lean:92:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.RevisionK182.feasible_mass_pos':
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`

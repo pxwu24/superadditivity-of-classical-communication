@@ -1,1 +1,0 @@
-'ProjectionChannels.normalized_compression_convergence' depends on axioms: [propext, Classical.choice, Quot.sound]

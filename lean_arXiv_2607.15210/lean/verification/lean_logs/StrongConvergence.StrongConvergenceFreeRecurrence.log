@@ -1,0 +1,4 @@
+src/StrongConvergence/StrongConvergenceFreeRecurrence.lean:122:6: warning: try 'simp' instead of 'simpa'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ProjectionChannels.FreeMoments.freeMarked_recursion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ProjectionChannels.FreeMoments.freeMoment_formal_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

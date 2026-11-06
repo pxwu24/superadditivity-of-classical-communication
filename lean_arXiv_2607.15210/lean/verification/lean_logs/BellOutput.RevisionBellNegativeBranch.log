@@ -1,0 +1,2 @@
+src/BellOutput/RevisionBellNegativeBranch.lean:84:13: warning: unused variable `hk`
+note: this linter can be disabled with `set_option linter.unusedVariables false`

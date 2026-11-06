@@ -1,6 +1,0 @@
-'ProjectionChannels.RevisionK182.finiteShannon_le_oneHighEntropy' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'ProjectionChannels.RevisionK182.entropy_minimum_eq_largestCoordinate' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]

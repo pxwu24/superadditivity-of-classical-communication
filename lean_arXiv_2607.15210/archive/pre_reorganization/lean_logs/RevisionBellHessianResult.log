@@ -1,5 +1,0 @@
-Try this: ring_nf
-RevisionBellHessianResult.lean:49:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-RevisionBellHessianResult.lean:50:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

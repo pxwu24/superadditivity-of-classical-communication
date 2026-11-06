@@ -1,0 +1,17 @@
+src/StrongConvergence/StrongConvergenceTensorPermutation.lean:10:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.TensorHaar.tuple_permute_eq_iff':
+  [Fintype E]
+  [DecidableEq E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] [DecidableEq E] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceTensorPermutation.lean:32:8: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.TensorHaar.permutationTensor_one':
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceTensorPermutation.lean:55:2: warning: try 'simp' instead of 'simpa'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+'ProjectionChannels.TensorHaar.permutationTensor_commutes_tensorPower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.TensorHaar.permutationTensor_gram' depends on axioms: [propext, Classical.choice, Quot.sound]

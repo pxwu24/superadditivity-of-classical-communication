@@ -1,0 +1,47 @@
+src/StrongConvergence/StrongConvergenceGenusNeumann.lean:26:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.NeumannPolynomial.coeffNonnegative_mul':
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceGenusNeumann.lean:108:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.NeumannPolynomial.monomialMatrix_coeff_nonneg':
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceGenusNeumann.lean:117:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.NeumannPolynomial.monomialMatrix_coeff_zero':
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceGenusNeumann.lean:126:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.NeumannPolynomial.monomialMatrix_coeff_eq_zero_of_lt':
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceGenusNeumann.lean:200:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.NeumannPolynomial.monomialMatrix_coeff_eq_zero_of_parity':
+  [Fintype ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceGenusNeumann.lean:229:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.NeumannPolynomial.mulVec_coeff_eq_zero_of_lt':
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceGenusNeumann.lean:282:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.NeumannPolynomial.mulVec_coeff_eq_zero_of_parity':
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+'ProjectionChannels.NeumannPolynomial.partialInverse_mulVec_coeff_stable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.NeumannPolynomial.partialInverse_coeff_stable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.NeumannPolynomial.pow_coeff_eq_zero_of_parity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ProjectionChannels.NeumannPolynomial.monomialMatrix_pow_coefficients' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

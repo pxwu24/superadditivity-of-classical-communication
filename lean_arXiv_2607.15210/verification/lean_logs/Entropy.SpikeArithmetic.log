@@ -1,5 +1,0 @@
-lean/Entropy/SpikeArithmetic.lean:36:71: warning: `pow_le_pow_left` has been deprecated: use `pow_le_pow_left₀` instead
-lean/Entropy/SpikeArithmetic.lean:26:17: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-lean/Entropy/SpikeArithmetic.lean:39:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

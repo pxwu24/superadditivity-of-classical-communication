@@ -1,6 +1,0 @@
-lean/Preliminaries/PreliminariesLegendre.lean:130:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-lean/Preliminaries/PreliminariesLegendre.lean:157:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
-lean/Preliminaries/PreliminariesLegendre.lean:164:6: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
-note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

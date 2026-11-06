@@ -3,7 +3,7 @@ This repository provides Lean verification of the following arXiv papers, alongs
 
 | Paper | Available files |
 | --- | --- |
-| arXiv:2607.15210 | [Lean proofs and Python certificates](./lean_arXiv_2607.15210/README.md) |
+| arXiv:2607.15210 | [Lean proofs and Python certificates](./lean_arXiv_2607.15210/readme.md) |
 | arXiv:2608.25961 | [Lean proofs and Python certificates](reproduce_numerics.py) |
 | arXiv:2609.26743 | [Lean proofs and Python certificates](./lean_arXiv:2609.26743/README.md) |
 
@@ -17,8 +17,8 @@ For arXiv:2607.15210, the block-modified strong-convergence statement is now
 proved, including the limiting law, affine operator-norm convergence, and weak
 spectral convergence for arbitrary admissible rank sequences. The paper's
 random-channel limits and finite-channel existence results no longer assume
-this theorem. See the [proof guide](lean_arXiv_2607.15210/partial_progress/README.md)
-and [verification records](lean_arXiv_2607.15210/verification/README.md).
+this theorem. See the [proof guide](lean_arXiv_2607.15210/lean/CONVERGENCE.md)
+and [verification records](lean_arXiv_2607.15210/lean/verification/README.md).
 
 ## Citation
 

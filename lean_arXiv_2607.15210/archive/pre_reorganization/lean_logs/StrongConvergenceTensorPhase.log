@@ -1,9 +1,0 @@
-StrongConvergenceTensorPhase.lean:40:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.TensorHaar.tuple_phase_product':
-  [Fintype E]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Fintype E] in theorem ...
-note: this linter can be disabled with `set_option linter.unusedSectionVars false`
-'ProjectionChannels.TensorHaar.tupleCount_eq_of_commutes_unitary' depends on axioms: [propext,
- Classical.choice,
- Quot.sound]
-'ProjectionChannels.TensorHaar.commutes_tensorPower_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]

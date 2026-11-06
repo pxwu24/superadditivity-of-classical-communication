@@ -1,0 +1,37 @@
+src/StrongConvergence/StrongConvergenceHaarVariance.lean:28:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.HaarMoment.pairMix_row_i':
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceHaarVariance.lean:32:74: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+src/StrongConvergence/StrongConvergenceHaarVariance.lean:32:74: warning: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+src/StrongConvergence/StrongConvergenceHaarVariance.lean:34:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.HaarMoment.pairMix_row_j':
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceHaarVariance.lean:38:74: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+src/StrongConvergence/StrongConvergenceHaarVariance.lean:38:74: warning: 'ring' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+src/StrongConvergence/StrongConvergenceHaarVariance.lean:40:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.HaarMoment.pairMix_row_other':
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceHaarVariance.lean:45:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.HaarMoment.pairMix_isHermitian':
+  [Fintype E]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype E] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/StrongConvergence/StrongConvergenceHaarVariance.lean:52:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/StrongConvergence/StrongConvergenceHaarVariance.lean:204:52: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+src/StrongConvergence/StrongConvergenceHaarVariance.lean:204:52: warning: 'nlinarith' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+'ProjectionChannels.HaarMoment.diagSecond_eq_diagCross_add_entrySecond' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

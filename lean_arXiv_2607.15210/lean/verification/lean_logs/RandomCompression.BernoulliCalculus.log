@@ -1,0 +1,8 @@
+src/RandomCompression/BernoulliCalculus.lean:25:20: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/RandomCompression/BernoulliCalculus.lean:79:49: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/RandomCompression/BernoulliCalculus.lean:153:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+src/RandomCompression/BernoulliCalculus.lean:189:63: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

@@ -1,0 +1,38 @@
+src/Preliminaries/RevisionTensorChannels.lean:14:0: warning: automatically included section variable(s) unused in theorem 'RevisionBell.linearMap_entry_expansion':
+  [Fintype B]
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype B] [DecidableEq B] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTensorChannels.lean:52:0: warning: automatically included section variable(s) unused in theorem 'RevisionBell.trace_amplify':
+  [DecidableEq A]
+  [DecidableEq B]
+  [DecidableEq C]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [DecidableEq B] [DecidableEq C] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTensorChannels.lean:60:0: warning: automatically included section variable(s) unused in theorem 'RevisionBell.trace_submatrix_swap':
+  [DecidableEq A]
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] [DecidableEq B] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTensorChannels.lean:73:0: warning: automatically included section variable(s) unused in theorem 'RevisionBell.channel_entrywiseConjugate':
+  [Fintype B]
+  [DecidableEq A]
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype B] [DecidableEq A] [DecidableEq B] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTensorChannels.lean:79:0: warning: automatically included section variable(s) unused in theorem 'RevisionBell.entrywiseConjugate_posSemidef':
+  [DecidableEq A]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq A] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTensorChannels.lean:87:0: warning: automatically included section variable(s) unused in theorem 'RevisionBell.traceB_entrywiseConjugate':
+  [Fintype A]
+  [DecidableEq A]
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype A] [DecidableEq A] [DecidableEq B] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`

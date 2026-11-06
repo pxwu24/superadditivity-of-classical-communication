@@ -1,0 +1,40 @@
+src/RandomCompression/CompressionSpectral.lean:26:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.scalar_shift_spectral':
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty n] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/RandomCompression/CompressionSpectral.lean:47:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.eigenvalue_le_of_shift_posSemidef':
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty n] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/RandomCompression/CompressionSpectral.lean:78:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.posSemidef_real_smul':
+  [DecidableEq n]
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [Nonempty n] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/RandomCompression/CompressionSpectral.lean:87:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.posSemidef_finite_sum':
+  [DecidableEq n]
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [Nonempty n] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/RandomCompression/CompressionSpectral.lean:125:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.blockCompression_isHermitian':
+  [Fintype n]
+  [DecidableEq n]
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype n] [DecidableEq n] [Nonempty n] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/RandomCompression/CompressionSpectral.lean:170:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.projection_posSemidef':
+  [DecidableEq n]
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq n] [Nonempty n] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/RandomCompression/CompressionSpectral.lean:187:0: warning: automatically included section variable(s) unused in theorem 'ProjectionChannels.projection_diagonalBlock_contraction':
+  [Nonempty n]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Nonempty n] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`

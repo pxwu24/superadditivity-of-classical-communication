@@ -1,3 +1,0 @@
-'RevisionMain.tensor_conjugate_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
-'RevisionMain.tensor_conjugate_normalizedChannel_comp' depends on axioms: [propext, Classical.choice, Quot.sound]
-'RevisionMain.postprocessed_normalizedChannel_bell' depends on axioms: [propext, Classical.choice, Quot.sound]

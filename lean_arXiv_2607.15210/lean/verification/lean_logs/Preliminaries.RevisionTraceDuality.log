@@ -1,0 +1,35 @@
+src/Preliminaries/RevisionTraceDuality.lean:57:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.spectral_sign_witness':
+  [NeZero k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero k] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTraceDuality.lean:108:8: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.hermitianOperatorNorm_zero':
+  [NeZero k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero k] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTraceDuality.lean:111:8: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.hermitianOperatorNorm_neg':
+  [NeZero k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero k] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTraceDuality.lean:114:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.hermitianOperatorNorm_nonneg':
+  [NeZero k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero k] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTraceDuality.lean:117:8: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.hermitianOperatorNorm_eq_zero':
+  [NeZero k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero k] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTraceDuality.lean:120:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.hermitianOperatorNorm_smul':
+  [NeZero k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero k] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+src/Preliminaries/RevisionTraceDuality.lean:124:0: warning: automatically included section variable(s) unused in theorem 'RevisionOutput.hermitianOperatorNorm_add_le':
+  [NeZero k]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [NeZero k] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`

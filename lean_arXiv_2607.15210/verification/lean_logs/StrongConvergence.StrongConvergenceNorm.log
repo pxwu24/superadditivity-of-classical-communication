@@ -1,9 +1,0 @@
-lean/StrongConvergence/StrongConvergenceNorm.lean:36:0: warning: automatically included section variable(s) unused in theorem 'StrongConvergence.trace_pow_re':
-  [Nonempty N]
-consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
-  omit [Nonempty N] in theorem ...
-note: this linter can be disabled with `set_option linter.unusedSectionVars false`
-'StrongConvergence.norm_eq_abs_eigenvalue' depends on axioms: [propext, Classical.choice, Quot.sound]
-'StrongConvergence.trace_pow_re' depends on axioms: [propext, Classical.choice, Quot.sound]
-'StrongConvergence.norm_pow_le_trace_even' depends on axioms: [propext, Classical.choice, Quot.sound]
-'StrongConvergence.norm_tail_le_expected_trace' depends on axioms: [propext, Classical.choice, Quot.sound]
